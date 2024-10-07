@@ -46,19 +46,21 @@ export default function Page() {
         className="container flex flex-col gap-4 pt-20 md:gap-8"
       >
         <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
-        <article className="flex flex-col items-center gap-10 md:flex-row">
-          <div className="flex flex-none flex-row gap-2 md:gap-4">
+        <article className="flex flex-col gap-10 md:flex-row md:items-center">
+          <div className="grid flex-none grid-cols-2 gap-2 md:flex md:flex-row md:gap-4">
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
               width={240}
               height={240}
+              className="size-auto"
             />
             <Image
               src="/assets/sdg-6.png"
               alt="SDG 6"
               width={240}
               height={240}
+              className="size-auto"
             />
           </div>
           <p className="prose">
@@ -74,7 +76,7 @@ export default function Page() {
         </article>
 
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
-          <article className="prose bg-black/80 px-14 py-20 text-white">
+          <article className="prose mt-20 bg-black/80 px-10 py-10 text-white md:mt-0 md:px-14 md:py-20">
             <p>
               The event will serve as a global platform for researchers,
               practitioners, and policymakers to discuss the role of artificial
@@ -87,7 +89,7 @@ export default function Page() {
         </div>
 
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
-          <article className="prose bg-black/80 px-14 py-20 text-white">
+          <article className="prose mt-20 bg-black/80 px-10 py-10 text-white md:mt-0 md:px-14 md:py-20">
             <p>
               Key topics include AI in healthcare, predictive analytics for
               disease prevention, AI-driven solutions for water purification and
@@ -113,7 +115,7 @@ export default function Page() {
           visionaries to meticulous strategists, we work seamlessly together to
           meet and exceed our client&apos;s expectations.
         </p>
-        <div className="mt-6 grid w-full grid-cols-3 gap-4">
+        <div className="mt-6 grid w-full justify-items-center gap-4 md:grid-cols-3">
           <CastFigure
             cast={{
               name: "Prof. Dr. Eko Supriyanto",
@@ -159,7 +161,7 @@ export default function Page() {
       </section>
       <section className="container pt-20">
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ampera.png')] bg-cover">
-          <div className="w-full bg-black/70 px-14 py-20">
+          <div className="w-full bg-black/70 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <h2 className="text-3xl font-semibold text-white md:text-5xl">
               Publication Ethics
             </h2>

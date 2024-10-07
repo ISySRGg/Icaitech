@@ -6,11 +6,13 @@ import { ChevronDown } from "lucide-react"
 import { siteConfig } from "@/config/site"
 import { cn, tw } from "@/lib/utils"
 
+import { Button } from "../ui/button"
+
 const navigationItemClassName = tw`flex h-10 flex-row text-sm items-center font-medium text-white`
 
 export default function DesktopNavigation() {
   return (
-    <nav className="hidden md:block">
+    <nav className="hidden items-center gap-6 md:flex">
       <ul className="flex flex-row gap-x-6">
         {siteConfig.mainNav.map((navigation, key) => (
           <li key={key}>
@@ -27,6 +29,9 @@ export default function DesktopNavigation() {
           </li>
         ))}
       </ul>
+      <Button size="lg" variant="secondary" asChild>
+        <Link href="/#">Submit</Link>
+      </Button>
     </nav>
   )
 }

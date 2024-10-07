@@ -1,8 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Button } from "../ui/button"
 import DesktopNavigation from "./desktop-navigation"
+import MobileNavigation from "./mobile-navigation"
+import MobileNavigationToggle from "./mobile-navigation-toggle"
 
 export default function Header() {
   return (
@@ -15,23 +16,20 @@ export default function Header() {
               alt="icaitech"
               height={80}
               width={80}
-              className="w-12"
+              className="w-10 md:w-12"
             />
             <div className="text-white">
-              <p className="text-xl font-semibold">ICAITech 2025</p>
+              <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p>
               {/* <p className="text-xs">
                 International Conference on Artificial Intelligence Technology
               </p> */}
             </div>
           </Link>
         </div>
-        <div className="flex items-center gap-6">
-          <DesktopNavigation />
-          <Button size="lg" variant="secondary" asChild>
-            <Link href="/#">Submit</Link>
-          </Button>
-        </div>
+        <DesktopNavigation />
+        <MobileNavigationToggle />
       </div>
+      <MobileNavigation />
     </header>
   )
 }

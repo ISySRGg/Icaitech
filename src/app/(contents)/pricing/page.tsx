@@ -8,26 +8,31 @@ export default function Page() {
   return (
     <>
       <PageHeader title="Registration Pricing" crumbs={["For Author"]} />
-      <section className="container mt-16">
-        <p className="text-xl">
+      <section className="container mt-8 md:mt-16">
+        <p className="text-lg md:text-xl">
           Refer the pricing list below for conference fee.
         </p>
-        <div className="mt-10">
+        <div className="mt-8 md:mt-10">
           {RegistrationPricing.map((pricing: Pricing, i) => (
             <>
-              <h2 className="mt-14 text-2xl font-semibold">{pricing.type}</h2>
-              <ul key={i} className="mt-4 flex flex-col divide-y">
+              <h2 className="mt-10 text-xl font-semibold md:mt-14 md:text-2xl">
+                {pricing.type}
+              </h2>
+              <ul key={i} className="flex flex-col divide-y md:mt-4">
                 {pricing.listPricing.map((pricingItem, j) => (
-                  <li key={j} className="grid grid-cols-6 items-center py-4">
+                  <li
+                    key={j}
+                    className="grid items-center gap-2 py-4 md:grid-cols-6"
+                  >
                     <p className="col-span-2 text-lg font-medium">
                       {pricingItem.category}
                     </p>
                     {pricingItem.prices.map((price, k) => (
                       <div key={k} className="flex flex-col">
-                        <p className="text-2xl font-medium text-gray-700">
+                        <p className="text-xl font-medium text-gray-700 md:text-2xl">
                           {price.price.toLocaleString()}
                         </p>
-                        <p className="text-sm italic text-gray-400">
+                        <p className="text-xs italic text-gray-400 md:text-sm">
                           {price.subCategory}
                         </p>
                       </div>
@@ -39,8 +44,8 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section className="container mt-16">
-        <div className="rounded-lg bg-gray-200/70 px-14 py-20">
+      <section className="container mt-8 md:mt-16">
+        <div className="rounded-lg bg-gray-200/70 p-10 md:px-14 md:py-20">
           <h2 className="text-xl font-semibold">
             Payment by Wire Transfer/Bank Draft
           </h2>

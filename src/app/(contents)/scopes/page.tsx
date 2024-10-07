@@ -8,10 +8,10 @@ export default function Page() {
   return (
     <>
       <PageHeader title="Scopes" />
-      <section className="container mt-16">
-        <ul className="grid grid-cols-2 gap-4">
+      <section className="container mt-8 md:mt-16">
+        <ul className="grid gap-2 md:grid-cols-2 md:gap-4">
           {scopes.map((scope: Scope, i) => (
-            <li key={i} className="text-lg">
+            <li key={i} className="md:text-lg">
               {scope}
             </li>
           ))}

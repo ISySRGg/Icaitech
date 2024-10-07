@@ -6,6 +6,8 @@ import { geistSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import Footer from "@/components/layout/footer"
 
+import Providers from "./providers"
+
 export const metadata: Metadata = {
   title: "ICAITech",
   description: "International Conference on Artificial Intelligence Technology",
@@ -24,8 +26,10 @@ export default function RootLayout({ children }: Readonly<Props>) {
           "flex min-h-dvh flex-col text-gray-800 antialiased"
         )}
       >
-        <main className="grow">{children}</main>
-        <Footer />
+        <Providers>
+          <main className="grow">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   )
