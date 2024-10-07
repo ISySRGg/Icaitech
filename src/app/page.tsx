@@ -5,6 +5,7 @@ import Markdown from "markdown-to-jsx"
 
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
+import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 
 export default function Page() {
@@ -16,10 +17,10 @@ export default function Page() {
         </div>
 
         <div className="container z-10 flex flex-col items-center">
-          <h1 className="text-center text-5xl font-bold text-white md:text-8xl">
+          <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
-          <div className="rounded-md bg-white px-4 py-2 text-xl font-semibold uppercase text-black md:text-4xl">
+          <div className="rounded-md bg-white/90 px-4 py-0.5 text-lg font-semibold uppercase text-black md:py-2 md:text-4xl">
             <p>November 20-21, 2025</p>
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
@@ -27,6 +28,9 @@ export default function Page() {
             Technology For Good Health, Well-Being, and Sustainable Water
             Management Towards Sustainable Development Goals 3 and 6
           </p>
+          <div className="mt-10">
+            <Countdown />
+          </div>
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" variant="secondary">
               <Link href="register">Register</Link>
@@ -35,6 +39,7 @@ export default function Page() {
               <Link href="schedule">View Schedule</Link>
             </Button>
           </div>
+
           <Link href="#about" className="mt-20 animate-pulse">
             <CircleChevronDown size={42} className="text-white" />
           </Link>

@@ -49,3 +49,10 @@ export type Contact = {
     whatsapp: string
   }
 }
+
+export type Countdown = {
+  seconds: number
+  minutes: number
+  hours: number
+  days: number
+}
