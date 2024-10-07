@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { CircleChevronDown } from "lucide-react"
+import Markdown from "markdown-to-jsx"
 
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
@@ -63,42 +64,44 @@ export default function Page() {
               className="size-auto"
             />
           </div>
-          <p className="prose">
-            The International Conference on Artificial Technology (ICAITech),
-            organized by the Faculty of Computer Science at Universitas
-            Sriwijaya, Indonesia, aims to advance Sustainable Development Goals
-            (SDGs) 3 and 6, focusing on Good Health, Well-Being, and Sustainable
-            Water Management. The conference will take place on November 20–21,
-            2025, at the Santika Premiere Hotel in Palembang, Indonesia, and
-            will be held in a hybrid format, offering both in-person and virtual
-            participation.
-          </p>
+          <div className="prose">
+            <Markdown>
+              The **International Conference on Artificial Technology
+              (ICAITech)**, organized by the Faculty of Computer Science at
+              Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
+              Development Goals (SDGs) 3 and 6, focusing on Good Health,
+              Well-Being, and Sustainable Water Management**. The conference
+              will take place on November 20–21, 2025, at the **Santika Premiere
+              Hotel in Palembang, Indonesia**, and will be held in a hybrid
+              format, offering both in-person and virtual participation.
+            </Markdown>
+          </div>
         </article>
 
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
-          <article className="prose mt-20 bg-black/80 px-10 py-10 text-white md:mt-0 md:px-14 md:py-20">
-            <p>
+          <article className="prose prose-invert mt-20 bg-black/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
+            <Markdown>
               The event will serve as a global platform for researchers,
               practitioners, and policymakers to discuss the role of artificial
               intelligence and related technologies in improving health outcomes
               and water management practices. Participants will explore how AI
               can contribute to achieving the UN’s SDG 3 (Good Health and
               Well-Being) and SDG 6 (Clean Water and Sanitation).
-            </p>
+            </Markdown>
           </article>
         </div>
 
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
-          <article className="prose mt-20 bg-black/80 px-10 py-10 text-white md:mt-0 md:px-14 md:py-20">
-            <p>
-              Key topics include AI in healthcare, predictive analytics for
+          <article className="prose prose-invert mt-20 bg-black/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
+            <Markdown>
+              Key topics include **AI in healthcare, predictive analytics for
               disease prevention, AI-driven solutions for water purification and
-              distribution, and sustainable technological innovations. The
+              distribution, and sustainable technological innovations**. The
               conference will feature keynote speeches, panel discussions, and
               presentations of cutting-edge research, offering valuable
               networking opportunities for professionals committed to leveraging
               AI for societal benefit.
-            </p>
+            </Markdown>
           </article>
         </div>
       </section>
@@ -109,12 +112,14 @@ export default function Page() {
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Keynote Speakers
         </h2>
-        <p className="prose mt-4 text-center">
-          Our passionate and dedicated team brings together a diverse range of
-          skills and expertise to deliver exceptional results. From creative
-          visionaries to meticulous strategists, we work seamlessly together to
-          meet and exceed our client&apos;s expectations.
-        </p>
+        <div className="prose mt-4 text-center">
+          <Markdown>
+            Our passionate and dedicated team brings together a diverse range of
+            skills and expertise to deliver exceptional results. From creative
+            visionaries to meticulous strategists, we work seamlessly together
+            to meet and exceed our client&apos;s expectations.
+          </Markdown>
+        </div>
         <div className="mt-6 grid w-full justify-items-center gap-4 md:grid-cols-3">
           <CastFigure
             cast={{
@@ -165,7 +170,7 @@ export default function Page() {
             <h2 className="text-3xl font-semibold text-white md:text-5xl">
               Publication Ethics
             </h2>
-            <article className="prose mt-6 text-white">
+            <article className="prose prose-invert mt-6">
               <p>
                 The ICAITech follows the highest standards of publication ethics
                 and takes all possible procedures against any publication
