@@ -7,8 +7,10 @@ interface Props {
 
 export default function PageHeader({ title, crumbs }: Props) {
   return (
-    <header className="relative flex flex-col bg-black bg-[url('/assets/header.jpg')] bg-cover">
-      <Header />
+    <header className="relative flex flex-col bg-black bg-[url('/assets/header.jpg')] bg-cover bg-center">
+      <div className="z-20">
+        <Header />
+      </div>
 
       <div className="container z-10 py-8 text-white md:py-20">
         <h1 className="text-4xl font-bold md:text-5xl">{title}</h1>
@@ -18,7 +20,7 @@ export default function PageHeader({ title, crumbs }: Props) {
         </p>
       </div>
 
-      <div className="absolute bottom-0 h-[80%] w-full bg-gradient-to-t from-black/90 to-transparent" />
+      <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-blue-900/90 to-teal-900/60" />
     </header>
   )
 }
