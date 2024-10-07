@@ -20,7 +20,7 @@ export default function PageHeader({ title, crumbs }: Props) {
         </p>
       </div>
 
-      <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-blue-900/90 to-teal-900/60" />
+      <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-sky-900/90 to-green-900/60" />
     </header>
   )
 }

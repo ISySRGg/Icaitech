@@ -45,7 +45,7 @@ export default function MobileNavigation() {
   return (
     <div
       className={cn(
-        "no-doc-scroll fixed bottom-0 z-50 flex h-[calc(100dvh-5rem)] w-full flex-col bg-gray-950/80 backdrop-blur md:hidden"
+        "no-doc-scroll fixed bottom-0 z-50 flex h-[calc(100dvh-5rem)] w-full flex-col bg-green-950/80 backdrop-blur md:hidden"
       )}
     >
       <div className="container flex flex-col gap-y-8 pt-6 text-xl text-white">

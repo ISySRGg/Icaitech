@@ -15,7 +15,7 @@ export default function Page() {
 
         <div className="mt-6 flex flex-col divide-y">
           <div className="flex items-start gap-2 py-4">
-            <span className="rounded-full bg-black p-1.5">
+            <span className="rounded-full bg-sky-700 p-1.5">
               <Mail className="size-[1em] text-white" />
             </span>
             <div>
@@ -24,7 +24,7 @@ export default function Page() {
             </div>
           </div>
           <div className="flex items-start gap-2 py-4">
-            <span className="rounded-full bg-black p-1.5">
+            <span className="rounded-full bg-sky-700 p-1.5">
               <MapPin className="size-[1em] text-white" />
             </span>
             <div>
@@ -41,7 +41,7 @@ export default function Page() {
                 key={i}
                 className="flex max-w-lg items-start gap-2 md:items-center"
               >
-                <span className="rounded-full bg-black p-1.5">
+                <span className="rounded-full bg-sky-700 p-1.5">
                   <UserRound className="size-[1em] text-white" />
                 </span>
                 <div className="w-full">

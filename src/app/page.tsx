@@ -16,12 +16,12 @@ export default function Page() {
           <Header />
         </div>
 
-        <div className="container z-10 flex flex-col items-center">
+        <div className="container z-10 mt-[5rem] flex flex-col items-center">
           <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
           <div className="rounded-md bg-white/90 px-4 py-0.5 text-lg font-semibold uppercase text-black md:py-2 md:text-4xl">
-            <p>November 20-21, 2025</p>
+            <p>November 20—21, 2025</p>
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence
@@ -45,7 +45,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-blue-900/90 to-teal-900/60" />
+        <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-sky-900/90 to-green-900/60" />
       </header>
       <section
         id="about"
@@ -84,7 +84,7 @@ export default function Page() {
         </article>
 
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
-          <article className="prose prose-invert mt-20 bg-black/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
+          <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,
               practitioners, and policymakers to discuss the role of artificial
@@ -97,7 +97,7 @@ export default function Page() {
         </div>
 
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
-          <article className="prose prose-invert mt-20 bg-black/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
+          <article className="prose prose-invert mt-20 bg-green-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               Key topics include **AI in healthcare, predictive analytics for
               disease prevention, AI-driven solutions for water purification and

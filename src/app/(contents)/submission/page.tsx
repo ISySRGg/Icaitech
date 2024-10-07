@@ -16,7 +16,7 @@ export default function Page() {
         <ul className="mt-8 md:mt-10 md:columns-2 md:gap-x-20">
           {submissionGuidelines.map((guideline: Guideline, i) => (
             <li key={i} className="flex flex-col pb-6">
-              <p className="font-mono text-3xl text-gray-500">
+              <p className="font-mono text-3xl text-sky-700">
                 {i < 9 && 0}
                 {i + 1}.
               </p>

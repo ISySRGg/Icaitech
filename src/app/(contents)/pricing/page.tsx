@@ -14,11 +14,11 @@ export default function Page() {
         </p>
         <div className="mt-8 md:mt-10">
           {RegistrationPricing.map((pricing: Pricing, i) => (
-            <>
+            <div key={i}>
               <h2 className="mt-10 text-xl font-semibold md:mt-14 md:text-2xl">
                 {pricing.type}
               </h2>
-              <ul key={i} className="flex flex-col divide-y md:mt-4">
+              <ul className="flex flex-col divide-y md:mt-4">
                 {pricing.listPricing.map((pricingItem, j) => (
                   <li
                     key={j}
@@ -40,7 +40,7 @@ export default function Page() {
                   </li>
                 ))}
               </ul>
-            </>
+            </div>
           ))}
         </div>
       </section>
