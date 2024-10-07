@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <>
       <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header.jpg')] bg-cover">
-        <div className="absolute top-0 w-full">
+        <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
 
@@ -45,7 +45,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="absolute bottom-0 h-[80%] w-full bg-gradient-to-t from-black/90 to-transparent" />
+        <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-black/90 to-black/40" />
       </header>
       <section
         id="about"
