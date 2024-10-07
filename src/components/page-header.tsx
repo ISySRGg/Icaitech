@@ -12,7 +12,7 @@ export default function PageHeader({ title, crumbs }: Props) {
         <Header />
       </div>
 
-      <div className="container z-10 py-8 text-white md:py-20">
+      <div className="container z-10 py-12 text-white md:py-20">
         <h1 className="text-4xl font-bold md:text-5xl">{title}</h1>
         <p className="text-sm md:text-base">
           - ICAITech 2025{" "}
