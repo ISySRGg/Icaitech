@@ -1,101 +1,206 @@
-import Image from "next/image";
+import Image from "next/image"
+import Link from "next/link"
+import { CircleChevronDown } from "lucide-react"
 
-export default function Home() {
+import { Button } from "@/components/ui/button"
+import CastFigure from "@/components/cast-figure"
+import Header from "@/components/layout/header"
+
+export default function Page() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header.jpg')] bg-cover">
+        <div className="absolute top-0 w-full">
+          <Header />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+
+        <div className="container z-10 flex flex-col items-center">
+          <h1 className="text-center text-5xl font-bold text-white md:text-8xl">
+            ICAITech
+          </h1>
+          <div className="rounded-md bg-white px-4 py-2 text-xl font-semibold uppercase text-black md:text-4xl">
+            <p>November 20-21, 2025</p>
+          </div>
+          <p className="mt-4 max-w-prose text-center text-white md:text-xl">
+            The 1st International Conference on Artificial Intelligence
+            Technology For Good Health, Well-Being, and Sustainable Water
+            Management Towards Sustainable Development Goals 3 and 6
+          </p>
+          <div className="mt-10 flex gap-4">
+            <Button asChild size="lg" variant="secondary">
+              <Link href="register">Register</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link href="schedule">View Schedule</Link>
+            </Button>
+          </div>
+          <Link href="#about" className="mt-20 animate-pulse">
+            <CircleChevronDown size={42} className="text-white" />
+          </Link>
+        </div>
+
+        <div className="absolute bottom-0 h-[80%] w-full bg-gradient-to-t from-black/90 to-transparent" />
+      </header>
+      <section
+        id="about"
+        className="container flex flex-col gap-4 pt-20 md:gap-8"
+      >
+        <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
+        <article className="flex flex-col items-center gap-10 md:flex-row">
+          <div className="flex flex-none flex-row gap-2 md:gap-4">
+            <Image
+              src="/assets/sdg-3.png"
+              alt="SDG 3"
+              width={240}
+              height={240}
+            />
+            <Image
+              src="/assets/sdg-6.png"
+              alt="SDG 6"
+              width={240}
+              height={240}
+            />
+          </div>
+          <p className="prose">
+            The International Conference on Artificial Technology (ICAITech),
+            organized by the Faculty of Computer Science at Universitas
+            Sriwijaya, Indonesia, aims to advance Sustainable Development Goals
+            (SDGs) 3 and 6, focusing on Good Health, Well-Being, and Sustainable
+            Water Management. The conference will take place on November 20–21,
+            2025, at the Santika Premiere Hotel in Palembang, Indonesia, and
+            will be held in a hybrid format, offering both in-person and virtual
+            participation.
+          </p>
+        </article>
+
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
+          <article className="prose bg-black/80 px-14 py-20 text-white">
+            <p>
+              The event will serve as a global platform for researchers,
+              practitioners, and policymakers to discuss the role of artificial
+              intelligence and related technologies in improving health outcomes
+              and water management practices. Participants will explore how AI
+              can contribute to achieving the UN’s SDG 3 (Good Health and
+              Well-Being) and SDG 6 (Clean Water and Sanitation).
+            </p>
+          </article>
+        </div>
+
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
+          <article className="prose bg-black/80 px-14 py-20 text-white">
+            <p>
+              Key topics include AI in healthcare, predictive analytics for
+              disease prevention, AI-driven solutions for water purification and
+              distribution, and sustainable technological innovations. The
+              conference will feature keynote speeches, panel discussions, and
+              presentations of cutting-edge research, offering valuable
+              networking opportunities for professionals committed to leveraging
+              AI for societal benefit.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        id="keynote-speakers"
+        className="container flex flex-col items-center pt-20"
+      >
+        <h2 className="text-center text-3xl font-semibold md:text-5xl">
+          Keynote Speakers
+        </h2>
+        <p className="prose mt-4 text-center">
+          Our passionate and dedicated team brings together a diverse range of
+          skills and expertise to deliver exceptional results. From creative
+          visionaries to meticulous strategists, we work seamlessly together to
+          meet and exceed our client&apos;s expectations.
+        </p>
+        <div className="mt-6 grid w-full grid-cols-3 gap-4">
+          <CastFigure
+            cast={{
+              name: "Prof. Dr. Eko Supriyanto",
+              title: "Confirmed",
+              description:
+                "Medical Imaging, Medical Informatics, Medical Electronics, Healthcare Management.",
+              image: {
+                src: "/assets/cast1.png",
+                alt: "",
+              },
+              linkedIn: "https://my.linkedin.com/in/eko-supriyanto-88a38377",
+            }}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+          <CastFigure
+            cast={{
+              name: "Hongo Kenta",
+              title: "In Confirmation",
+              description:
+                "Materials Informatics, Data Science, Computer Simulations.",
+              image: {
+                src: "/assets/cast2.png",
+                alt: "",
+              },
+              linkedIn:
+                "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEj7CHfWizU3AAAAZJQb8wItPjeWUEkAEKfrDKB9u8x_Whae-Z5rncMQNBzUbe0wLMexXjiyIVx_uQVX_OMDoJV84l4TsK9_yk15NELlMCZlK-ze5nmrSLKalK12JZ81iRtrEY=&original_referer=&sessionRedirect=https%3A%2F%2Fjp.linkedin.com%2Fin%2Fkenta-hongo-38008667",
+            }}
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+          <CastFigure
+            cast={{
+              name: "Prof. Drs. Ec. Ir. Riyanarto Sarno, M.Sc Ph.D",
+              title: "Confirmed",
+              description:
+                "Internet of Things, Business Process Management, Process Aware Information Systems, Knowledge Engineering, Smart Grids",
+              image: {
+                src: "/assets/cast3.png",
+                alt: "",
+              },
+              linkedIn:
+                "https://www.its.ac.id/informatika/id/profil-riyanarto-sarno/",
+            }}
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+        </div>
+      </section>
+      <section className="container pt-20">
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ampera.png')] bg-cover">
+          <div className="w-full bg-black/70 px-14 py-20">
+            <h2 className="text-3xl font-semibold text-white md:text-5xl">
+              Publication Ethics
+            </h2>
+            <article className="prose mt-6 text-white">
+              <p>
+                The ICAITech follows the highest standards of publication ethics
+                and takes all possible procedures against any publication
+                misconduct. This Conference does not accept any type of
+                plagiarism, which means that any author replicating a
+                significant part of another’s work without acknowledging him/her
+                or passing another’s work off as his/her own are not tolerated
+                and not published. ICAITech reserves the right to use plagiarism
+                detecting software to screen submitted papers at all times.
+              </p>
+              <p>
+                All authors submitting their works to the ICAITech Conference
+                for publication as original works confirm that the submitted
+                papers are their own contributions and have not been copied in
+                whole or in part from other works. Each submission is
+                anonymously reviewed by an average of three independent
+                reviewers, to ensure the final high standard and quality of each
+                accepted submission.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section className="container pt-20">
+        <h2 className="text-center text-3xl font-semibold md:text-5xl">
+          Location
+        </h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7969.416801261058!2d104.719768!3d-2.90011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b73bd7cdcebb7%3A0x65ab9bf769278edf!2sHotel%20Santika%20Premiere%20Bandara%20-%20Palembang!5e0!3m2!1sen!2sid!4v1728241642496!5m2!1sen!2sid"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="mt-6 w-full"
+        ></iframe>
+      </section>
+    </>
+  )
 }
