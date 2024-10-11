@@ -1,3 +1,5 @@
+import { LucideIcon } from "lucide-react"
+
 export type Cast = {
   name: string
   title: string
@@ -15,6 +17,7 @@ export type Scope = string
 export type Agenda = {
   name: string
   date: string
+  icon?: LucideIcon
 }
 
 export type Track = {

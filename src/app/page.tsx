@@ -8,6 +8,8 @@ import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 
+import { importantDate } from "../../contents/important-date1"
+
 export default function Page() {
   return (
     <>
@@ -82,8 +84,8 @@ export default function Page() {
             </Markdown>
           </div> */}
           <div className="prose">
-  <Markdown>
-    {`The **International Conference on Artificial Technology
+            <Markdown>
+              {`The **International Conference on Artificial Technology
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
     Development Goals (SDGs) 3 and 6, focusing on Good Health,
@@ -92,22 +94,25 @@ export default function Page() {
     Hotel in Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
-  </Markdown>
-  <Markdown>The event will be held in **conjunction** with the **National Annual Research Seminar (ARS) 2025**, further enriching the academic exchange. Click here to submit your works in ARS 2025</Markdown>
+            </Markdown>
+            <Markdown>
+              The event will be held in **conjunction** with the **National
+              Annual Research Seminar (ARS) 2025**, further enriching the
+              academic exchange. Click here to submit your works in ARS 2025
+            </Markdown>
 
-  {/* Add a button below the Markdown content */}
-  <div className="mt-4">
-    <a
-      href="https://link-to-ars-submission.com" // Replace with actual link
-      className="inline-block px-6 py-3 text-white bg-blue-500 rounded hover:bg-blue-600"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Submit to ARS 2025
-    </a>
-  </div>
-</div>
-
+            {/* Add a button below the Markdown content */}
+            <div className="mt-4">
+              <a
+                href="https://link-to-ars-submission.com" // Replace with actual link
+                className="inline-block rounded bg-blue-500 px-6 py-3 text-white hover:bg-blue-600"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Submit to ARS 2025
+              </a>
+            </div>
+          </div>
         </article>
 
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
@@ -137,6 +142,21 @@ export default function Page() {
           </article>
         </div>
       </section>
+      <section className="container flex flex-col items-center pt-20">
+        <h2 className="text-center text-3xl font-semibold md:text-5xl">
+          Important Date
+        </h2>
+
+        <div className="mt-6 grid grid-cols-3 gap-4">
+          {importantDate.map((item, i) => (
+            <div key={i} className="flex flex-col gap-2 rounded border p-8">
+              <p>{item.name}</p>
+              {item.icon && <item.icon className="size-[3rem] text-blue-900" />}
+              <p className="text-2xl font-semibold">{item.date}</p>
+            </div>
+          ))}
+        </div>
+      </section>
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
@@ -164,7 +184,8 @@ export default function Page() {
                 alt: "",
               },
               linkedIn: "https://my.linkedin.com/in/eko-supriyanto-88a38377",
-              scopus:"https://www.scopus.com/authid/detail.uri?authorId=57194261987"
+              scopus:
+                "https://www.scopus.com/authid/detail.uri?authorId=57194261987",
             }}
           />
           <CastFigure
@@ -179,7 +200,7 @@ export default function Page() {
               },
               linkedIn:
                 "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEj7CHfWizU3AAAAZJQb8wItPjeWUEkAEKfrDKB9u8x_Whae-Z5rncMQNBzUbe0wLMexXjiyIVx_uQVX_OMDoJV84l4TsK9_yk15NELlMCZlK-ze5nmrSLKalK12JZ81iRtrEY=&original_referer=&sessionRedirect=https%3A%2F%2Fjp.linkedin.com%2Fin%2Fkenta-hongo-38008667",
-              scopus:"www.scopus.com"
+              scopus: "www.scopus.com",
             }}
           />
           <CastFigure
@@ -194,7 +215,8 @@ export default function Page() {
               },
               linkedIn:
                 "https://www.its.ac.id/informatika/id/profil-riyanarto-sarno/",
-              scopus:"https://www.scopus.com/authid/detail.uri?authorId=53264815700"
+              scopus:
+                "https://www.scopus.com/authid/detail.uri?authorId=53264815700",
             }}
           />
         </div>
@@ -233,9 +255,21 @@ export default function Page() {
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Supported By
         </h2>
-        <div className="flex justify-center flex-wrap gap-10">
-          <Image src="/assets/logo-unsri.png" alt="" width="200" height="200" />
-          <Image src="/assets/IEEEIS.jpg" alt="" width="200" height="100" />
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-10">
+          <Image
+            src="/assets/logo-unsri.png"
+            alt=""
+            width="200"
+            height="200"
+            className="h-32 w-auto"
+          />
+          <Image
+            src="/assets/IEEEIS.jpg"
+            alt=""
+            width="200"
+            height="200"
+            className="h-28 w-auto"
+          />
         </div>
       </section>
       <section className="container pt-20">
