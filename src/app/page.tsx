@@ -54,7 +54,7 @@ export default function Page() {
         className="container flex flex-col gap-4 pt-20 md:gap-8"
       >
         <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
-        <article className="flex flex-col gap-10 md:flex-row md:items-center">
+        <article className="flex flex-col gap-10 md:flex-row md:items-start">
           <div className="grid flex-none grid-cols-2 gap-2 md:flex md:flex-row md:gap-4">
             <Image
               src="/assets/sdg-3.png"
@@ -101,20 +101,13 @@ export default function Page() {
               academic exchange. Click here to submit your works in ARS 2025
             </Markdown>
 
-            {/* Add a button below the Markdown content */}
             <div className="mt-4">
-              <a
-                href="https://link-to-ars-submission.com" // Replace with actual link
-                className="inline-block rounded bg-blue-500 px-6 py-3 text-white hover:bg-blue-600"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Submit to ARS 2025
-              </a>
+              <Button asChild size="lg">
+                <Link href="/submit-to-ars">Submit to ARS 2025</Link>
+              </Button>
             </div>
           </div>
         </article>
-
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
@@ -127,7 +120,6 @@ export default function Page() {
             </Markdown>
           </article>
         </div>
-
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
           <article className="prose prose-invert mt-20 bg-green-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
