@@ -42,6 +42,14 @@ export const editorialBoardMembers: Committee[] = [
     affiliation: "Universiti Teknologi Malaysia",
   },
   {
+    name: "Dayang Norhayati Binti Abang Jawawi",
+    affiliation: "Universiti Teknologi Malaysia",
+  },
+  {
+    name: "Siti Zaiton Binti Mohd Hashim",
+    affiliation: "Universiti Teknologi Malaysia",
+  },
+  {
     name: "Muhammad Nazhif Rizani",
     affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
   },
@@ -51,6 +59,10 @@ export const editorialBoardMembers: Committee[] = [
   },
   {
     name: "Erwin",
+    affiliation: "Universitas Sriwijaya",
+  },
+  {
+    name: "Samsuryadi",
     affiliation: "Universitas Sriwijaya",
   },
   {
