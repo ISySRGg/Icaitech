@@ -7,6 +7,7 @@ export type Cast = {
     alt: string
   }
   linkedIn: string
+  scopus: string
 }
 
 export type Scope = string
