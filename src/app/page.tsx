@@ -11,7 +11,7 @@ import Header from "@/components/layout/header"
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header.jpg')] bg-cover">
+      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
@@ -133,24 +133,26 @@ export default function Page() {
               description:
                 "Medical Imaging, Medical Informatics, Medical Electronics, Healthcare Management.",
               image: {
-                src: "/assets/cast1.png",
+                src: "/assets/cast11.png",
                 alt: "",
               },
               linkedIn: "https://my.linkedin.com/in/eko-supriyanto-88a38377",
+              scopus:"https://www.scopus.com/authid/detail.uri?authorId=57194261987"
             }}
           />
           <CastFigure
             cast={{
-              name: "Hongo Kenta",
+              name: "Yoshioka Hidekazu",
               title: "In Confirmation",
               description:
-                "Materials Informatics, Data Science, Computer Simulations.",
+                "Mathematical Environmental Sciences, Social Systems Engineering.",
               image: {
-                src: "/assets/cast2.png",
+                src: "/assets/cast4.png",
                 alt: "",
               },
               linkedIn:
                 "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEj7CHfWizU3AAAAZJQb8wItPjeWUEkAEKfrDKB9u8x_Whae-Z5rncMQNBzUbe0wLMexXjiyIVx_uQVX_OMDoJV84l4TsK9_yk15NELlMCZlK-ze5nmrSLKalK12JZ81iRtrEY=&original_referer=&sessionRedirect=https%3A%2F%2Fjp.linkedin.com%2Fin%2Fkenta-hongo-38008667",
+              scopus:"www.scopus.com"
             }}
           />
           <CastFigure
@@ -165,6 +167,7 @@ export default function Page() {
               },
               linkedIn:
                 "https://www.its.ac.id/informatika/id/profil-riyanarto-sarno/",
+              scopus:"www.scopus.com"
             }}
           />
         </div>
@@ -198,6 +201,11 @@ export default function Page() {
             </article>
           </div>
         </div>
+      </section>
+      <section className="container pt-20">
+        <h2 className="text-center text-3xl font-semibold md:text-5xl">
+          Supported By
+        </h2>
       </section>
       <section className="container pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">

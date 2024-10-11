@@ -2,6 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   mainNav: [
+    { label: "Home", href: "/" },
     { label: "About", href: "/#about" },
     { label: "Keynote Speakers", href: "/#keynote-speakers" },
     { label: "Scopes", href: "/scopes" },
