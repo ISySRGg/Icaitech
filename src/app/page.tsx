@@ -134,7 +134,9 @@ export default function Page() {
           </article>
         </div>
       </section>
-      <section className="container flex flex-col items-center pt-20">
+      <section 
+        id="ImportantDate"
+        className="container flex flex-col items-center pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Important Date
         </h2>
@@ -278,11 +280,7 @@ export default function Page() {
           className="mt-6 w-full"
         ></iframe>
       </section>
-      <section className="container pt-20">
-        <h2 className="text-center text-3xl font-semibold md:text-5xl">
-          Supported by
-        </h2>
-      </section>
+     
     </>
   )
 }
