@@ -133,17 +133,9 @@ export const editorialBoardMembers: Committee[] = [
 
 export const organizingComittee: Committee[] = [
   {
-    name: "Samsuryadi",
-  },
-  {
     name: "Muhammad Fachrurozzi",
   },
-  {
-    name: "Anggina Primanita",
-  },
-  {
-    name: "Hadipurnawan Satria",
-  },
+  
   {
     name: "Sutarno",
   },
@@ -151,10 +143,13 @@ export const organizingComittee: Committee[] = [
     name: "Naufal Rachmatullah",
   },
   {
-    name: "Annisa Darmawahyuni",
+    name: "Akhiar Wista Arum",
   },
   {
-    name: "Ade Sapitri",
+    name: "Anggun Islami",
+  },
+  {
+    name: "Ade Iriani Sapitri",
   },
   {
     name: "Julian Supardi",
@@ -241,6 +236,18 @@ export const reviewers: Committee[] = [
   },
   {
     name: "Qurhanul Rizqie",
+    affiliation: "Universitas Sriwijaya",
+  },
+  {
+    name: "Anggina Primanita",
+    affiliation: "Universitas Sriwijaya",
+  },
+  {
+    name: "Hadipurnawan Satria",
+    affiliation: "Universitas Sriwijaya",
+  },
+  {
+    name: "Annisa Darmawahyuni",
     affiliation: "Universitas Sriwijaya",
   },
 ]
