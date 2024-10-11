@@ -7,7 +7,7 @@ interface Props {
 
 export default function PageHeader({ title, crumbs }: Props) {
   return (
-    <header className="relative flex flex-col bg-black bg-[url('/assets/header.jpg')] bg-cover bg-center">
+    <header className="relative flex flex-col bg-black bg-[url('/assets/header1.jpg')] bg-cover bg-center">
       <div className="z-20">
         <Header />
       </div>

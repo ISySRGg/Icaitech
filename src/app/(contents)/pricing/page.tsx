@@ -52,7 +52,7 @@ export default function Page() {
           <div className="prose prose-li:marker:text-gray-500">
             <ul>
               <li>
-                Bank Account name (please be exact)/Beneficiary: Nama Rekening
+                Bank Account name: BNI 0070570115 a.n RPL 014 Unsri Penerimaan BLU Unsri
               </li>
               <li>Bank Name: BNI KCP UNSRI PALEMBANG</li>
               <li>Bank Address: Jl. Srijaya Negara No.72</li>

@@ -11,6 +11,13 @@ export default function Header() {
       <div className="container flex items-center justify-between">
         <div>
           <Link href="/" className="flex items-center gap-4">
+          <Image
+              src="/assets/logo-unsri.png"
+              alt="icaitech"
+              height={80}
+              width={80}
+              className="w-10 md:w-12"
+            />
             <Image
               src="/assets/logo.png"
               alt="icaitech"

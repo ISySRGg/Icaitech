@@ -69,7 +69,7 @@ export default function Page() {
               className="size-auto"
             />
           </div>
-          <div className="prose">
+          {/* <div className="prose">
             <Markdown>
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
@@ -80,7 +80,34 @@ export default function Page() {
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
             </Markdown>
-          </div>
+          </div> */}
+          <div className="prose">
+  <Markdown>
+    {`The **International Conference on Artificial Technology
+    (ICAITech)**, organized by the Faculty of Computer Science at
+    Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
+    Development Goals (SDGs) 3 and 6, focusing on Good Health,
+    Well-Being, and Sustainable Water Management**. The conference
+    will take place on November 20–21, 2025, at the **Santika Premiere
+    Hotel in Palembang, Indonesia**, and will be held in a hybrid
+    format, offering both in-person and virtual participation.
+    `}
+  </Markdown>
+  <Markdown>The event will be held in **conjunction** with the **National Annual Research Seminar (ARS) 2025**, further enriching the academic exchange. Click here to submit your works in ARS 2025</Markdown>
+
+  {/* Add a button below the Markdown content */}
+  <div className="mt-4">
+    <a
+      href="https://link-to-ars-submission.com" // Replace with actual link
+      className="inline-block px-6 py-3 text-white bg-blue-500 rounded hover:bg-blue-600"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Submit to ARS 2025
+    </a>
+  </div>
+</div>
+
         </article>
 
         <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
@@ -167,13 +194,13 @@ export default function Page() {
               },
               linkedIn:
                 "https://www.its.ac.id/informatika/id/profil-riyanarto-sarno/",
-              scopus:"www.scopus.com"
+              scopus:"https://www.scopus.com/authid/detail.uri?authorId=53264815700"
             }}
           />
         </div>
       </section>
       <section className="container pt-20">
-        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ampera.png')] bg-cover">
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ap.png')] bg-cover">
           <div className="w-full bg-black/70 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <h2 className="text-3xl font-semibold text-white md:text-5xl">
               Publication Ethics
@@ -206,6 +233,10 @@ export default function Page() {
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Supported By
         </h2>
+        <div className="flex justify-center flex-wrap gap-10">
+          <Image src="/assets/logo-unsri.png" alt="" width="200" height="200" />
+          <Image src="/assets/IEEEIS.jpg" alt="" width="200" height="100" />
+        </div>
       </section>
       <section className="container pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
