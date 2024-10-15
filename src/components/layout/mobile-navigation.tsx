@@ -92,7 +92,7 @@ export default function MobileNavigation() {
           </div>
         ))}
         <Button size="lg" variant="secondary" asChild>
-          <Link href="/#">Submit</Link>
+          <Link href={siteConfig.submitlink}>Submit</Link>
         </Button>
       </div>
     </div>

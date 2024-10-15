@@ -1,5 +1,5 @@
 import { Agenda } from "@/types"
-import { Bell, Camera, FileText, MicVocal, PencilLine } from "lucide-react"
+import { Bell, Bird, Camera, FileText, MicVocal, PencilLine } from "lucide-react"
 
 export const importantDate: Agenda[] = [
   {
@@ -35,7 +35,7 @@ export const importantDate: Agenda[] = [
   {
     name: "Early Bird Registration Due",
     date: "6 November 2025",
-    icon: PencilLine,
+    icon: Bird,
     // icon: "🐦",
   },
   {

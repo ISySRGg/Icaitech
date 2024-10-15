@@ -30,7 +30,7 @@ export default function DesktopNavigation() {
         ))}
       </ul>
       <Button size="lg" variant="secondary" asChild>
-        <Link href="/#">Submit</Link>
+        <Link href={siteConfig.submitlink}>Submit</Link>
       </Button>
     </nav>
   )

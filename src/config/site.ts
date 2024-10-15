@@ -34,4 +34,5 @@ export const siteConfig = {
     { label: "Committee", href: "/committee" },
     { label: "Contact", href: "/contact" },
   ],
+  submitlink:"https://edas.info/N32981"
 }
