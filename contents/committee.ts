@@ -14,7 +14,7 @@ export const editorialBoardMembers: Committee[] = [
     affiliation: "Universiti Brunei Darusalam",
   },
   {
-    name: "Hiroyuki Lida",
+    name: "Hiroyuki Iida",
     affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
   },
   {
