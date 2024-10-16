@@ -194,7 +194,7 @@ export default function Page() {
               },
               linkedIn:
                 "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEj7CHfWizU3AAAAZJQb8wItPjeWUEkAEKfrDKB9u8x_Whae-Z5rncMQNBzUbe0wLMexXjiyIVx_uQVX_OMDoJV84l4TsK9_yk15NELlMCZlK-ze5nmrSLKalK12JZ81iRtrEY=&original_referer=&sessionRedirect=https%3A%2F%2Fjp.linkedin.com%2Fin%2Fkenta-hongo-38008667",
-              scopus: "https://scholar.google.co.jp/citations?user=5uzR5oQAAAAJ&hl=ja",
+              scopus: "https://www.scopus.com/authid/detail.uri?authorId=51865098600&origin=recordpage",
             }}
           />
           <CastFigure
