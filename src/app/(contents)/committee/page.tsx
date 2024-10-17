@@ -64,7 +64,7 @@ export default function Page() {
         </ul>
       </section>
       <section className="container mt-8 md:mt-16">
-        <h2 className="text-xl font-bold md:text-2xl">Reviewers</h2>
+        <h2 className="text-xl font-bold md:text-2xl"></h2> 
         <ul className="mt-2 grid grid-cols-2 gap-x-4 gap-y-4 md:mt-6 md:grid-cols-3 md:gap-x-10">
           {reviewers.map((member, i) => (
             <li key={i}>

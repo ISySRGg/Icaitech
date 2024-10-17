@@ -145,11 +145,11 @@ export const organizingComittee: Committee[] = [
   {
     name: "Akhiar Wista Arum",
   },
+  // {
+  //   name: "Anggun Islami",
+  // },
   {
-    name: "Anggun Islami",
-  },
-  {
-    name: "Ade Iriani Sapitri",
+    name: "Annisa Darmawahyuni",
   },
   {
     name: "Julian Supardi",
@@ -190,64 +190,64 @@ export const organizingComittee: Committee[] = [
 ]
 
 export const reviewers: Committee[] = [
-  {
-    name: "Julian Supardi",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Sukemi",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Dian Palupi",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Mira Afrina",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Abdiansyah",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Ermatita",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Ali Ibrahim",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Ahmad Heryanto",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Ahmad Zarkasi",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Ken Dhita Tania",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Fathoni",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Qurhanul Rizqie",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Anggina Primanita",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Hadipurnawan Satria",
-    affiliation: "Universitas Sriwijaya",
-  },
-  {
-    name: "Annisa Darmawahyuni",
-    affiliation: "Universitas Sriwijaya",
-  },
+  // {
+  //   name: "Julian Supardi",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Sukemi",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Dian Palupi",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Mira Afrina",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Abdiansyah",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Ermatita",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Ali Ibrahim",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Ahmad Heryanto",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Ahmad Zarkasi",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Ken Dhita Tania",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Fathoni",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Qurhanul Rizqie",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Anggina Primanita",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Hadipurnawan Satria",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
+  // {
+  //   name: "Annisa Darmawahyuni",
+  //   affiliation: "Universitas Sriwijaya",
+  // },
 ]
