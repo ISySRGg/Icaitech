@@ -20,18 +20,17 @@ export const importantDate: Agenda[] = [
     icon: FileText,
     // icon: "📄",
   },
-
-  {
-    name: "Camera Ready",
-    date: "05 November 2025",
-    icon: Camera,
-    // icon: "📸",
-  },
   {
     name: "Early Bird Registration Due",
     date: "6 November 2025",
     icon: Bird,
     // icon: "🐦",
+  },
+  {
+    name: "Camera Ready",
+    date: "05 November 2025",
+    icon: Camera,
+    // icon: "📸",
   },
   {
     name: "Conference",
