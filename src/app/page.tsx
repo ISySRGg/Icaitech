@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
+import { cn } from "@/lib/utils"
 
 import { importantDate } from "../../contents/important-date1"
 
@@ -146,7 +147,7 @@ export default function Page() {
             <div key={i} className="flex flex-col gap-2 rounded border p-8">
               <p>{item.name}</p>
               {item.icon && <item.icon className="size-[3rem] text-blue-900" />}
-              <p className="text-2xl font-semibold">{item.date}</p>
+              <p className={cn(item.name == "Conference" ? "bg-black text-white p-4 rounded-md" : "", "text-2xl font-semibold")}>{item.date}</p>
             </div>
           ))}
         </div>
