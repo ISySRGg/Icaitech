@@ -15,11 +15,11 @@ export const importantDate: Agenda[] = [
   },
   {
     name: "Submission Deadline",
-    date: "30 Sept 2025",
+    date: "30 September 2025",
   },
   {
     name: "Acceptance Notification",
-    date: "20 Oct 2025",
+    date: "15 September 2025",
   },
   {
     name: "Early Bird Registration Due",

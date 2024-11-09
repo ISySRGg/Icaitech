@@ -14,7 +14,7 @@ export const scopes: Scope[] = [
   "Information Technology Application",
   "Database and Programming",
   "Multimedia Services and Applications",
-  "Audit, Security and Governance",
+  "IT Audit, Security, and Governance",
   "Learning Systems",
   "Simulation",
   "Cryptography",
