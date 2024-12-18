@@ -19,7 +19,7 @@ export const editorialBoardMembers: Committee[] = [
   },
   {
     name: "Ramesh Pingili",
-    affiliation: "Cigna Insurance Services",
+    affiliation: "Cigna Healthcare",
   },
   {
     name: "Bayu Adhi Tama",
