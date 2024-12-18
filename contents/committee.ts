@@ -19,7 +19,7 @@ export const editorialBoardMembers: Committee[] = [
   },
   {
     name: "Ramesh Pingili",
-    affiliation: "Pega Tech Lead-Client Acquisition & Retention Transformation",
+    affiliation: "Cigna Insurance Services",
   },
   {
     name: "Bayu Adhi Tama",
