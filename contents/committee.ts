@@ -18,6 +18,10 @@ export const editorialBoardMembers: Committee[] = [
     affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
   },
   {
+    name: "Ramesh Pingili",
+    affiliation: "Pega Tech Lead-Client Acquisition & Retention Transformation",
+  },
+  {
     name: "Bayu Adhi Tama",
     affiliation: "University of Maryland",
   },
