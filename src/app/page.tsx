@@ -27,8 +27,8 @@ export default function Page() {
             <p>November 20—21, 2025</p>
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
-            The 1st International Conference on Artificial Intelligence
-            Technology For Good Health, Well-Being, and Sustainable Water
+            The 1st International Conference on Artificial Intelligence and Technological
+            Solutions For Good Health, Well-Being, and Sustainable Water
             Management Towards Sustainable Development Goals 3 and 6
           </p>
           <div className="mt-10">
@@ -86,7 +86,7 @@ export default function Page() {
           </div> */}
           <div className="prose">
             <Markdown>
-              {`The **International Conference on Artificial Technology
+              {`The **International Conference on Artificial Intelligence and Technological Solutions
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
     Development Goals (SDGs) 3 and 6, focusing on Good Health,
