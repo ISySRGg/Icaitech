@@ -265,6 +265,13 @@ export default function Page() {
             height="200"
             className="h-28 w-auto"
           />
+          <Image
+            src="/assets/Logo isysrg-01.png"
+            alt=""
+            width="200"
+            height="200"
+            className="h-28 w-auto"
+          />
         </div>
       </section>
       <section className="container pt-20">
