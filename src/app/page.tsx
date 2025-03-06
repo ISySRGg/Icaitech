@@ -91,8 +91,7 @@ export default function Page() {
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
     Development Goals (SDGs) 3 and 6, focusing on Good Health,
     Well-Being, and Sustainable Water Management**. The conference
-    will take place on November 20–21, 2025, at the **Santika Premiere
-    Hotel in Palembang, Indonesia**, and will be held in a hybrid
+    will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
             </Markdown>
@@ -287,7 +286,7 @@ export default function Page() {
           Location
         </h2>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7969.416801261058!2d104.719768!3d-2.90011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b73bd7cdcebb7%3A0x65ab9bf769278edf!2sHotel%20Santika%20Premiere%20Bandara%20-%20Palembang!5e0!3m2!1sen!2sid!4v1728241642496!5m2!1sen!2sid"
+          src="https://maps.app.goo.gl/pDJ5qLSXtJ5vcmZS7"
           height="400"
           style={{ border: 0 }}
           allowFullScreen

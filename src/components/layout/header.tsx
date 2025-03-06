@@ -19,10 +19,10 @@ export default function Header() {
               className="w-10 md:w-12"
             />
             <Image
-              src="/assets/IEEE-logo.png"
+              src="/assets/ieee-jpg.png"
               alt="icaitech"
-              height={80}
-              width={80}
+              height={100}
+              width={100}
               className="w-10 md:w-12"
             />
             <div className="text-white">
