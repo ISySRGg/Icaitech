@@ -286,7 +286,7 @@ export default function Page() {
           Location
         </h2>
         <iframe
-          src="https://maps.app.goo.gl/pDJ5qLSXtJ5vcmZS7"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127500.96976936757!2d104.6004016!3d-2.9849001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75ed9f44e9c5%3A0x30db735107f3611d!2sFasilkom%20Unsri%20Bukit%20Besar!5e0!3m2!1sen!2sid!4v1741258655078!5m2!1sen!2sid"
           height="400"
           style={{ border: 0 }}
           allowFullScreen
