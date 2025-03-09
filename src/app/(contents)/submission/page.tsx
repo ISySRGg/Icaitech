@@ -28,7 +28,7 @@ export default function Page() {
           ))}
         </ul>
       </section>
-      <section className="container mt-8 md:mt-16 bg-gray-100 md:rounded-xl p-4 md:p-8">
+      <section className="container mt-8 md:mt-16 bg-gray-100 md:rounded-lg p-4 md:p-8">
         <div className="prose prose-lg">
           <p>
             The final paper file must meet IEEE&apos;s PDF formatting requirements. Hence, the authors&apos; final paper must be checked using PDF eXpress before submitting the final version to EDAS. Visit <Link href="https://ieee-pdf-express.org">this link</Link> and follow the steps below:
