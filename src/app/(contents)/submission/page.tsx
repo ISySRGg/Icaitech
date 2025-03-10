@@ -59,10 +59,7 @@ export default function Page() {
             </li>
           </ol>
           <p>
-            Note: Previous users of PDF eXpress need to follow the above steps, but should enter the same.
-          </p>
-          <p>
-            password that was used for previous conferences. Verify that your contact information is valid.
+            Note: Previous users of PDF eXpress need to follow the above steps, but should enter the same password that was used for previous conferences. Verify that your contact information is valid.
           </p>
 
         </div>
