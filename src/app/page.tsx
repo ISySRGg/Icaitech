@@ -14,7 +14,7 @@ import { importantDate } from "../../contents/important-date1"
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
+      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
