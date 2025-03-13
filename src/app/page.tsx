@@ -255,7 +255,14 @@ export default function Page() {
             alt=""
             width="200"
             height="200"
-            className="h-32 w-auto"
+            className="h-28 w-auto"
+          />
+           <Image
+            src="/assets/logo fasilkom.png"
+            alt=""
+            width="200"
+            height="200"
+            className="h-28 w-auto"
           />
           <Image
             src="/assets/IEEEIS.jpg"
