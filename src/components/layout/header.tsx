@@ -11,22 +11,29 @@ export default function Header() {
       <div className="container flex items-center justify-between">
         <div>
           <Link href="/" className="flex items-center gap-4">
-          <Image
+            <Image
               src="/assets/logo-unsri.png"
               alt="icaitech"
               height={80}
               width={80}
-              className="w-10 md:w-12"
+              className="h-10 md:h-12 w-fit"
+            />
+            <Image
+              src="/assets/logo fasilkom.png"
+              alt="icaitech"
+              height={80}
+              width={80}
+              className="h-9 md:h-11 w-fit"
             />
             <Image
               src="/assets/ieee-jpg.png"
               alt="icaitech"
               height={500}
               width={500}
-              className="w-10 md:w-12"
+              className="h-9 md:h-11 w-fit"
             />
             <div className="text-white">
-              <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p>
+              {/* <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p> */}
               {/* <p className="text-xs">
                 International Conference on Artificial Intelligence Technology
               </p> */}
