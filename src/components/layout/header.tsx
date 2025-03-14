@@ -12,7 +12,7 @@ export default function Header() {
         <div>
           <Link href="/" className="flex items-center gap-4">
             <Image
-              src="/assets/logo-unsri.png"
+              src="/assets/unsri.svg"
               alt="icaitech"
               height={80}
               width={80}
@@ -26,11 +26,11 @@ export default function Header() {
               className="h-9 md:h-11 w-fit"
             />
             <Image
-              src="/assets/ieee-jpg.png"
+              src="/assets/ieee_white.png"
               alt="icaitech"
               height={500}
               width={500}
-              className="h-9 md:h-11 w-fit"
+              className="h-8 md:h-10 w-fit"
             />
             <div className="text-white">
               {/* <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p> */}
