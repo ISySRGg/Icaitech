@@ -36,10 +36,10 @@ export default function Page() {
           </div>
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" variant="secondary">
-              <Link href="register">Register</Link>
+              <Link href="https://edas.info/N32981">Register</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="schedule">View Schedule</Link>
+              <Link href="/#ImportantDate">View Schedule</Link>
             </Button>
           </div>
 
