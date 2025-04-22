@@ -14,7 +14,7 @@ import { importantDate } from "../../contents/important-date1"
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
+      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
@@ -134,14 +134,14 @@ export default function Page() {
           </article>
         </div>
       </section>
-      <section 
+      <section
         id="ImportantDate"
         className="container flex flex-col items-center pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Important Date
         </h2>
 
-        <div className="mt-6 grid grid-cols-3 gap-4">
+        <div className="mt-6 grid md:grid-cols-3 gap-4">
           {importantDate.map((item, i) => (
             <div key={i} className="flex flex-col gap-2 rounded border p-8">
               <p>{item.name}</p>
@@ -255,7 +255,7 @@ export default function Page() {
             alt=""
             width="200"
             height="200"
-            className="h-32 w-auto"
+            className="h-28 w-auto"
           />
           <Image
             src="/assets/IEEEIS.jpg"
@@ -278,7 +278,7 @@ export default function Page() {
             height="200"
             className="h-28 w-auto"
           />
-         
+
         </div>
       </section>
       <section className="container pt-20">
@@ -295,7 +295,7 @@ export default function Page() {
           className="mt-6 w-full"
         ></iframe>
       </section>
-     
+
     </>
   )
 }

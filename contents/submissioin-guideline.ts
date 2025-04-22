@@ -11,5 +11,5 @@ export const submissionGuidelines: Guideline[] = [
   "Every accepted paper is **required to be presented** both offline and online to be eligible for publication",
   "Presenters who are unable to attend **can play a pre-prepared presentation video**, but there must be at **least one author available for the Q&A session**",
   "Accepted papers **will be submitted** for inclusion into **IEEE Xplore** subject to meeting **IEEE Xplore’s scope and quality requirements** and **submitted for indexing by Scopus**",
-  "Submit the paper via EDAS (Link)",
+  "Submit the paper via [EDAS](https://edas.info/N32981)",
 ]
