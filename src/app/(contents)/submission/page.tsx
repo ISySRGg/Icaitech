@@ -12,9 +12,11 @@ export default function Page() {
       <PageHeader title="Submission Guidelines" crumbs={["For Author"]} />
       <section className="container mt-8 md:mt-16">
         <p className="text-lg md:text-xl">
-          Before you proceed, follow the guidelines below. 
-          **The paper submission and evaluation process follows a double-blind review scheme. 
-          Do not add any information such as name, email, or affiliations to the submitted paper.**
+          Before you proceed, follow the guidelines below.<br/>
+          <strong>
+          The paper submission and evaluation process follows a double-blind review scheme. 
+          Do not add any information such as name, email, or affiliations to the submitted paper.
+          </strong>
         </p>
         <ul className="mt-8 md:mt-10 *:break-inside-avoid md:columns-2 md:gap-x-20">
           {submissionGuidelines.map((guideline: Guideline, i) => (
