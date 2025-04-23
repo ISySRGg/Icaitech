@@ -8,7 +8,7 @@ export const submissionGuidelines: Guideline[] = [
   "Latex Format [Latex IEEE template](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.latex)",
   "It should **provide** the objective of the study, the methods, the results, and the discussion.",
   "**Make sure** the length of your paper is between 4 – 8 pages",
-  "Every accepted paper is **required to be presented** both offline and online to be eligible for publication. Author must submit review  manuscript with doc or docx format, other file format may lead to rejection",
+  "Every accepted paper is **required to be presented** both offline and online to be eligible for publication. **Author must** submit review  manuscript with doc or docx format, other file format may lead to rejection",
   "Presenters who are unable to attend **can play a pre-prepared presentation video**, but there must be at **least one author available for the Q&A session**",
   "Accepted papers **will be submitted** for inclusion into **IEEE Xplore** subject to meeting **IEEE Xplore’s scope and quality requirements** and **submitted for indexing by Scopus**",
   "Submit the paper via [EDAS](https://edas.info/N32981)",

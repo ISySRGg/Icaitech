@@ -14,8 +14,10 @@ export default function Page() {
         <p className="text-lg md:text-xl">
           Before you proceed, follow the guidelines below.<br/>
           <strong>
-          The paper submission and evaluation process follows a double-blind review scheme. 
-          Do not add any information such as name, email, or affiliations to the submitted paper.
+            <em>
+            The paper submission and evaluation process follows a double-blind review scheme. <br/>
+            Do not add any information such as name, email, or affiliations to the submitted paper.
+            </em>
           </strong>
         </p>
         <ul className="mt-8 md:mt-10 *:break-inside-avoid md:columns-2 md:gap-x-20">
