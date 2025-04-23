@@ -10,7 +10,7 @@ export default function Header() {
     <header className="flex h-20 w-full items-center border-b-2 border-teal-100/20">
       <div className="container flex items-center justify-between">
         <div>
-          <Link href="/" className="flex items-center gap-4">
+          <Link href="/" className="flex items-center gap-5">
             <Image
               src="/assets/unsri.svg"
               alt="icaitech"
