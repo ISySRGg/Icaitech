@@ -1,6 +1,6 @@
 import { Contact } from "@/types"
 
-export const email = "icaitech@ilkom.unsri.ac.id"
+export const email = "icaitech@unsri.ac.id"
 
 export const address =
   "Jl. Palembang – Prabumulih No.KM.32, Indralaya Indah, Kec. Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan 30862"
