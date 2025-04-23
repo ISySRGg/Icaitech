@@ -12,7 +12,7 @@ export default function Page() {
       <PageHeader title="Submission Guidelines" crumbs={["For Author"]} />
       <section className="container mt-8 md:mt-16">
         <p className="text-lg md:text-xl">
-          Before you proceed, follow the guidelines below.<br/>
+          Before you proceed, follow the guidelines below.<br/><br/>
           <strong>
             <em>
             The paper submission and evaluation process follows a double-blind review scheme. <br/>
