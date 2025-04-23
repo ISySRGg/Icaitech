@@ -19,10 +19,10 @@ export default function Header() {
               className="h-10 md:h-12 w-fit"
             />
              <Image
-              src="/assets/rmh kita logo.png"
+              src="/assets/rmh.png"
               alt="icaitech"
-              height={80}
-              width={80}
+              height={50}
+              width={50}
               className="h-10 md:h-12 w-fit"
             />
             <Image
