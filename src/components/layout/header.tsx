@@ -35,8 +35,8 @@ export default function Header() {
             <Image
               src="/assets/ieee_white.png"
               alt="icaitech"
-              height={500}
-              width={500}
+              height={300}
+              width={300}
               className="h-8 md:h-10 w-fit"
             />
             <div className="text-white">
