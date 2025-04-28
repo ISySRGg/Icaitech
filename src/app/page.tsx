@@ -8,6 +8,9 @@ import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import { cn } from "@/lib/utils"
+import { useEffect } from "react";
+import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
+
 
 import { importantDate } from "../../contents/important-date1"
 
@@ -151,8 +154,8 @@ export default function Page() {
           ))}
         </div>
       </section>
-
-      <section 
+ {/* bagian grafik pie chart */}
+      {/* <section 
         id="pie-chart" 
         className="container flex flex-col items-center pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl mb-10">
@@ -160,12 +163,12 @@ export default function Page() {
         </h2>
 
         <div className="w-full flex justify-center">
-          <div className="w-[300px] h-[300px]">
+          <div className="w-[300px] h-[300px]"> */}
             {/* Tempat Pie Chart-nya */}
-            <canvas id="pieChart"></canvas>
+            {/* <canvas id="pieChart"></canvas>
           </div>
         </div>
-      </section>
+      </section> */}
  
 
       <section
