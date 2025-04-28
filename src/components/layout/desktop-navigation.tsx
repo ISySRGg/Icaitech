@@ -46,14 +46,14 @@ function NavigationDropdown({ navigation }: { navigation: any }) {
         </button>
 
         {/* <DropdownMenu /> */}
-        <div className="invisible absolute -left-4 top-10 z-40 overflow-hidden rounded-xl bg-slate-950/70 shadow backdrop-blur group-hover:visible">
+        <div className="invisible absolute -left-4 top-10 z-40 overflow-hidden rounded-xl bg-slate-950/70 shadow-sm backdrop-blur-sm group-hover:visible">
           <ul className="flex w-[18rem] flex-col p-5">
             {navigation.children.map((subnavigation: any, key: number) => (
               <li key={key}>
                 <Link
                   href={subnavigation.href}
                   className={cn(
-                    "group flex select-none flex-row items-center gap-x-4 space-y-1 rounded border border-transparent px-3 py-4 leading-none no-underline outline-none transition-colors hover:border-white/15 hover:bg-white/10 focus:bg-white/10"
+                    "group flex select-none flex-row items-center gap-x-4 space-y-1 rounded border border-transparent px-3 py-4 leading-none no-underline outline-hidden transition-colors hover:border-white/15 hover:bg-white/10 focus:bg-white/10"
                   )}
                 >
                   <div className="text-sm font-medium leading-none text-slate-100 group-hover:text-white">

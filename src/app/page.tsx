@@ -84,7 +84,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-sky-900/90 to-green-900/60" />
+        <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" />
       </header>
       <section
         id="about"
