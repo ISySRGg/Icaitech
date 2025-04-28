@@ -8,11 +8,44 @@ import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import { cn } from "@/lib/utils"
-// import { useEffect } from "react";
-// import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
-
-
 import { importantDate } from "../../contents/important-date1"
+import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
+import { Pie, PieChart } from "recharts"
+
+
+const chartData = [
+  { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },
+  { browser: "safari", visitors: 200, fill: "var(--color-safari)" },
+  { browser: "firefox", visitors: 187, fill: "var(--color-firefox)" },
+  { browser: "edge", visitors: 173, fill: "var(--color-edge)" },
+  { browser: "other", visitors: 90, fill: "var(--color-other)" },
+]
+
+const chartConfig = {
+  visitors: {
+    label: "Visitors",
+  },
+  chrome: {
+    label: "Chrome",
+    color: "hsl(var(--chart-1))",
+  },
+  safari: {
+    label: "Safari",
+    color: "hsl(var(--chart-2))",
+  },
+  firefox: {
+    label: "Firefox",
+    color: "hsl(var(--chart-3))",
+  },
+  edge: {
+    label: "Edge",
+    color: "hsl(var(--chart-4))",
+  },
+  other: {
+    label: "Other",
+    color: "hsl(var(--chart-5))",
+  },
+} satisfies ChartConfig
 
 export default function Page() {
   return (
@@ -154,23 +187,17 @@ export default function Page() {
           ))}
         </div>
       </section>
- {/* bagian grafik pie chart */}
-      {/* <section 
-        id="pie-chart" 
-        className="container flex flex-col items-center pt-20">
-        <h2 className="text-center text-3xl font-semibold md:text-5xl mb-10">
-          Grafik Pie Chart
-        </h2>
-
-        <div className="w-full flex justify-center">
-          <div className="w-[300px] h-[300px]"> */}
-            {/* Tempat Pie Chart-nya */}
-            {/* <canvas id="pieChart"></canvas>
-          </div>
-        </div>
+      {/* <section>
+      <ChartContainer
+          config={chartConfig}
+          className="mx-auto aspect-square max-h-[250px] pb-0 [&_.recharts-pie-label-text]:fill-foreground"
+        >
+          <PieChart>
+            <ChartTooltip content={<ChartTooltipContent hideLabel />} />
+            <Pie data={chartData} dataKey="visitors" label nameKey="browser" />
+          </PieChart>
+        </ChartContainer>
       </section> */}
- 
-
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
