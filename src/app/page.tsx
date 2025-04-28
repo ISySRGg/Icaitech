@@ -151,6 +151,23 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      <section 
+        id="pie-chart" 
+        className="container flex flex-col items-center pt-20">
+        <h2 className="text-center text-3xl font-semibold md:text-5xl mb-10">
+          Grafik Pie Chart
+        </h2>
+
+        <div className="w-full flex justify-center">
+          <div className="w-[300px] h-[300px]">
+            {/* Tempat Pie Chart-nya */}
+            <canvas id="pieChart"></canvas>
+          </div>
+        </div>
+      </section>
+ 
+
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
