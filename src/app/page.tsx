@@ -8,8 +8,8 @@ import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import { cn } from "@/lib/utils"
-import { useEffect } from "react";
-import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
+// import { useEffect } from "react";
+// import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 
 
 import { importantDate } from "../../contents/important-date1"
