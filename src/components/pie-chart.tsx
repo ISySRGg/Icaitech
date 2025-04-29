@@ -1,30 +1,45 @@
 'use client'
 
-import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
+import { ChartContainer, ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
 import { LabelList, Pie, PieChart } from "recharts"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
 
 const chartData = [
-    { status: "accepted", value: 70, fill: "var(--color-accepted)" },
-    { status: "rejected", value: 10, fill: "var(--color-rejected)" },
-    { status: "underReview", value: 20, fill: "var(--color-underReview)" },
+    { name: 'aiAndPublicHealth', value: 36.4, fill: "var(--color-aiAndPublicHealth)" },
+    { name: 'invitedSpeaker', value: 27.3, fill: "var(--color-invitedSpeaker)" },
+    { name: 'aiInHealthcare', value: 18.2, fill: "var(--color-aiInHealthcare)" },
+    { name: 'crossCuttingTechnologies', value: 9.1, fill: "var(--color-crossCuttingTechnologies)" },
+    { name: 'sustainableAiInnovations', value: 4.5, fill: "var(--color-sustainableAiInnovations)" },
+    { name: 'aIForWaterManagement', value: 4.5, fill: "var(--color-aIForWaterManagement)" },
 ]
 
 const chartConfig = {
     value: {
         label: "Percentage",
     },
-    accepted: {
-        label: "Accepted",
+    aiAndPublicHealth: {
+        label: "AI and Public Health",
         color: "hsl(var(--chart-1))",
     },
-    rejected: {
-        label: "Rejected",
+    invitedSpeaker: {
+        label: "Invited Speaker",
         color: "hsl(var(--chart-2))",
     },
-    underReview: {
-        label: "Under Review",
+    aiInHealthcare: {
+        label: "AI in Healthcare",
         color: "hsl(var(--chart-3))",
+    },
+    crossCuttingTechnologies: {
+        label: "Cross-cutting Technologies",
+        color: "hsl(var(--chart-4))",
+    },
+    sustainableAiInnovations: {
+        label: "Sustainable AI Innovations",
+        color: "hsl(var(--chart-5))",
+    },
+    aIForWaterManagement: {
+        label: "AI for Water Management",
+        color: "hsl(var(--chart-6))",
     },
 } satisfies ChartConfig
 
@@ -35,6 +50,10 @@ export default function PieChartInfo() {
 
     return (
         <Card className="flex flex-col gap-2 rounded max-w-xl w-full border p-8 shadow-none">
+            <CardHeader className="items-center pb-0">
+                <CardTitle>Distribution of Papers by Trackname</CardTitle>
+                {/* <CardDescription>January - June 2024</CardDescription> */}
+            </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer
                     config={chartConfig}
@@ -42,27 +61,32 @@ export default function PieChartInfo() {
                 >
                     <PieChart>
                         {/* <ChartTooltip content={<ChartTooltipContent hideLabel />} /> */}
-                        <Pie data={chartData} dataKey="value" label={renderLabel} nameKey="status">
-                            <LabelList
-                                dataKey="status"
+                        <Pie data={chartData} dataKey="value" label={renderLabel} nameKey="name">
+                            {/* <LabelList
+                                dataKey="name"
                                 className="fill-background"
                                 stroke="none"
                                 fontSize={14}
                                 formatter={(value: keyof typeof chartConfig) =>
                                     chartConfig[value]?.label
                                 }
-                            />
+                            /> */}
                         </Pie>
+                        <ChartLegend
+                            content={<ChartLegendContent nameKey="name" />}
+                            align="left"
+                            className="flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center"
+                        />
                     </PieChart>
                 </ChartContainer>
             </CardContent>
             <CardFooter className="flex-col gap-2 text-sm">
-                <div className="flex items-center gap-2 font-medium leading-none">
-                    Trending up by 5.2% this month
-                </div>
-                <div className="leading-none text-muted-foreground">
+                {/* <div className="flex items-center gap-2 font-medium leading-none">
+                    Distribution of Papers by Trackname
+                </div> */}
+                {/* <div className="leading-none text-muted-foreground">
                     Showing total visitors for the last 6 months
-                </div>
+                </div> */}
             </CardFooter>
         </Card>
     )
