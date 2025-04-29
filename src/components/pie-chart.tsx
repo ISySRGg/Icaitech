@@ -1,8 +1,8 @@
 'use client'
 
 import { ChartContainer, ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
-import { LabelList, Pie, PieChart } from "recharts"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
+import { Pie, PieChart } from "recharts"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card"
 
 const chartData = [
     { name: 'aiAndPublicHealth', value: 36.4, fill: "var(--color-aiAndPublicHealth)" },
