@@ -154,6 +154,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+      
  {/* bagian grafik pie chart */}
       {/* <section 
         id="pie-chart" 
