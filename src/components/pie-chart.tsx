@@ -49,7 +49,7 @@ export default function PieChartInfo() {
     }
 
     return (
-        <Card className="flex flex-col gap-2 rounded max-w-xl w-full border p-8 shadow-none">
+        <Card className="flex flex-col gap-2 rounded max-w-xl w-full border p-2 shadow-none">
             <CardHeader className="items-center pb-0">
                 <CardTitle>Distribution of Papers by Trackname</CardTitle>
                 {/* <CardDescription>January - June 2024</CardDescription> */}
@@ -75,7 +75,7 @@ export default function PieChartInfo() {
                         <ChartLegend
                             content={<ChartLegendContent nameKey="name" />}
                             align="left"
-                            className="flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center"
+                            className="translate-y-2 flex-wrap gap-2 md:[&>*]:basis-1/4 [&>*]:justify-center"
                         />
                     </PieChart>
                 </ChartContainer>
