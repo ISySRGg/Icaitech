@@ -153,10 +153,10 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="container flex flex-col items-center pt-20">
+      {/* <section className="container flex flex-col items-center pt-20">
         <PieChartInfo/>
-      </section>
-      
+      </section> */}
+
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
