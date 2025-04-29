@@ -153,9 +153,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="container flex flex-col items-center pt-20">
-        <PieChartInfo/>
-      </section>
+      
 
       <section
         id="keynote-speakers"
@@ -221,6 +219,11 @@ export default function Page() {
           />
         </div>
       </section>
+
+      <section className="container flex flex-col items-center pt-20">
+        <PieChartInfo/>
+      </section>
+
       <section className="container pt-20">
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ap.png')] bg-cover">
           <div className="w-full bg-black/70 px-10 py-10 md:mt-0 md:px-14 md:py-20">
