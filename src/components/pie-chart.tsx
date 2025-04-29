@@ -1,6 +1,6 @@
 'use client'
 
-import { ChartContainer, ChartLegend, ChartLegendContent, ChartTooltip, ChartTooltipContent, type ChartConfig } from "@/components/ui/chart"
+import { ChartContainer, ChartLegend, ChartLegendContent, type ChartConfig } from "@/components/ui/chart"
 import { Pie, PieChart } from "recharts"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card"
 
@@ -44,6 +44,7 @@ const chartConfig = {
 } satisfies ChartConfig
 
 export default function PieChartInfo() {
+    /* eslint-disable  @typescript-eslint/no-explicit-any */
     const renderLabel = (entry: any) => {
         return `${entry.value}%`
     }
