@@ -34,5 +34,6 @@ export const siteConfig = {
     { label: "Committee", href: "/committee" },
     { label: "Contact", href: "/contact" },
   ],
-  submitlink:"https://edas.info/N32981"//ini untuk button submit
+  submitlink:"https://edas.info/N32981",//ini untuk button submit
+  callForReviewerLink:"https://docs.google.com/forms/d/e/1FAIpQLSeuU6ue76n9xIQDamsXH09AKt6_iXQ-gbB5Sw1TFVNnDTpzQQ/viewform"
 }

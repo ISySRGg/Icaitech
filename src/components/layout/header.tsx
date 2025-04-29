@@ -8,7 +8,7 @@ import MobileNavigationToggle from "./mobile-navigation-toggle"
 export default function Header() {
   return (
     <header className="flex h-20 w-full items-center border-b-2 border-teal-100/20">
-      <div className="container flex items-center justify-between">
+      <div className="flex items-center w-full justify-between px-4 md:px-10">
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image
