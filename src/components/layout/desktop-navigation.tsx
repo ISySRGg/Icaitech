@@ -30,9 +30,9 @@ export default function DesktopNavigation() {
         ))}
       </ul>
       <div className="flex gap-2">
-        <Button size="lg" variant="secondary" asChild>
+        {/* <Button size="lg" variant="secondary" asChild>
           <Link href={siteConfig.callForReviewerLink}>Call for Reviewers</Link>
-        </Button>
+        </Button> */}
         <Button size="lg" variant="secondary" asChild>
           <Link href={siteConfig.submitlink}>Submit</Link>
         </Button>
