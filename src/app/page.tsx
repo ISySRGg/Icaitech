@@ -104,7 +104,8 @@ export default function Page() {
 
             <div className="mt-4">
               <Button asChild size="lg">
-                <Link href="/submit-to-ars">Submit to ARS 2025</Link>
+                {/* <Link href="/submit-to-ars">Submit to ARS 2025</Link> */}
+                <a href="https://seminar.ilkom.unsri.ac.id" target="_blank" rel="noopener noreferrer">Submit to ARS 2025</a>
               </Button>
             </div>
           </div>
