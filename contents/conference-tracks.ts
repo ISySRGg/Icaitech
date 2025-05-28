@@ -123,6 +123,11 @@ export const conferenceTracks: Track[] = [
         description:
           "AI’s role in ensuring water-efficient and health-promoting agricultural practices",
       },
+      {
+        title: "Technical AI works",
+        description:
+          "Coding practices and information retrieval, machine learning, expert system, computer sciences, knowledge modelling, recognition system, simulations, game technologies, database programming, data mining, and all applied AI technologies",
+      },
     ],
   },
 ]
