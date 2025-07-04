@@ -66,7 +66,7 @@ export default function Page() {
               className="size-auto"
             />
             <Image
-              src="/assets/sdg-6.png"
+              src="/assets/sdg-9.png"
               alt="SDG 6"
               width={240}
               height={240}
@@ -78,8 +78,8 @@ export default function Page() {
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-              Development Goals (SDGs) 3 and 6, focusing on Good Health,
-              Well-Being, and Sustainable Water Management**. The conference
+              Development Goals (SDGs) 3 and 9, focusing on Good Health,
+              Well-Being, and Industry, Innovation and Infrastructure**. The conference
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
@@ -90,8 +90,8 @@ export default function Page() {
               {`The **International Conference on Artificial Intelligence and Technological Solutions
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-    Development Goals (SDGs) 3 and 6, focusing on Good Health,
-    Well-Being, and Sustainable Water Management**. The conference
+    Development Goals (SDGs) 3 and 9, focusing on Good Health,
+    Well-Being, and Industry, Innovation and Infrastructure**. The conference
     will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
