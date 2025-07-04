@@ -30,7 +30,7 @@ export default function Page() {
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and Technological
             Solutions For Good Health, Well-Being, and Sustainable Water
-            Management Towards Sustainable Development Goals 3 and 6
+            Management Towards Sustainable Development Goals 3 and 9
           </p>
           <div className="mt-10">
             <Countdown />
@@ -68,8 +68,8 @@ export default function Page() {
             <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
-              width={512}
-              height={512}
+              width={240}
+              height={240}
               className="size-auto"
             />
           </div>
@@ -79,7 +79,7 @@ export default function Page() {
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
               Development Goals (SDGs) 3 and 9, focusing on Good Health,
-              Well-Being, and Industry, Innovation and Infrastructure**. The conference
+              Well-Being, Industry, Innovation and Infrastructure**. The conference
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
@@ -91,7 +91,7 @@ export default function Page() {
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
     Development Goals (SDGs) 3 and 9, focusing on Good Health,
-    Well-Being, and Industry, Innovation and Infrastructure**. The conference
+    Well-Being, Industry, Innovation and Infrastructure**. The conference
     will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
@@ -119,7 +119,7 @@ export default function Page() {
               intelligence and related technologies in improving health outcomes
               and water management practices. Participants will explore how AI
               can contribute to achieving the UN’s SDG 3 (Good Health and
-              Well-Being) and SDG 9 (Clean Water and Sanitation).
+              Well-Being) and SDG 9 (Industry, Innovation and Infrastructure).
             </Markdown>
           </article>
         </div>
