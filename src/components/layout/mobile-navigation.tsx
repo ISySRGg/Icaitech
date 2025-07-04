@@ -91,9 +91,14 @@ export default function MobileNavigation() {
             )}
           </div>
         ))}
-        <Button size="lg" variant="secondary" asChild>
-          <Link href={siteConfig.submitlink}>Submit</Link>
-        </Button>
+        <div className="flex flex-col gap-2">
+          {/* <Button size="lg" variant="secondary" asChild>
+            <Link href={siteConfig.callForReviewerLink}>Call for Reviewers</Link>
+          </Button> */}
+          <Button size="lg" variant="secondary" asChild>
+            <Link href={siteConfig.submitlink}>Submit</Link>
+          </Button>
+        </div>
       </div>
     </div>
   )
