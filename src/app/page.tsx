@@ -111,7 +111,7 @@ export default function Page() {
             </div>
           </div>
         </article>
-        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/industri.jpg')] bg-cover">
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/innovation.jpg')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,
