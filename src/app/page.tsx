@@ -66,10 +66,10 @@ export default function Page() {
               className="size-auto"
             />
             <Image
-              src="/assets/sdg-9.png"
+              src="/assets/sdg-9.jpg"
               alt="SDG 6"
-              width={240}
-              height={240}
+              width={512}
+              height={512}
               className="size-auto"
             />
           </div>
@@ -119,7 +119,7 @@ export default function Page() {
               intelligence and related technologies in improving health outcomes
               and water management practices. Participants will explore how AI
               can contribute to achieving the UN’s SDG 3 (Good Health and
-              Well-Being) and SDG 6 (Clean Water and Sanitation).
+              Well-Being) and SDG 9 (Clean Water and Sanitation).
             </Markdown>
           </article>
         </div>
