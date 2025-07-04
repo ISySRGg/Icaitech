@@ -111,7 +111,7 @@ export default function Page() {
             </div>
           </div>
         </article>
-        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/industri.jpg')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,
@@ -123,7 +123,7 @@ export default function Page() {
             </Markdown>
           </article>
         </div>
-        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/')] bg-cover">
           <article className="prose prose-invert mt-20 bg-green-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               Key topics include **AI in healthcare, predictive analytics for
