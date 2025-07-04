@@ -29,7 +29,7 @@ export default function Page() {
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and Technological
-            Solutions For Good Health, Well-Being, and Sustainable Water
+            Solutions For Good Health, Well-Being, Industry, Innovation and Infrastructure
             Management Towards Sustainable Development Goals 3 and 9
           </p>
           <div className="mt-10">
@@ -123,7 +123,7 @@ export default function Page() {
             </Markdown>
           </article>
         </div>
-        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/')] bg-cover">
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/industri1.jpg')] bg-cover">
           <article className="prose prose-invert mt-20 bg-green-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               Key topics include **AI in healthcare, predictive analytics for
