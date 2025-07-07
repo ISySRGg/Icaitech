@@ -29,8 +29,8 @@ export default function Page() {
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and Technological
-            Solutions For Good Health, Well-Being, Industry, Innovation and Infrastructure
-            Management Towards Sustainable Development Goals 3 and 9
+            Solutions For Good Health, Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure
+            Management Towards Sustainable Development Goals 3, 6 and 9
           </p>
           <div className="mt-10">
             <Countdown />
@@ -85,8 +85,8 @@ export default function Page() {
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-              Development Goals (SDGs) 3 and 9, focusing on Good Health,
-              Well-Being, Industry, Innovation and Infrastructure**. The conference
+              Development Goals (SDGs) 3, 6 and 9, focusing on Good Health,
+              Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
@@ -97,8 +97,8 @@ export default function Page() {
               {`The **International Conference on Artificial Intelligence and Technological Solutions
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-    Development Goals (SDGs) 3 and 9, focusing on Good Health,
-    Well-Being, Industry, Innovation and Infrastructure**. The conference
+    Development Goals (SDGs) 3, 6 and 9, focusing on Good Health,
+    Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
     will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
@@ -118,7 +118,7 @@ export default function Page() {
             </div>
           </div>
         </article>
-        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/innovation.jpg')] bg-cover">
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,
@@ -126,7 +126,7 @@ export default function Page() {
               intelligence and related technologies in improving health outcomes
               and water management practices. Participants will explore how AI
               can contribute to achieving the UN’s SDG 3 (Good Health and
-              Well-Being) and SDG 9 (Industry, Innovation and Infrastructure).
+              Well-Being) SDG 6 (Clean Water and Sanitation) and SDG 9 (Industry, Innovation and Infrastructure).
             </Markdown>
           </article>
         </div>
