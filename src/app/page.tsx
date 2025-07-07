@@ -66,6 +66,13 @@ export default function Page() {
               className="size-auto"
             />
             <Image
+              src="/assets/sdg-6.png"
+              alt="SDG 3"
+              width={240}
+              height={240}
+              className="size-auto"
+            />
+            <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
               width={240}
