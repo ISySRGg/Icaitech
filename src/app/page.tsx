@@ -61,22 +61,22 @@ export default function Page() {
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               className="size-auto"
             />
             <Image
               src="/assets/sdg-6.png"
               alt="SDG 3"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               className="size-auto"
             />
             <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               className="size-auto"
             />
           </div>
