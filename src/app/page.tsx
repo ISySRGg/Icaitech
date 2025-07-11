@@ -30,7 +30,7 @@ export default function Page() {
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and Technological
             Solutions For Good Health, Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure
-            Management Towards Sustainable Development Goals 3, 6 and 9
+            Management Towards Sustainable Development Goals 3, 6, and 9
           </p>
           <div className="mt-10">
             <Countdown />
@@ -85,7 +85,7 @@ export default function Page() {
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-              Development Goals (SDGs) 3, 6 and 9, focusing on Good Health,
+              Development Goals (SDGs) 3, 6, and 9 focusing on Good Health,
               Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
