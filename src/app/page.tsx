@@ -29,8 +29,13 @@ export default function Page() {
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and Technological
+<<<<<<< HEAD
             Solutions For Good Health, Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure
             Management Towards Sustainable Development Goals 3, 6 and 9
+=======
+            Solutions For Good Health, Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure
+            Management Towards Sustainable Development Goals 3, 6, and 9
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
           </p>
           <div className="mt-10">
             <Countdown />
@@ -61,8 +66,15 @@ export default function Page() {
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
-              width={240}
-              height={240}
+              width={150}
+              height={150}
+              className="size-auto"
+            />
+            <Image
+              src="/assets/sdg-6.png"
+              alt="SDG 3"
+              width={150}
+              height={150}
               className="size-auto"
             />
             <Image
@@ -75,8 +87,8 @@ export default function Page() {
             <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
-              width={240}
-              height={240}
+              width={150}
+              height={150}
               className="size-auto"
             />
           </div>
@@ -85,8 +97,13 @@ export default function Page() {
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
+<<<<<<< HEAD
               Development Goals (SDGs) 3,6 and 9, focusing on Good Health,
               Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure**. The conference
+=======
+              Development Goals (SDGs) 3, 6, and 9 focusing on Good Health,
+              Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
@@ -98,7 +115,11 @@ export default function Page() {
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
     Development Goals (SDGs) 3, 6 and 9, focusing on Good Health,
+<<<<<<< HEAD
     Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure**. The conference
+=======
+    Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
     will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
@@ -118,7 +139,7 @@ export default function Page() {
             </div>
           </div>
         </article>
-        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/innovation.jpg')] bg-cover">
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,

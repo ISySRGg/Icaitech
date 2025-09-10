@@ -52,10 +52,10 @@ export default function Page() {
           <div className="prose prose-li:marker:text-gray-500">
             <ul>
               <li>
-                Bank Account name: BNI 0070570115 a.n RPL 014 Unsri Penerimaan BLU Unsri
+                Bank Account name: BRI 0342-01-002861-56-7 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
               </li>
-              <li>Bank Name: BNI KCP UNSRI PALEMBANG</li>
-              <li>Bank Address: Jl. Srijaya Negara No.72</li>
+              <li>Bank Name: BRI PALEMBANG SRIWIJAYA</li>
+              <li>Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan Ilir</li>
               <li>City: Palembang</li>
               <li>State: Sumatera Selatan</li>
               <li>Country: Indonesia</li>

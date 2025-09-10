@@ -24,4 +24,12 @@ export const scopes: Scope[] = [
   "Recognition Systems",
   "Game Theory and Application",
   "Knowledge Modeling",
+  "Cloud & Edge Computing",
+  "AI Hardware & HPC",
+  "Data & ML Infrastructure (MLOps, Big Data)",
+  "Cybersecurity & Privacy in AI",
+  "Ethical & Responsible AI",
+  "IT/AI Governance & Compliance",
+  "Transparency & Explainability",
+  "Digital Transformation & Public Sector Strategies",
 ]
