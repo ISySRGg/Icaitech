@@ -57,27 +57,27 @@ export default function Page() {
       >
         <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
         <article className="flex flex-col gap-10 md:items-start">
-          <div className="flex-none gap-2 self-end flex md:gap-4">
+          <div className="flex-none gap-2 md:self-end flex md:gap-4">
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
               width={150}
               height={150}
-              className="size-40 rounded-lg"
+              className="size-24 md:size-40 rounded-lg"
             />
             <Image
               src="/assets/sdg-6.png"
               alt="SDG 3"
               width={150}
               height={150}
-              className="size-40 rounded-lg"
+              className="size-24 md:size-40 rounded-lg"
             />
             <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
               width={150}
               height={150}
-              className="size-40 rounded-lg"
+              className="size-24 md:size-40 rounded-lg"
             />
           </div>
           <div className="prose prose-lg">
