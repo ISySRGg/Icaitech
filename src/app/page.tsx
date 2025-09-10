@@ -7,13 +7,15 @@ import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
-
+import { cn } from "@/lib/utils"
 import { importantDate } from "../../contents/important-date1"
+import PieChartInfo from "@/components/pie-chart"
+
 
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-dvh items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
+      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center bg-black bg-[url('/assets/header1.jpg')] bg-cover">
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
@@ -26,19 +28,24 @@ export default function Page() {
             <p>November 20—21, 2025</p>
           </div>
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
-            The 1st International Conference on Artificial Intelligence
-            Technology For Good Health, Well-Being, and Sustainable Water
-            Management Towards Sustainable Development Goals 3 and 6
+            The 1st International Conference on Artificial Intelligence and Technological
+<<<<<<< HEAD
+            Solutions For Good Health, Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure
+            Management Towards Sustainable Development Goals 3, 6 and 9
+=======
+            Solutions For Good Health, Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure
+            Management Towards Sustainable Development Goals 3, 6, and 9
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
           </p>
           <div className="mt-10">
             <Countdown />
           </div>
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" variant="secondary">
-              <Link href="register">Register</Link>
+              <Link href="https://edas.info/N32981">Register</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="schedule">View Schedule</Link>
+              <Link href="/#ImportantDate">View Schedule</Link>
             </Button>
           </div>
 
@@ -47,7 +54,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="absolute bottom-0 h-full w-full bg-gradient-to-t from-sky-900/90 to-green-900/60" />
+        <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" />
       </header>
       <section
         id="about"
@@ -59,15 +66,29 @@ export default function Page() {
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
+              width={150}
+              height={150}
+              className="size-auto"
+            />
+            <Image
+              src="/assets/sdg-6.png"
+              alt="SDG 3"
+              width={150}
+              height={150}
+              className="size-auto"
+            />
+            <Image
+              src="/assets/sdg-6.png"
+              alt="SDG 3"
               width={240}
               height={240}
               className="size-auto"
             />
             <Image
-              src="/assets/sdg-6.png"
+              src="/assets/sdg-9.jpg"
               alt="SDG 6"
-              width={240}
-              height={240}
+              width={150}
+              height={150}
               className="size-auto"
             />
           </div>
@@ -76,8 +97,13 @@ export default function Page() {
               The **International Conference on Artificial Technology
               (ICAITech)**, organized by the Faculty of Computer Science at
               Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-              Development Goals (SDGs) 3 and 6, focusing on Good Health,
-              Well-Being, and Sustainable Water Management**. The conference
+<<<<<<< HEAD
+              Development Goals (SDGs) 3,6 and 9, focusing on Good Health,
+              Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure**. The conference
+=======
+              Development Goals (SDGs) 3, 6, and 9 focusing on Good Health,
+              Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
               will take place on November 20–21, 2025, at the **Santika Premiere
               Hotel in Palembang, Indonesia**, and will be held in a hybrid
               format, offering both in-person and virtual participation.
@@ -85,13 +111,16 @@ export default function Page() {
           </div> */}
           <div className="prose">
             <Markdown>
-              {`The **International Conference on Artificial Technology
+              {`The **International Conference on Artificial Intelligence and Technological Solutions
     (ICAITech)**, organized by the Faculty of Computer Science at
     Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-    Development Goals (SDGs) 3 and 6, focusing on Good Health,
-    Well-Being, and Sustainable Water Management**. The conference
-    will take place on November 20–21, 2025, at the **Santika Premiere
-    Hotel in Palembang, Indonesia**, and will be held in a hybrid
+    Development Goals (SDGs) 3, 6 and 9, focusing on Good Health,
+<<<<<<< HEAD
+    Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure**. The conference
+=======
+    Well-Being, Clean Water Sanitation, Industry, Innovation and Infrastructure**. The conference
+>>>>>>> 71711e995b45221763e37e82b460f2c3a107582c
+    will take place on November 20–21, 2025, at the **Jaidan Jauhari Hall, Faculty of Computer Science, Universitas Sriwijaya Palembang, Indonesia**, and will be held in a hybrid
     format, offering both in-person and virtual participation.
     `}
             </Markdown>
@@ -103,12 +132,14 @@ export default function Page() {
 
             <div className="mt-4">
               <Button asChild size="lg">
-                <Link href="/submit-to-ars">Submit to ARS 2025</Link>
+                {/* <Link href="/submit-to-ars">Submit to ARS 2025</Link> */}
+                <Link href="https://seminar.ilkom.unsri.ac.id">Submit to ARS 2025</Link>
+                {/* <a href="https://seminar.ilkom.unsri.ac.id" target="_blank" rel="noopener noreferrer">Submit to ARS 2025</a> */}
               </Button>
             </div>
           </div>
         </article>
-        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/water.jpeg')] bg-cover">
+        <div className="flex justify-start overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
           <article className="prose prose-invert mt-20 bg-sky-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               The event will serve as a global platform for researchers,
@@ -116,11 +147,11 @@ export default function Page() {
               intelligence and related technologies in improving health outcomes
               and water management practices. Participants will explore how AI
               can contribute to achieving the UN’s SDG 3 (Good Health and
-              Well-Being) and SDG 6 (Clean Water and Sanitation).
+              Well-Being) SDG 6 (Clean Water and Sanitation) and SDG 9 (Industry, Innovation and Infrastructure).
             </Markdown>
           </article>
         </div>
-        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/earth.png')] bg-cover">
+        <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/industri1.jpg')] bg-cover">
           <article className="prose prose-invert mt-20 bg-green-950/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
             <Markdown>
               Key topics include **AI in healthcare, predictive analytics for
@@ -134,23 +165,26 @@ export default function Page() {
           </article>
         </div>
       </section>
-      <section 
+      <section
         id="ImportantDate"
         className="container flex flex-col items-center pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
           Important Date
         </h2>
 
-        <div className="mt-6 grid grid-cols-3 gap-4">
+        <div className="mt-6 grid md:grid-cols-3 gap-4">
           {importantDate.map((item, i) => (
             <div key={i} className="flex flex-col gap-2 rounded border p-8">
               <p>{item.name}</p>
               {item.icon && <item.icon className="size-[3rem] text-blue-900" />}
-              <p className="text-2xl font-semibold">{item.date}</p>
+              <p className={cn(item.name == "Conference" ? "bg-black text-white p-4 rounded-md" : "", "text-2xl font-semibold")}>{item.date}</p>
             </div>
           ))}
         </div>
       </section>
+
+      
+
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
@@ -215,6 +249,11 @@ export default function Page() {
           />
         </div>
       </section>
+
+      <section className="container flex flex-col items-center pt-20">
+        <PieChartInfo/>
+      </section>
+
       <section className="container pt-20">
         <div className="flex justify-end overflow-hidden rounded-lg bg-black bg-[url('/assets/ap.png')] bg-cover">
           <div className="w-full bg-black/70 px-10 py-10 md:mt-0 md:px-14 md:py-20">
@@ -255,7 +294,7 @@ export default function Page() {
             alt=""
             width="200"
             height="200"
-            className="h-32 w-auto"
+            className="h-28 w-auto"
           />
           <Image
             src="/assets/IEEEIS.jpg"
@@ -264,6 +303,21 @@ export default function Page() {
             height="200"
             className="h-28 w-auto"
           />
+          <Image
+            src="/assets/Logo isysrg-01.png"
+            alt=""
+            width="200"
+            height="200"
+            className="h-28 w-auto"
+          />
+          <Image
+            src="/assets/logo_comnets-black-01.png"
+            alt=""
+            width="200"
+            height="200"
+            className="h-28 w-auto"
+          />
+
         </div>
       </section>
       <section className="container pt-20">
@@ -271,7 +325,7 @@ export default function Page() {
           Location
         </h2>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7969.416801261058!2d104.719768!3d-2.90011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b73bd7cdcebb7%3A0x65ab9bf769278edf!2sHotel%20Santika%20Premiere%20Bandara%20-%20Palembang!5e0!3m2!1sen!2sid!4v1728241642496!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127500.96976936757!2d104.6004016!3d-2.9849001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75ed9f44e9c5%3A0x30db735107f3611d!2sFasilkom%20Unsri%20Bukit%20Besar!5e0!3m2!1sen!2sid!4v1741258655078!5m2!1sen!2sid"
           height="400"
           style={{ border: 0 }}
           allowFullScreen
@@ -280,7 +334,7 @@ export default function Page() {
           className="mt-6 w-full"
         ></iframe>
       </section>
-     
+
     </>
   )
 }

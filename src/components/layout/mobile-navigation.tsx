@@ -45,7 +45,7 @@ export default function MobileNavigation() {
   return (
     <div
       className={cn(
-        "no-doc-scroll fixed bottom-0 z-50 flex h-[calc(100dvh-5rem)] w-full flex-col bg-green-950/80 backdrop-blur md:hidden"
+        "no-doc-scroll fixed bottom-0 z-50 flex h-[calc(100dvh-5rem)] w-full flex-col bg-green-950/80 backdrop-blur-sm md:hidden"
       )}
     >
       <div className="container flex flex-col gap-y-8 pt-6 text-xl text-white">
@@ -91,9 +91,14 @@ export default function MobileNavigation() {
             )}
           </div>
         ))}
-        <Button size="lg" variant="secondary" asChild>
-          <Link href={siteConfig.submitlink}>Submit</Link>
-        </Button>
+        <div className="flex flex-col gap-2">
+          {/* <Button size="lg" variant="secondary" asChild>
+            <Link href={siteConfig.callForReviewerLink}>Call for Reviewers</Link>
+          </Button> */}
+          <Button size="lg" variant="secondary" asChild>
+            <Link href={siteConfig.submitlink}>Submit</Link>
+          </Button>
+        </div>
       </div>
     </div>
   )

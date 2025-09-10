@@ -10,27 +10,15 @@ export const importantDate: Agenda[] = [
   },
   {
     name: "Acceptance Notification",
-    date: "20 October 2025",
+    date: "30 October 2025",
     icon: Bell,
     // icon: "✅",
   },
   {
     name: "Submission Due",
-    date: "30 Sept 2025",
+    date: "12 September 2025",
     icon: FileText,
     // icon: "📄",
-  },
-  // {
-  //   name: "Notification of Acceptance (Phase 2)",
-  //   date: "1 October 2025",
-  //   icon: Bell,
-  //   // icon: "✅",
-  // },
-  {
-    name: "Conference",
-    date: "20—21 November 2025",
-    icon: MicVocal,
-    // icon: "🎤",
   },
   {
     name: "Early Bird Registration Due",
@@ -40,14 +28,15 @@ export const importantDate: Agenda[] = [
   },
   {
     name: "Camera Ready",
-    date: "31 October 2025",
+    date: "05 November 2025",
     icon: Camera,
     // icon: "📸",
   },
-  // {
-  //   name: "Registration Due",
-  //   date: "13 November 2025",
-  //   icon: PencilLine,
-  //   // icon: "📝",
-  // },
+  {
+    name: "Conference",
+    date: "20—21 November 2025",
+    icon: MicVocal,
+    // icon: "🎤",
+  },
+
 ]

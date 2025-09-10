@@ -18,6 +18,10 @@ export const editorialBoardMembers: Committee[] = [
     affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
   },
   {
+    name: "Ramesh Pingili",
+    affiliation: "Cigna Healthcare",
+  },
+  {
     name: "Bayu Adhi Tama",
     affiliation: "University of Maryland",
   },
@@ -151,6 +155,9 @@ export const organizingComittee: Committee[] = [
   {
     name: "Annisa Darmawahyuni",
   },
+  // {
+  //   name: "Ade Iriani Sapitri",
+  // },
   {
     name: "Julian Supardi",
   },
