@@ -149,6 +149,9 @@ export const organizingComittee: Committee[] = [
   {
     name: "Akhiar Wista Arum",
   },
+  // {
+  //   name: "Anggun Islami",
+  // },
   {
     name: "Annisa Darmawahyuni",
   },
