@@ -56,50 +56,31 @@ export default function Page() {
         className="container flex flex-col gap-4 pt-20 md:gap-8"
       >
         <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
-        <article className="flex flex-col gap-10 md:flex-row md:items-start">
-          <div className="grid flex-none grid-cols-2 gap-2 md:flex md:flex-row md:gap-4">
+        <article className="flex flex-col gap-10 md:items-start">
+          <div className="flex-none gap-2 self-end flex md:gap-4">
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
               width={150}
               height={150}
-              className="size-auto"
+              className="size-40 rounded-lg"
             />
             <Image
               src="/assets/sdg-6.png"
               alt="SDG 3"
               width={150}
               height={150}
-              className="size-auto"
-            />
-            <Image
-              src="/assets/sdg-6.png"
-              alt="SDG 3"
-              width={240}
-              height={240}
-              className="size-auto"
+              className="size-40 rounded-lg"
             />
             <Image
               src="/assets/sdg-9.jpg"
               alt="SDG 6"
               width={150}
               height={150}
-              className="size-auto"
+              className="size-40 rounded-lg"
             />
           </div>
-          {/* <div className="prose">
-            <Markdown>
-              The **International Conference on Artificial Technology
-              (ICAITech)**, organized by the Faculty of Computer Science at
-              Universitas Sriwijaya, Indonesia, aims to advance **Sustainable
-              Development Goals (SDGs) 3,6 and 9, focusing on Good Health,
-              Well-Being, Clean Water and Sanitation, Industry, Innovation and Infrastructure**. The conference
-              will take place on November 20–21, 2025, at the **Santika Premiere
-              Hotel in Palembang, Indonesia**, and will be held in a hybrid
-              format, offering both in-person and virtual participation.
-            </Markdown>
-          </div> */}
-          <div className="prose">
+          <div className="prose prose-lg">
             <Markdown>
               {`The **International Conference on Artificial Intelligence and Technological Solutions
     (ICAITech)**, organized by the Faculty of Computer Science at
