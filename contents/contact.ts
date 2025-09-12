@@ -13,13 +13,13 @@ export const contacts: Contact[] = [
       whatsapp: "+62 822 2323 3033",
     },
   },
-  {
-    name: "Ade Sapitri",
-    contact: {
-      email: "adeirianisapitri13@gmail.com",
-      whatsapp: "+62 812 2414 7003",
-    },
-  },
+  // {
+  //   name: "Ade Sapitri",
+  //   contact: {
+  //     email: "adeirianisapitri13@gmail.com",
+  //     whatsapp: "+62 812 2414 7003",
+  //   },
+  // },
   {
     name: "Anggun Islami",
     contact: {
