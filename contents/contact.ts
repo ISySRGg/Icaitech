@@ -14,13 +14,6 @@ export const contacts: Contact[] = [
     },
   },
   {
-    name: "Ade Sapitri",
-    contact: {
-      email: "adeirianisapitri13@gmail.com",
-      whatsapp: "+62 812 2414 7003",
-    },
-  },
-  {
     name: "Anggun Islami",
     contact: {
       email: "anggunislami2@gmail.com",
