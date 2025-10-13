@@ -62,7 +62,7 @@ export default function Page() {
               <li>SWIFT/BIC: BRINIDJAXXX</li>
               <li>Bank Account #: No_REK – IDR</li>
               <li>
-                Message for Beneficiary: Registration fee for ICAITech 2024 from
+                Message for Beneficiary: Registration fee for ICAITech  from
                 [Paper ID /Author’s Name]
               </li>
             </ul>
