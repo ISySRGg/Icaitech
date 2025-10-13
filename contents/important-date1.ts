@@ -22,12 +22,12 @@ export const importantDate: Agenda[] = [
   },
   {
     name: "Early Bird Registration Due",
-    date: "6 November 2025",
+    date: "30 October 2025",
     icon: Bird,
     // icon: "🐦",
   },
   {
-    name: "Camera Ready",
+    name: "Camera Ready Due",
     date: "05 November 2025",
     icon: Camera,
     // icon: "📸",
