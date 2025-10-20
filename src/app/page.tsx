@@ -57,7 +57,7 @@ export default function Page() {
       >
         <h2 className="text-3xl font-semibold md:text-5xl">About Us</h2>
         <article className="flex flex-col gap-10 md:items-start">
-          <div className="flex-none gap-2 md:self-end flex md:gap-4">
+          <div className="flex-none gap-2 md:self-start flex md:gap-4">
             <Image
               src="/assets/sdg-3.png"
               alt="SDG 3"
@@ -253,7 +253,7 @@ export default function Page() {
       </section>
       <section className="container pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
-          Supported By
+          Organized By
         </h2>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-10">
           <Image
@@ -286,6 +286,12 @@ export default function Page() {
           />
 
         </div>
+      </section>
+      <section className="container pt-20">
+        <h2 className="text-center text-3xl font-semibold md:text-5xl">
+          Reviewed By
+        </h2>
+        
       </section>
       <section className="container pt-20">
         <h2 className="text-center text-3xl font-semibold md:text-5xl">
