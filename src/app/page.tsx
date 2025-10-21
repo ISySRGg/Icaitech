@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   CircleChevronDown,
   FileText,
+  User,
 } from "lucide-react"
 import Markdown from "markdown-to-jsx"
 
@@ -354,36 +355,70 @@ export default function Page() {
       </section>
 
       <section className="mt-20 grid divide-y border-y border-sky-500 md:container md:grid-flow-col md:grid-cols-2 md:gap-8 md:border-0">
-        <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
+        <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:col-span-2 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
               <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
-                Total Submitted
-              </h3>
-              <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
-                <FileText className="size-6 text-sky-600" />
-              </div>
-            </div>
-            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
-            <p className="text-6xl font-bold text-black md:text-6xl">129</p>
-            <p className="text-sm text-gray-500">Papers received</p>
-          </div>
-        </div>
-        <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
-                Total Accepted
+                Total Paper Accepted
               </h3>
               <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
                 <CheckCircle2 className="size-6 text-sky-600" />
               </div>
             </div>
             <div className="hidden h-px w-full bg-gray-300 md:block"></div>
-            <p className="text-6xl font-bold text-black md:text-6xl">67</p>
-            <p className="text-sm text-gray-500">Papers approved</p>
+            <div className="flex items-end justify-between">
+              <div>
+                <p className="text-6xl font-bold text-black md:text-7xl">67</p>
+                <p className="text-sm text-gray-500">papers approved</p>
+              </div>
+              <div>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="link"
+                  className="h-auto px-0 text-base font-semibold text-sky-500"
+                >
+                  <Link href="/paper-accepted">
+                    View details <ArrowRightIcon />
+                  </Link>
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+                Total Submit
+              </h3>
+              <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
+                <FileText className="size-6 text-sky-600" />
+              </div>
+            </div>
+            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+
+            <div className="flex items-end justify-between">
+              <div>
+                <p className="text-6xl font-bold text-black md:text-7xl">129</p>
+                <p className="text-sm text-gray-500">papers received</p>
+              </div>
+              <div>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="link"
+                  className="h-auto px-0 text-base font-semibold text-sky-500"
+                >
+                  <Link href="#">
+                    View details <ArrowRightIcon />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -391,19 +426,34 @@ export default function Page() {
                 Total reviewers
               </h3>
               <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
-                <CheckCircle2 className="size-6 text-sky-600" />
+                <User className="size-6 text-sky-600" />
               </div>
             </div>
             <div className="hidden h-px w-full bg-gray-300 md:block"></div>
-            <p className="text-6xl font-bold text-black md:text-6xl">118</p>
-            <p className="text-sm text-gray-500">Reviewers</p>
+
+            <div className="flex items-end justify-between">
+              <div>
+                <p className="text-6xl font-bold text-black md:text-7xl">118</p>
+                <p className="text-sm text-gray-500">reviewers</p>
+              </div>
+              <div>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="link"
+                  className="h-auto px-0 text-base font-semibold text-sky-500"
+                >
+                  <Link href="#">
+                    View details <ArrowRightIcon />
+                  </Link>
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
 
         <PieChartInfo />
       </section>
-    
-
 
       <section className="pt-20 md:container">
         <div className="flex justify-end overflow-hidden bg-black bg-[url('/assets/ap.png')] bg-cover md:rounded-lg">
@@ -440,8 +490,6 @@ export default function Page() {
           Organized By
         </h2>
         <div className="mt-6 grid grid-cols-1 items-center justify-items-center overflow-hidden border-y md:grid-cols-3 md:rounded-lg md:border">
-       
-
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/logo-unsri.png"
@@ -452,8 +500,6 @@ export default function Page() {
             />
           </div>
 
-          
-          
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/IEEEIS.jpg"
@@ -464,7 +510,7 @@ export default function Page() {
             />
           </div>
 
-        <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/logo-aimed-01.jpg"
               alt=""
