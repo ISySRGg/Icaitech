@@ -353,7 +353,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mt-20 grid divide-y border-y md:container md:grid-flow-col md:grid-cols-2 md:gap-8 md:border-0">
+      <section className="mt-20 grid divide-y border-y border-sky-500 md:container md:grid-flow-col md:grid-cols-2 md:gap-8 md:border-0">
         {/* Total Submitted */}
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
