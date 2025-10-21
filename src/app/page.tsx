@@ -354,7 +354,6 @@ export default function Page() {
       </section>
 
       <section className="mt-20 grid divide-y border-y border-sky-500 md:container md:grid-flow-col md:grid-cols-2 md:gap-8 md:border-0">
-        {/* Total Submitted */}
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -366,12 +365,10 @@ export default function Page() {
               </div>
             </div>
             <div className="hidden h-px w-full bg-gray-300 md:block"></div>
-            <p className="text-6xl font-bold text-black md:text-6xl">0</p>
+            <p className="text-6xl font-bold text-black md:text-6xl">129</p>
             <p className="text-sm text-gray-500">Papers received</p>
           </div>
         </div>
-
-        {/* Total Accepted */}
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
@@ -383,13 +380,30 @@ export default function Page() {
               </div>
             </div>
             <div className="hidden h-px w-full bg-gray-300 md:block"></div>
-            <p className="text-6xl font-bold text-black md:text-6xl">0</p>
+            <p className="text-6xl font-bold text-black md:text-6xl">67</p>
             <p className="text-sm text-gray-500">Papers approved</p>
+          </div>
+        </div>
+        <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+                Total reviewers
+              </h3>
+              <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
+                <CheckCircle2 className="size-6 text-sky-600" />
+              </div>
+            </div>
+            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+            <p className="text-6xl font-bold text-black md:text-6xl">118</p>
+            <p className="text-sm text-gray-500">Reviewers</p>
           </div>
         </div>
 
         <PieChartInfo />
       </section>
+    
+
 
       <section className="pt-20 md:container">
         <div className="flex justify-end overflow-hidden bg-black bg-[url('/assets/ap.png')] bg-cover md:rounded-lg">

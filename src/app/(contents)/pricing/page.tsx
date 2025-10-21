@@ -67,11 +67,16 @@ export default function Page() {
               </li>
             </ul>
             <p className="italic">
-              Note: Please ensure we receive the full amount, ICAITECH
-              secretariat should receive the exact amount of registration fees.
-              If not, the participant has to pay the balance due at the
-              registration desk.
+              Note:
             </p>
+            <div className="italic">
+                <p>
+                  1. This <a href="/assets/Surat Permohonan Free APC.docx">document</a> is intended especially for lecturers and active undergraduate and postgraduate students of the Faculty of Computer Science, Universitas Sriwijaya. Please take a moment to fill it out.
+                </p>
+                <p>
+                  2. Please ensure we receive the full amount. The ICAITECH secretariat should receive the exact amount of registration fees. If not, the participant has to pay the balance due at the registration desk.
+                </p>
+              </div>
           </div>
         </div>
       </section>
