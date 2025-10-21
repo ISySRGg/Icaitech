@@ -489,7 +489,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="pt-20 md:container">
+      {/* <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">
           Reviewed By
         </h2>
@@ -855,7 +855,7 @@ export default function Page() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
         <iframe
