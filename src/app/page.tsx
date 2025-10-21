@@ -425,7 +425,9 @@ export default function Page() {
         <h2 className="text-center text-2xl font-bold md:text-3xl">
           Organized By
         </h2>
-        <div className="mt-6 grid grid-cols-1 items-center justify-items-center overflow-hidden border-y md:grid-cols-4 md:rounded-lg md:border">
+        <div className="mt-6 grid grid-cols-1 items-center justify-items-center overflow-hidden border-y md:grid-cols-3 md:rounded-lg md:border">
+       
+
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/logo-unsri.png"
@@ -436,6 +438,16 @@ export default function Page() {
             />
           </div>
 
+          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <Image
+              src="/assets/logo-aimed-01.jpg"
+              alt=""
+              width="200"
+              height="200"
+              className="h-full object-contain"
+            />
+          </div>
+          
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/IEEEIS.jpg"
@@ -458,6 +470,15 @@ export default function Page() {
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
               src="/assets/logo_comnets-black-01.png"
+              alt=""
+              width="200"
+              height="200"
+              className="h-full object-contain"
+            />
+          </div>
+          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <Image
+              src="/assets/logo-logo-icaitech-10.png"
               alt=""
               width="200"
               height="200"
