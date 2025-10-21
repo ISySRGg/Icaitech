@@ -438,19 +438,21 @@ export default function Page() {
             />
           </div>
 
+          
+          
           <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
-              src="/assets/logo-aimed-01.jpg"
+              src="/assets/IEEEIS.jpg"
               alt=""
               width="200"
               height="200"
               className="h-full object-contain"
             />
           </div>
-          
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+
+        <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
             <Image
-              src="/assets/IEEEIS.jpg"
+              src="/assets/logo-aimed-01.jpg"
               alt=""
               width="200"
               height="200"
