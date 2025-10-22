@@ -12,32 +12,53 @@ export default function Header() {
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/assets/unsri.svg"
+              src="/assets/dikbud.png"
               alt="icaitech"
-              height={80}
-              width={80}
-              className="h-10 md:h-12 w-fit"
+              height={100}
+              width={100}
+              className="h-4 md:h-7 w-fit"
+            />
+            <Image
+              src="/assets/WCU.png"
+              alt="icaitech"
+              height={200}
+              width={200}
+              className="h-4 md:h-8 w-fit"
+            />
+            <Image
+              src="/assets/berdampak.png"
+              alt="icaitech"
+              height={200}
+              width={200}
+              className="h-4 md:h-6 w-fit"
             />
              <Image
               src="/assets/rmh.png"
               alt="icaitech"
-              height={50}
-              width={50}
-              className="h-10 md:h-12 w-fit"
+              height={150}
+              width={150}
+              className="h-4 md:h-6 w-fit"
+            />
+             <Image
+              src="/assets/action.png"
+              alt="icaitech"
+              height={150}
+              width={150}
+              className="h-4 md:h-6 w-fit"
             />
             <Image
               src="/assets/logo fasilkom.png"
               alt="icaitech"
               height={80}
               width={80}
-              className="h-9 md:h-11 w-fit"
+              className="h-4 md:h-6 w-fit"
             />
             <Image
               src="/assets/ieee_white.png"
               alt="icaitech"
-              height={300}
-              width={300}
-              className="h-8 md:h-10 w-fit"
+              height={150}
+              width={150}
+              className="h-4 md:h-6 w-fit"
             />
             <div className="text-white">
               {/* <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p> */}
