@@ -74,7 +74,7 @@ export default function PieChartInfo() {
   return (
     <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 transition-all md:row-span-2 md:rounded-lg md:border md:p-8">
       <div className="space-y-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-4">
           <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
             Distribution of Papers by Trackname
           </h3>
@@ -93,6 +93,7 @@ export default function PieChartInfo() {
               dataKey="value"
               label={renderLabel}
               nameKey="name"
+              animationDuration={0}
             ></Pie>
             <ChartLegend
               content={<ChartLegendContent nameKey="name" />}
