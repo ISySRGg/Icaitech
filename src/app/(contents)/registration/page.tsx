@@ -21,7 +21,7 @@ export default function Page() {
               </h2>
               <p>
                 We’re excited to welcome you to our event. Please fill out the registration form to join as a Non-Presenter Participant according to your category — whether you are a Non Member (Early Bird or Normal) or an IEEE Member (Early Bird or Normal). 
-                Your participation is highly valued, and completing the <a href="https://bit.ly/icaitech2025-registration" target="_blank">Form</a> (Form submission needs to log in from a Google account) will confirm your spot at the event. 
+                Your participation is highly valued, and completing the <a href="https://bit.ly/NonPresenterParticipantICAITech" target="_blank">Form</a> (Form submission needs to log in from a Google account) will confirm your spot at the event. 
               </p>
 
           </article>
