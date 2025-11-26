@@ -3,6 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   mainNav: [
     { label: "Home", href: "/" },
+    { label: "Gallery", href: "/gallery" },
     { label: "About", href: "/#about" },
     { label: "Keynote Speakers", href: "/#keynote-speakers" },
     { label: "Scopes", href: "/scopes" },
@@ -34,6 +35,7 @@ export const siteConfig = {
     { label: "Committee", href: "/committee" },
     { label: "Contact", href: "/contact" },
   ],
-  submitlink:"https://edas.info/N32981",//ini untuk button submit
-  callForReviewerLink:"https://docs.google.com/forms/d/e/1FAIpQLSeuU6ue76n9xIQDamsXH09AKt6_iXQ-gbB5Sw1TFVNnDTpzQQ/viewform"
+  submitlink: "https://edas.info/N32981", //ini untuk button submit
+  callForReviewerLink:
+    "https://docs.google.com/forms/d/e/1FAIpQLSeuU6ue76n9xIQDamsXH09AKt6_iXQ-gbB5Sw1TFVNnDTpzQQ/viewform",
 }
