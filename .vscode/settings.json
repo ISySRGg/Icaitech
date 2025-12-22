@@ -4,5 +4,41 @@
   },
   "files.exclude": {
     "**/.git": false
-  }
+  },
+  "windowColor.mainColor": "#10e06a",
+  "window.title": "ICAITech",
+  "workbench.colorCustomizations": {
+    "statusBarItem.warningBackground": "#10e06a",
+    "statusBarItem.warningForeground": "#000000",
+    "statusBarItem.warningHoverBackground": "#10e06a",
+    "statusBarItem.warningHoverForeground": "#00000090",
+    "statusBarItem.remoteBackground": "#10e06a",
+    "statusBarItem.remoteForeground": "#000000",
+    "statusBarItem.remoteHoverBackground": "#10e06a",
+    "statusBarItem.remoteHoverForeground": "#00000090",
+    "focusBorder": "#10e06a99",
+    "progressBar.background": "#10e06a",
+    "textLink.foreground": "#50ffaa",
+    "textLink.activeForeground": "#5dffb7",
+    "selection.background": "#03d35d",
+    "list.highlightForeground": "#10e06a",
+    "list.focusAndSelectionOutline": "#10e06a99",
+    "button.background": "#10e06a",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#1ded77",
+    "tab.activeBorderTop": "#1ded77",
+    "pickerGroup.foreground": "#1ded77",
+    "list.activeSelectionBackground": "#10e06a4d",
+    "panelTitle.activeBorder": "#1ded77",
+    "activityBar.activeBorder": "#10e06a",
+    "activityBarBadge.foreground": "#000000",
+    "activityBarBadge.background": "#10e06a"
+  },
+  "windowColor.name": "ICAITech",
+  "windowColor.isActivityBarColored": false,
+  "windowColor.isTitleBarColored": false,
+  "windowColor.isStatusBarColored": false,
+  "windowColor.isWindowNameColored": true,
+  "windowColor.isActiveItemsColored": true,
+  "windowColor.setWindowTitle": true
 }

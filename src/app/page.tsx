@@ -495,14 +495,14 @@ export default function Page() {
         </div>
         <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
           {[
-            "DSC02740.webp",
             "DSC02885.webp",
             "DSC02900.webp",
             "DSC02913.webp",
             "DSC03047.webp",
             "DSC03065.webp",
-            "IMG_4555.webp",
-            "IMG_4568.webp",
+            "IMG_4612.webp",
+            "DSC03076.webp",
+            "IMG_4690.webp",
           ].map((image, index) => (
             <div
               key={index}
