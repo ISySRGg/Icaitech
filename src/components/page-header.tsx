@@ -1,4 +1,4 @@
-import Header from "./layout/header1"
+import Header from "./layout/header"
 
 interface Props {
   title: string
