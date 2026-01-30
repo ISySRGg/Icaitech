@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
-import Header from "@/components/layout/header1"
+import Header from "@/components/layout/header"
 import PieChartInfo from "@/components/pie-chart"
 
 import { importantDate } from "../../contents/important-date1"
