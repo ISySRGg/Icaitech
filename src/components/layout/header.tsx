@@ -8,6 +8,7 @@ import MobileNavigationToggle from "./mobile-navigation-toggle"
 
 const logos = [
   "/assets/dikbud.png",
+  "/assets/wcu-putih-01.png",
   "/assets/berdampak.png",
   "/assets/rmh.png",
   "/assets/action.png",
