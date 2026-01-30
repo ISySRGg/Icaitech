@@ -191,10 +191,10 @@ export default function Page() {
               <strong className="font-semibold text-black">conjunction</strong>{" "}
               with the{" "}
               <strong className="font-semibold text-black">
-                National Annual Research Seminar (ARS) 2025
+                National Annual Research Seminar (ARS) 2026
               </strong>
               , further enriching the academic exchange. Click here to submit
-              your works in ARS 2025.
+              your works in ARS 2026.
             </p>
             <Button
               asChild
@@ -203,7 +203,7 @@ export default function Page() {
               className="px-0 text-base font-semibold text-sky-500"
             >
               <Link href="https://seminar.ilkom.unsri.ac.id">
-                Submit to ARS 2025 <ArrowRightIcon />
+                Submit to ARS 2026 <ArrowRightIcon />
               </Link>
             </Button>
           </div>
