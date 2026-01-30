@@ -19,7 +19,7 @@ export default function Header() {
               className="h-4 md:h-7 w-fit"
             />
             <Image
-              src="/assets/WCU.png"
+              src="/assets/"
               alt="icaitech"
               height={200}
               width={200}
