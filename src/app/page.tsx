@@ -21,18 +21,46 @@ import { importantDate } from "../../contents/important-date1"
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center bg-black bg-[url('/assets/header2.jpg')] bg-cover">
+      {/* <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center bg-black bg-[url('/assets/header-mp4.mp4')] bg-cover">
+        <div className="absolute top-0 z-20 w-full">
+          <Header />
+        </div> */}
+      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center overflow-hidden bg-black">
+        {/* VIDEO BACKGROUND */}
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          src="/assets/header-mp4.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-white/20" />
+        
+        {/* <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" /> */}
+
+
+
+        {/* HEADER NAV */}
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
 
         <div className="z-10 container mt-[5rem] flex flex-col items-center">
+        
           <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
-          <div className="rounded-md bg-white/90 px-4 py-0.5 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
-            <p>November 20—21, 2025</p>
+          {/* <div className="rounded-md bg-white/90 px-4 py-0.5 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
+            <p>November 20—21, 2026</p>
+          </div> */}
+          <div className="animate-float rounded-md bg-white/90 px-4 py-1 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
+            <p>November 20—21, 2026</p>
           </div>
+
+
+
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and
             Technological Solutions For Good Health, Well-Being, Clean Water and
@@ -56,7 +84,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" />
+        {/* <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" /> */}
       </header>
       <section
         id="about"

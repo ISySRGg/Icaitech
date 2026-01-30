@@ -24,7 +24,7 @@ export default function Header() {
         <div className="header-inner">
           {/* BRAND */}
           <Link href="/" className="brand">
-            ICAITech
+            ICAITech 2026
           </Link>
 
           {/* DESKTOP NAV */}

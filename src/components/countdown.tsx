@@ -3,7 +3,7 @@
 import useCountdown from "@/lib/hooks/use-countdown"
 
 export default function Countdown() {
-  const { countdown } = useCountdown(new Date(2025, 10, 20))
+  const { countdown } = useCountdown(new Date(2026, 10, 20))
 
   return (
     <div className="grid w-full max-w-lg grid-cols-4 justify-items-stretch gap-2 text-white md:gap-10">
