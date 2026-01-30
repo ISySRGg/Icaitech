@@ -58,7 +58,7 @@ export default function Page() {
             <p>November 20—21, 2026</p>
           </div> */}
           <div className="animate-float rounded-md bg-white/90 px-4 py-1 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
-            <p>November 20—21, 2026</p>
+            <p>November, 2026</p>
           </div>
 
 
@@ -101,7 +101,7 @@ export default function Page() {
         <div className="grid grid-cols-3 overflow-hidden md:rounded-lg">
           <div className="relative h-80">
             <Image
-              src="/assets/earth.png"
+              src="/assets/innovation.jpg"
               alt=""
               width={150}
               height={150}
@@ -117,7 +117,7 @@ export default function Page() {
           </div>
           <div className="relative h-80">
             <Image
-              src="/assets/header2.jpeg"
+              src="/assets/water.jpeg"
               alt=""
               width={150}
               height={150}
