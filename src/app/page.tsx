@@ -117,7 +117,7 @@ export default function Page() {
           </div>
           <div className="relative h-80">
             <Image
-              src="/assets/water.jpeg"
+              src="/assets/header2.jpeg"
               alt=""
               width={150}
               height={150}
