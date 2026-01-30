@@ -36,7 +36,9 @@ export default function Page() {
           playsInline
         />
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-white/20" />
+        <div className="absolute inset-0 bg-white/10" />
+       
+
         
         {/* <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" /> */}
 
@@ -248,7 +250,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section
+      {/* <section
         id="ImportantDate"
         className="flex flex-col items-center gap-12 pt-20 md:container md:gap-16"
       >
@@ -311,9 +313,9 @@ export default function Page() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
-      <section
+      {/* <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
       >
@@ -380,7 +382,7 @@ export default function Page() {
             }}
           />
         </div>
-      </section>
+      </section> */}
 
       <section className="mt-20 grid divide-y border-y border-sky-500 md:container md:grid-flow-col md:grid-cols-2 md:gap-8 md:border-0">
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:col-span-2 md:rounded-lg md:border md:p-8">
@@ -628,373 +630,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* <section className="pt-20 md:container">
-        <h2 className="text-center text-2xl font-bold md:text-3xl">
-          Reviewed By
-        </h2>
-        <div className="mt-6 grid grid-cols-2 items-center justify-items-center overflow-hidden border-y md:grid-cols-4 md:rounded-lg md:border">
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Amazon Web Services_idS5TK0MYh_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Amazon_Logo_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/att_hz_lg_lkp_rgb_pos.jpg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Bank_of_America_logo.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Block-IOWA-GOLD-ffcd00.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Broadcom Inc._idEOPC1LWp_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Capgemini_ida9N-7Ufo_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/cdnlogo.com_acentra-health.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Colorado Technical University_id4dFBPwbR_0.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/EY_idh3Sg1g92_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/FractalAnalytics-new-logo.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Gamechanger Media LTD_idQIsKHX8t_1.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Gen Threat Labs_idQmjbvYHM_1.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/golden-bear-logo-2020.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Google_Logo_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/IBM_logo.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/id8W1MOUnH_logos.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/id9IbtqO_h_1760973492289.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idAvCJfgrX_1760974302971.jpeg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idJwpawiLf_1760975890052.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idLYzEiaC9_logos.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idmi4F8-rP_1760975281707.jpeg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idngHj1Zc__1760974008894.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/ids6bbseYL_1760975434193.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idVkuQzc2N_1760974640828.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/idXDcdLZAl_logos.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Intel_idF_neNFIz_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/llu_pref_rgb.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Meta_idlf4cVSsS_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/PANW_Parent_Brand_Primary_Logo_RGB.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Peli BioThermal_idabG6e_BF_1.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/PrimaryLogotype-1024x219.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Rialtic_id-swH41Mg_1.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Snap Inc._idn1N9ov70_0.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/ST_Engineering_Logo.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/TDA_Seal_masthead.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/ucm-acad-h.jpg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Vanguard.svg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Wilmington_univ_textlogo.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-24 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logos/Wordmark_stacked_Purple_Hex.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-        </div>
-      </section> */}
+     
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
         <iframe
