@@ -168,7 +168,7 @@ export default function Page() {
             <p className="text-base leading-relaxed text-gray-800 md:text-lg">
               The conference will take place on{" "}
               <strong className="font-semibold text-black">
-                November 20–21, 2025
+                November, 2026
               </strong>
               , at the{" "}
               <strong className="font-semibold text-black">
