@@ -7,16 +7,11 @@ import {
   FileText,
   User,
 } from "lucide-react"
-import Markdown from "markdown-to-jsx"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import PieChartInfo from "@/components/pie-chart"
-
-import { importantDate } from "../../contents/important-date1"
 
 export default function Page() {
   return (
@@ -37,12 +32,8 @@ export default function Page() {
         />
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-white/10" />
-       
 
-        
         {/* <div className="absolute bottom-0 h-full w-full bg-linear-to-t from-sky-900/90 to-green-900/60" /> */}
-
-
 
         {/* HEADER NAV */}
         <div className="absolute top-0 z-20 w-full">
@@ -50,7 +41,6 @@ export default function Page() {
         </div>
 
         <div className="z-10 container mt-[5rem] flex flex-col items-center">
-        
           <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
@@ -60,8 +50,6 @@ export default function Page() {
           <div className="animate-float rounded-md bg-white/90 px-4 py-1 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
             <p>November, 2026</p>
           </div>
-
-
 
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 1st International Conference on Artificial Intelligence and
@@ -630,7 +618,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-     
+
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
         <iframe
