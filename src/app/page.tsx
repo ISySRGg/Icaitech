@@ -60,7 +60,7 @@ export default function Page() {
           </div>
 
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
-            The 2st International Conference on Artificial Intelligence and
+            The 2nd International Conference on Artificial Intelligence and
             Technological Solutions For Good Health, Well-Being, Clean Water and
             Sanitation, Industry, Innovation and Infrastructure Management
             Towards Sustainable Development Goals 3, 6 and 9
