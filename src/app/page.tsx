@@ -44,15 +44,23 @@ export default function Page() {
           <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
-          {/* <div className="rounded-md bg-white/90 px-4 py-0.5 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
-            <p>November 20—21, 2026</p>
-          </div> */}
-          <div className="animate-float rounded-md bg-white/90 px-4 py-1 text-lg font-semibold text-black uppercase md:py-2 md:text-4xl">
+          <div className="animate-float rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
+            <p>In conjunction with</p>
+          </div>
+
+          {/* <p className="mt-1 text-center text-sm font-medium text-white md:text-lg">
+            The 14th Asean Workshop on Information Science and Technology 2026
+          </p> */}
+          <p className="mt-1 text-center text-lg font-medium text-white md:text-3xl">
+            The 14th Asean Workshop on Information Science and Technology 2026
+          </p>
+
+          <div className="animate-float mt-3 rounded-md bg-white/20 px-4 py-1 text-lg font-semibold text-white uppercase backdrop-blur-sm md:py-2 md:text-4xl">
             <p>November, 2026</p>
           </div>
 
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
-            The 1st International Conference on Artificial Intelligence and
+            The 2st International Conference on Artificial Intelligence and
             Technological Solutions For Good Health, Well-Being, Clean Water and
             Sanitation, Industry, Innovation and Infrastructure Management
             Towards Sustainable Development Goals 3, 6 and 9
@@ -60,6 +68,7 @@ export default function Page() {
           <div className="mt-10">
             <Countdown />
           </div>
+
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" variant="secondary">
               <Link href="https://edas.info/N32981">Register</Link>
