@@ -9,7 +9,7 @@ export default function Page() {
     <>
       <PageHeader title="Conference Tracks" crumbs={["For Author"]} />
       <section className="container mt-8 md:mt-16">
-        <p className="text-lg md:text-xl">Here are tracks for ICAITech 2025.</p>
+        <p className="text-lg md:text-xl">Here are tracks for ICAITech 2026.</p>
         <ul className="mt-8 grid gap-x-10 gap-y-8 md:mt-10 md:grid-cols-3 md:gap-y-16">
           {conferenceTracks.map((track: Track, i) => (
             <li key={i} className="flex flex-col">

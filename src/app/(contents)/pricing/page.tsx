@@ -51,9 +51,10 @@ export default function Page() {
           </h2>
           <div className="prose prose-li:marker:text-gray-500">
             <ul>
-              <li>
+              {/* tempat masukin no rekening */}
+              {/* <li>
                 Bank Account name: BRI 0342-01-002861-56-7 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
-              </li>
+              </li> */}
               <li>Bank Name: BRI PALEMBANG SRIWIJAYA</li>
               <li>Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan Ilir</li>
               <li>City: Palembang</li>

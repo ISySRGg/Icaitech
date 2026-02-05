@@ -12,6 +12,9 @@ import { Button } from "@/components/ui/button"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import PieChartInfo from "@/components/pie-chart"
+import { cn } from "@/lib/utils"
+
+
 
 export default function Page() {
   return (
@@ -62,8 +65,8 @@ export default function Page() {
           <p className="mt-4 max-w-prose text-center text-white md:text-xl">
             The 2nd International Conference on Artificial Intelligence and
             Technological Solutions For Good Health, Well-Being, Clean Water and
-            Sanitation, Industry, Innovation and Infrastructure Management
-            Towards Sustainable Development Goals 3, 6 and 9
+            Sanitation, Partnerships For The Goals Management
+            Towards Sustainable Development Goals 3, 6 and 17
           </p>
           <div className="mt-10">
             <Countdown />
@@ -71,7 +74,7 @@ export default function Page() {
 
           <div className="mt-10 flex gap-4">
             <Button asChild size="lg" variant="secondary">
-              <Link href="https://edas.info/N32981">Register</Link>
+              <Link href="https://edas.info/N34962">Register</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
               <Link href="/#ImportantDate">View Schedule</Link>
@@ -130,14 +133,14 @@ export default function Page() {
           </div>
           <div className="relative h-80">
             <Image
-              src="/assets/industri1.jpg"
+              src="/assets/jabat.jpg"
               alt=""
               width={150}
               height={150}
               className="size-full object-cover brightness-50"
             />
             <Image
-              src="/assets/sdg-9.png"
+              src="/assets/sdg-17.jpg"
               alt="SDG 9"
               width={150}
               height={150}
@@ -157,10 +160,10 @@ export default function Page() {
               , organized by the Faculty of Computer Science at Universitas
               Sriwijaya, Indonesia, aims to advance{" "}
               <strong className="font-semibold text-black">
-                Sustainable Development Goals (SDGs) 3, 6 and 9
+                Sustainable Development Goals (SDGs) 3, 6 and 17
               </strong>
               , focusing on Good Health, Well-Being, Clean Water and Sanitation,
-              Industry, Innovation and Infrastructure.
+              Partnerships For The Goals.
             </p>
             <p className="text-base leading-relaxed text-gray-800 md:text-lg">
               The conference will take place on{" "}
@@ -169,8 +172,7 @@ export default function Page() {
               </strong>
               , at the{" "}
               <strong className="font-semibold text-black">
-                Jaidan Jauhari Hall, Faculty of Computer Science, Universitas
-                Sriwijaya Palembang, Indonesia
+                The Excelton Hotel Palembang, Indonesia
               </strong>
               , and will be held in a{" "}
               <strong className="font-semibold text-black">
@@ -631,7 +633,8 @@ export default function Page() {
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127500.96976936757!2d104.6004016!3d-2.9849001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75ed9f44e9c5%3A0x30db735107f3611d!2sFasilkom%20Unsri%20Bukit%20Besar!5e0!3m2!1sen!2sid!4v1741258655078!5m2!1sen!2sid"
+          // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127500.96976936757!2d104.6004016!3d-2.9849001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75ed9f44e9c5%3A0x30db735107f3611d!2sFasilkom%20Unsri%20Bukit%20Besar!5e0!3m2!1sen!2sid!4v1741258655078!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4568081792786!2d104.72817007614384!3d-2.970662839789475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75bf5ff64fdd%3A0x8f753aff329a68c8!2sThe%20Excelton%20Hotel%20Palembang!5e0!3m2!1sen!2sid!4v1770294238226!5m2!1sen!2sid"
           height="400"
           style={{ border: 0 }}
           allowFullScreen

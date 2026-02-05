@@ -18,7 +18,7 @@ export default function PageHeader({ title, crumbs }: Props) {
         </h1>
 
         <p className="mt-2 text-sm md:text-base text-gray-700">
-          ICAITech 2025
+          ICAITech 2026
           {crumbs && crumbs.map((crumb, i) => (
             <span key={i}> / {crumb}</span>
           ))}

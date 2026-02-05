@@ -24,9 +24,10 @@ export default function Page() {
           </li>
           <li>
             <p className="text-sm md:text-base">Publication Chair</p>
-            <p className="text-lg font-semibold md:text-xl">
+            <p className="text-lg font-semibold whitespace-pre-line md:text-xl">
               {publicationChair}
             </p>
+            
           </li>
           <li>
             <p className="text-sm md:text-base">Finance Chair</p>
@@ -34,13 +35,13 @@ export default function Page() {
           </li>
           <li>
             <p className="text-sm md:text-base">Technical Chair</p>
-            <p className="text-lg font-semibold md:text-xl">{technicalChair}</p>
+            <p className="text-lg font-semibold whitespace-pre-line md:text-xl">{technicalChair}</p>
           </li>
         </ul>
       </section>
       <section className="container mt-8 md:mt-16">
         <h2 className="text-xl font-bold md:text-2xl">
-          Editorial Board Members
+          Steering Committee
         </h2>
         <ul className="mt-2 grid grid-cols-2 gap-x-4 gap-y-4 md:mt-6 md:gap-x-10">
           {editorialBoardMembers.map((member, i) => (

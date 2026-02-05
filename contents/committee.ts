@@ -2,11 +2,14 @@ import { Committee } from "@/types"
 
 export const conferenceChair = "Siti Nurmaini"
 
-export const publicationChair = "Firdaus"
+export const publicationChair =
+  "Annisa Darmawahyuni\nNaufal Rachmatullah";
+
 
 export const financeChair = "Rossi Passarella"
 
-export const technicalChair = "Sarifah Putri Raflesia"
+export const technicalChair = 
+  "Firdaus\nSarifah Putri Raflesia";
 
 export const editorialBoardMembers: Committee[] = [
   {
@@ -198,27 +201,27 @@ export const organizingComittee: Committee[] = [
 
 export const reviewers: Committee[] = [
   {
-    name: "Dr Renan Prasta Jenie, STP, MT",
+    name: "Renan Prasta Jenie",
     affiliation: "Binawan University",
   },
   {
-    name: "Prof. Dr.Ir. Mewati Ayub, M.T.",
+    name: "Mewati Ayub",
     affiliation: "Universitas Kristen Maranatha",
   },
   {
-    name: "Dr. Wiwin Suwarningsih, M.T.",
+    name: "Wiwin Suwarningsih",
     affiliation: "BRIN",
   },
   {
-    name: "Dr. Dany Eka Saputra, M.T.",
+    name: "Dany Eka Saputra",
     affiliation: "Bina Nusantara University",
   },
   {
-    name: "Dr. Dede Kurniadi, S.Kom.,M.Kom.",
+    name: "Dede Kurniadi",
     affiliation: "Institut Teknologi Garut",
   },
   {
-    name: "Dr. Adiyasa Nurfalah, M.T.",
+    name: "Adiyasa Nurfalah",
     affiliation: "Bandung Institute of Technology",
   },
   {
@@ -226,131 +229,131 @@ export const reviewers: Committee[] = [
     affiliation: "Universitas Pembangunan Nasional Veteran Jakarta",
   },
   {
-    name: "I Wayan Widi Pradnyana, S.Kom, MTI",
+    name: "I Wayan Widi Pradnyana",
     affiliation: "Universitas Pembangunan Nasional Veteran Jakarta",
   },
   {
-    name: "Dr. Heni Sulistiani, M.Kom.",
+    name: "Heni Sulistiani",
     affiliation: "Universitas Teknokrat Indonesia",
   },
   {
-    name: "Dr. Ir. Aradea, S.T., M.T.",
+    name: "Aradea",
     affiliation: "Universitas Siliwangi",
   },
   {
-    name: "Dr. Saluky, S.Si, M.Kom",
+    name: "Saluky",
     affiliation: "UIN Siber Syekh Nurjati Cirebon",
   },
   {
-    name: "Mindit Eriyadi, M.T",
+    name: "Mindit Eriyadi",
     affiliation: "Telkom University",
   },
   {
-    name: "Tio Dharmawan, S.Kom., M.Kom",
+    name: "Tio Dharmawan",
     affiliation: "Universitas Jember",
   },
   {
-    name: "Abram Setyo Prabowo, S.Kom.,M.Cs",
+    name: "Abram Setyo Prabowo",
     affiliation: "Universitas Bina Nusantara",
   },
   {
-    name: "Adhe Lingga Dewi, S.Si., M.Si",
+    name: "Adhe Lingga Dewi",
     affiliation: "Computer Science, School of Computer Science, Binus University, Jakarta, Indonesia",
   },
   {
-    name: "Adri Senen, ST., MT",
+    name: "Adri Senen",
     affiliation: "Institut Teknologi PLN",
   },
   {
-    name: "Imam Ahmad, M.Kom.",
+    name: "Imam Ahmad",
     affiliation: "Universitas Teknokrat Indonesia",
   },
   {
-    name: "Dr. Chaerur Rozikin., S. Kom., M. Kom",
+    name: "Chaerur Rozikin",
     affiliation: "Universitas singaperbangsa Karawang",
   },
   {
-    name: "Dr. Mariana Purba, M.Kom",
+    name: "Mariana Purba",
     affiliation: "Universitas Sjakhyakirti",
   },
   {
-    name: "Dr. (Cand) Zaenal Abidin, S.Si., S.Kom., M.T.",
+    name: "Zaenal Abidin",
     affiliation: "Universitas Teknokrat Indonesia",
   },
   {
-    name: "Aprianti Nanda Sari, S.T., M.Kom.",
+    name: "Aprianti Nanda Sari",
     affiliation: "Politeknik Negeri Bandung",
   },
   {
-    name: "Dr. Erliyan Redy Susanto, M.Kom",
+    name: "Erliyan Redy Susanto",
     affiliation: "Universitas Teknokrat Indonesia",
   },
   {
-    name: "Ridwan Setiawan, S.T., M.Kom., MTA., ITS",
+    name: "Ridwan Setiawan",
     affiliation: "Institut Teknologi Garut",
   },
   {
-    name: "Artika Arista, S.Kom, MMSI",
+    name: "Artika Arista",
     affiliation: "Universitas Pembangunan Nasional Veteran Jakarta/Universiti Malaya",
   },
   {
-    name: "Dr. Cand. Daniel Yeri Kristiyanto, S.Kom., M.Kom., M.Si",
+    name: "Daniel Yeri Kristiyanto",
     affiliation: "Telkom University",
   },
   {
-    name: "Ucta Pradema Sanjaya M.Kom",
+    name: "Ucta Pradema Sanjaya",
     affiliation: "Universitas Ngudi Waluyo",
   },
   {
-    name: "Welan Mauli Angguna, S.Psi., M.Si",
+    name: "Welan Mauli Angguna",
     affiliation: "Politeknik Negeri Sriwijaya",
   },
   {
-    name: "Ernando Rizki Dalimunthe, S.T.,M.T.",
+    name: "Ernando Rizki Dalimunthe",
     affiliation: "Universitas Teknokrat Indonesia",
   },
   {
-    name: "Astika Ulfah Izzati, S.T., M.A.B",
+    name: "Astika Ulfah Izzati",
     affiliation: "Politeknik negeri Sriwijaya",
   },
   {
-    name: "Dr. Radiant Victor Imbar. S.Kom., M.T.",
+    name: "Radiant Victor Imbar",
     affiliation: "Maranatha Christian University",
   },
   {
-    name: "Ir. Samsurizal, ST., MT., IPM",
+    name: "Samsurizal",
     affiliation: "Institut Teknologi PLN",
   },
   {
-    name: "Retnani Latifah, S.Kom., M.Kom",
+    name: "Retnani Latifah",
     affiliation: "Universitas Muhammadiyah Jakarta",
   },
   {
-    name: "Wina Permana Sari, S.T., M.Kom.",
+    name: "Wina Permana Sari",
     affiliation: "Binus",
   },
   {
-    name: "Dr. Handrie Noprisson, ST., M.Kom",
+    name: "Handrie Noprisson",
     affiliation: "Universitas Dian Nusantara Jakarta",
   },
   {
-    name: "Ni Putu Linda Santiari, S.Kom., M.Kom.",
+    name: "Ni Putu Linda Santiari",
     affiliation: "Institut Teknologi dan Bisnis STIKOM Bali",
   },
   {
-    name: "Andreas Widjaja, S.Si., M.Sc., Ph.D., MCE.",
+    name: "Andreas Widjaja",
     affiliation: "Universitas Kristen Maranatha",
   },
   {
-    name: "Dr Puji Rahayu, M.Kom",
+    name: "Puji Rahayu",
     affiliation: "UMB",
   },
   {
-    name: "Andhika Octa Indarso, S.Kom., M.MSI",
+    name: "Andhika Octa Indarso",
     affiliation: "UPN Veteran Jakarta",
   },
   {
-    name: "Sai Kalyan Reddy Pentaparthi, MS",
+    name: "Sai Kalyan Reddy Pentaparthi",
     affiliation: "ST Engineering iDirect Inc, USA",
   },
   {
@@ -382,7 +385,7 @@ export const reviewers: Committee[] = [
     affiliation: "Amazon Web Servcies(AWS)",
   },
   {
-    name: "Kiran Kumar Lekkala, M.C.A., B.Sc. (Computer Science)",
+    name: "Kiran Kumar Lekkala",
     affiliation: "Puget Sound Energy",
   },
   {
@@ -406,15 +409,15 @@ export const reviewers: Committee[] = [
     affiliation: "Intra-Cellular Therapies, Inc",
   },
   {
-    name: "I Komang Ari Mogi, S.Kom., M.Kom.",
+    name: "I Komang Ari Mogi",
     affiliation: "Universitas Udayana",
   },
   {
-    name: "Hastie Audytra, S.Kom., M.T.",
+    name: "Hastie Audytra",
     affiliation: "Universitas Nahdlatul Ulama Sunan Giri",
   },
   {
-    name: "Nirma Ceisa Santi,M.Kom",
+    name: "Nirma Ceisa Santi",
     affiliation: "Universitas Nahdlatul Ulama Sunan Giri Bojonegoro",
   },
   {
@@ -430,7 +433,7 @@ export const reviewers: Committee[] = [
     affiliation: "Wilmington University, Delaware, USA",
   },
   {
-    name: "Yovi Pratama, S.Kom, MT",
+    name: "Yovi Pratama",
     affiliation: "University Teknologi Malaysia",
   },
   {
@@ -446,7 +449,7 @@ export const reviewers: Committee[] = [
     affiliation: "Amazon Web Services",
   },
   {
-    name: "Dr. Ankita Saxena, Sr. Product Manager",
+    name: "Ankita Saxena, Sr. Product Manager",
     affiliation: "Amazon",
   },
   {

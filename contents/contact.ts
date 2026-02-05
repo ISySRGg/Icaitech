@@ -9,22 +9,22 @@ export const contacts: Contact[] = [
   {
     name: "Akhiar Wista Arum",
     contact: {
-      email: "wistaarum16@gmail.com",
-      whatsapp: "+62 822 2323 3033",
+      email: "akhiarwistaarum@unsri.ac.id",
+      whatsapp: "+6282223233033",
     },
   },
-  // {
-  //   name: "Ade Sapitri",
-  //   contact: {
-  //     email: "adeirianisapitri13@gmail.com",
-  //     whatsapp: "+62 812 2414 7003",
-  //   },
-  // },
+  {
+    name: "Ghita Athalina",
+    contact: {
+      email: "ghitaathalina@unsri.ac.id",
+      whatsapp: "+6281291511203",
+    },
+  },
   {
     name: "Anggun Islami",
     contact: {
-      email: "anggunislami2@gmail.com",
-      whatsapp: "+62 812 7102 2952",
+      email: "anggunislami@unsri.ac.id",
+      whatsapp: "+6281271022952",
     },
   },
 ]

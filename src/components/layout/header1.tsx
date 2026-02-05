@@ -61,7 +61,7 @@ export default function Header() {
               className="h-4 md:h-6 w-fit"
             />
             <div className="text-white">
-              {/* <p className="text-lg font-semibold md:text-xl">ICAITech 2025</p> */}
+              {/* <p className="text-lg font-semibold md:text-xl"></p> */}
               {/* <p className="text-xs">
                 International Conference on Artificial Intelligence Technology
               </p> */}
