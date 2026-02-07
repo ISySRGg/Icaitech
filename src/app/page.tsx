@@ -37,22 +37,21 @@ export default function Page() {
           <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
             ICAITech
           </h1>
-          <div className="animate-float rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
-            <p>In conjunction with</p>
-          </div>
-          <p className="mt-1 text-center text-lg font-medium text-white md:text-3xl">
-            The 14th Asean Workshop on Information Science and
-            Technology (AWIST) 2026
-          </p>
-
           <div className="animate-float mt-3 rounded-md bg-white/20 px-4 py-1 text-lg font-semibold text-white uppercase backdrop-blur-sm md:py-2 md:text-4xl">
-            <p>November, 2026</p>
+            <p>November 17-18, 2026</p>
           </div>
 
-          <p className="mt-4 max-w-prose text-center text-white md:text-xl">
+          <p className="mt-4 max-w-prose text-center text-white md:text-2xl">
             The 2nd International Conference on Artificial Intelligence and
             Technological Solutions For Good Health, Well-Being, Clean Water and
             Sanitation, Partnerships For The Goals.
+          </p>
+          <div className="mt-3 animate-float rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
+            <p>In conjunction with</p>
+          </div>
+          <p className="mt-1 text-center text-lg font-medium text-white md:text-2xl">
+            The 14th (AWIST) Asean Workshop on Information Science and
+            Technology 2026
           </p>
           <div className="mt-10">
             <Countdown />
