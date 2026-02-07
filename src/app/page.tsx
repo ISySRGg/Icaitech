@@ -41,8 +41,8 @@ export default function Page() {
             <p>In conjunction with</p>
           </div>
           <p className="mt-1 text-center text-lg font-medium text-white md:text-3xl">
-            The 14th (AWIST) Asean Workshop on Information Science and
-            Technology 2026
+            The 14th Asean Workshop on Information Science and
+            Technology (AWIST) 2026
           </p>
 
           <div className="animate-float mt-3 rounded-md bg-white/20 px-4 py-1 text-lg font-semibold text-white uppercase backdrop-blur-sm md:py-2 md:text-4xl">
@@ -201,8 +201,8 @@ export default function Page() {
                 </strong>{" "}
                 with the{" "}
                 <strong className="font-semibold text-black">
-                  14th (AWIST) Asean Workshop on Information Science and
-                  Technology 2026
+                  14th Asean Workshop on Information Science and
+                  Technology (AWIST) 2026
                 </strong>
                 , further enriching the academic exchange.
               </p>
