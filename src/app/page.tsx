@@ -1,19 +1,15 @@
 import Image from "next/image"
 import Link from "next/link"
-import {
-  ArrowRightIcon,
-  CheckCircle2,
-  CircleChevronDown,
-  FileText,
-  User,
-} from "lucide-react"
-import Markdown from "react-markdown"
+import { ArrowRightIcon, CircleChevronDown } from "lucide-react"
+import Markdown from "markdown-to-jsx"
 
+import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
-import PieChartInfo from "@/components/pie-chart"
+
+import { importantDate } from "../../contents/important-date"
 
 // import { importantDate } from "../../contents/important-date1"
 
@@ -304,7 +300,7 @@ export default function Page() {
           {/* Kolom 3 */}
           <div className="flex flex-col items-center gap-2 rounded-xl bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
             <Link
-            // https://ieeexplore.ieee.org/Xplore/home.jsp
+              // https://ieeexplore.ieee.org/Xplore/home.jsp
               href=""
               className="text-lg font-semibold text-sky-600 hover:text-sky-800 hover:underline"
             >
@@ -315,7 +311,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* <section
+      <section
         id="ImportantDate"
         className="flex flex-col items-center gap-12 pt-20 md:container md:gap-16"
       >
@@ -378,9 +374,9 @@ export default function Page() {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
 
-       {/* Keynote-speakers */}
+      {/* Keynote-speakers */}
       <section
         id="keynote-speakers"
         className="container flex flex-col items-center pt-20"
@@ -404,13 +400,13 @@ export default function Page() {
             cast={{
               name: "Van-Nam, Huynh",
               title: "To be Confirmed",
-              description:
-                "Computer Science dari JAIST Japan",
+              description: "Computer Science dari JAIST Japan",
               image: {
                 src: "/assets/cast11.png",
                 alt: "",
               },
-              linkedIn: "https://www.linkedin.com/in/van-nam-huynh-3589b9a/?originalSubdomain=jp",
+              linkedIn:
+                "https://www.linkedin.com/in/van-nam-huynh-3589b9a/?originalSubdomain=jp",
               scopus:
                 "https://www.scopus.com/authid/detail.uri?authorId=7003274638",
             }}
@@ -425,8 +421,7 @@ export default function Page() {
                 src: "/assets/cast4.png",
                 alt: "",
               },
-              linkedIn:
-                "",
+              linkedIn: "",
               scopus:
                 "https://www.scopus.com/authid/detail.uri?authorId=37010354600",
             }}

@@ -9,14 +9,10 @@ import {
 } from "lucide-react"
 import Markdown from "markdown-to-jsx"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
-import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header2025"
 import PieChartInfo from "@/components/pie-chart"
-
-import { importantDate } from "../../contents/important-date1"
 
 export default function Page() {
   return (
@@ -594,7 +590,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      
+
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
         <iframe
