@@ -12,7 +12,7 @@ export const siteConfig = {
       children: [
         {
           label: "Important Date",
-          href: "/#ImportantDate",
+          href: "/ImportantDate",
         },
         {
           label: "Conference Tracks",

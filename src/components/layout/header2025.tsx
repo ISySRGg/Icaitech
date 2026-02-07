@@ -18,13 +18,7 @@ export default function Header() {
               width={100}
               className="h-4 md:h-7 w-fit"
             />
-            <Image
-              src="/assets/"
-              alt="icaitech"
-              height={200}
-              width={200}
-              className="h-4 md:h-8 w-fit"
-            />
+            
             <Image
               src="/assets/berdampak.png"
               alt="icaitech"
