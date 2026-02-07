@@ -418,7 +418,7 @@ export default function Page() {
               description:
                 "Duke-NUS Medical School and an Adjunct Clinical Associate Professor and an Innovation Mentor at Stanford University.",
               image: {
-                src: "/assets/Daniel-Ting.png",
+                src: "/assets/DT.png",
                 alt: "",
               },
               linkedIn: "",
@@ -433,7 +433,7 @@ export default function Page() {
               description:
                 "University of Maryland Baltimore County, USA",
               image: {
-                src: "/assets/bat.jpg",
+                src: "/assets/bat.jpeg",
                 alt: "",
               },
               linkedIn:
