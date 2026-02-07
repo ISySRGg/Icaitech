@@ -15,7 +15,7 @@ import Countdown from "@/components/countdown"
 import Header from "@/components/layout/header"
 import PieChartInfo from "@/components/pie-chart"
 
-// import { importantDate } from "../../contents/important-date1"
+
 
 export default function Page() {
   return (
