@@ -1,35 +1,42 @@
 import { Agenda } from "@/types"
-
-
+import { Bell, Bird, Camera, FileText, MicVocal, PencilLine } from "lucide-react"
 
 export const importantDate: Agenda[] = [
   {
-    name: "Start Date",
-    date: "17 November 2026",
-  },
-  {
-    name: "End Date",
-    date: "18 November 2026",
-  },
-  {
-    name: "Call for Paper",
+    name: "Call For Paper",
     date: "20 May 2026",
-  },
-  {
-    name: "Submission Deadline",
-    date: "30 September 2026",
+    icon: PencilLine,
+    // icon: "📝",
   },
   {
     name: "Acceptance Notification",
-    date: "15 September 2026",
+    date: "30 October 2026",
+    icon: Bell,
+    // icon: "✅",
+  },
+  {
+    name: "Submission Due",
+    date: "12 September 2026",
+    icon: FileText,
+    // icon: "📄",
   },
   {
     name: "Early Bird Registration Due",
-    date: "6 November 2026",
+    date: "25 October 2026",
+    icon: Bird,
+    // icon: "🐦",
   },
   {
     name: "Camera Ready Due",
-    date: "31 October 2026",
+    date: "05 November 2026",
+    icon: Camera,
+    // icon: "📸",
   },
-  
+  {
+    name: "Conference",
+    date: "20—21 November 2026",
+    icon: MicVocal,
+    // icon: "🎤",
+  },
+
 ]

@@ -402,7 +402,7 @@ export default function Page() {
               title: "To be Confirmed",
               description: "Computer Science dari JAIST Japan",
               image: {
-                src: "/assets/cast11.png",
+                src: "/assets/huynh.jpg",
                 alt: "",
               },
               linkedIn:
@@ -416,9 +416,9 @@ export default function Page() {
               name: "Daniel Ting Shu Wei",
               title: "To be Confirmed",
               description:
-                "Mathematical Environmental Sciences, Social Systems Engineering.",
+                "Duke-NUS Medical School and an Adjunct Clinical Associate Professor and an Innovation Mentor at Stanford University.",
               image: {
-                src: "/assets/cast4.png",
+                src: "/assets/Daniel-Ting.png",
                 alt: "",
               },
               linkedIn: "",
@@ -431,13 +431,13 @@ export default function Page() {
               name: "Bayu Adhi Tama",
               title: "Confirmed",
               description:
-                "Internet of Things, Business Process Management, Process Aware Information Systems, Knowledge Engineering, Smart Grids",
+                "University of Maryland Baltimore County, USA",
               image: {
-                src: "/assets/cast3.png",
+                src: "/assets/bat.jpg",
                 alt: "",
               },
               linkedIn:
-                "https://www.its.ac.id/informatika/id/profil-riyanarto-sarno/",
+                "",
               scopus:
                 "https://www.scopus.com/authid/detail.uri?authorId=55847313400",
             }}
