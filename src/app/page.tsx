@@ -11,8 +11,6 @@ import Header from "@/components/layout/header"
 
 import { importantDate } from "../../contents/important-date"
 
-
-
 export default function Page() {
   return (
     <>
@@ -46,7 +44,19 @@ export default function Page() {
             Technological Solutions For Good Health, Well-Being, Clean Water and
             Sanitation, Partnerships For The Goals.
           </p>
-          <div className="mt-3 animate-float rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
+          <div className="animate-float mt-6">
+            <div className="relative mx-auto max-w-fit overflow-hidden rounded-xl border border-white/20 bg-gradient-to-r from-sky-500/20 via-teal-400/10 to-emerald-500/20 px-6 py-3 text-center shadow-lg backdrop-blur-md">
+              <p className="text-sm font-semibold whitespace-nowrap text-white md:text-xl">
+                <span className="opacity-70">Theme:</span>{" "}
+                <span className="bg-gradient-to-r from-sky-300 via-teal-200 to-emerald-300 bg-clip-text font-bold text-transparent">
+                  Artificial Intelligence-Driven Innovations and Partnerships
+                  for Health, Clean Water, and Sustainable Development
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="animate-float mt-3 rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
             <p>In conjunction with</p>
           </div>
           <p className="mt-1 text-center text-lg font-medium text-white md:text-2xl">
@@ -200,8 +210,8 @@ export default function Page() {
                 </strong>{" "}
                 with the{" "}
                 <strong className="font-semibold text-black">
-                  14th Asean Workshop on Information Science and
-                  Technology (AWIST) 2026
+                  14th Asean Workshop on Information Science and Technology
+                  (AWIST) 2026
                 </strong>
                 , further enriching the academic exchange.
               </p>
@@ -429,14 +439,12 @@ export default function Page() {
             cast={{
               name: "Bayu Adhi Tama",
               title: "Confirmed",
-              description:
-                "University of Maryland Baltimore County, USA",
+              description: "University of Maryland Baltimore County, USA",
               image: {
                 src: "/assets/bat.jpeg",
                 alt: "",
               },
-              linkedIn:
-                "",
+              linkedIn: "",
               scopus:
                 "https://www.scopus.com/authid/detail.uri?authorId=55847313400",
             }}
