@@ -11,9 +11,10 @@ const logos = [
   "/assets/wcu-putih-01.png",
   "/assets/berdampak.png",
   "/assets/rmh.png",
-  "/assets/action.png",
+  "/assets/thesir.jpg",
   "/assets/logo fasilkom.png",
   "/assets/ieee_white.png",
+  "/assets/EQUITY.png",
 ]
 
 export default function Header() {

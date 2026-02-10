@@ -97,203 +97,208 @@ export default function Page() {
             </Button>
           </div>
 
-          <Link href="#about" className="mt-16 animate-bounce">
+          {/* <Link href="#about" className="mt-16 animate-bounce">
             <CircleChevronDown size={42} className="text-white/80" />
-          </Link>
+          </Link> */}
         </div>
       </header>
 
-      <section
+      {/* <section
         id="about"
         className="flex flex-col gap-0 md:container md:gap-10 md:pt-20"
-      >
-        <div className="grid grid-cols-3 overflow-hidden md:rounded-lg">
-          <div className="relative h-80">
-            <Image
-              src="/assets/innovation.jpg"
-              alt=""
-              width={150}
-              height={150}
-              className="size-full object-cover brightness-50"
-            />
-            <Image
-              src="/assets/sdg-3.png"
-              alt="SDG 3"
-              width={150}
-              height={150}
-              className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
-            />
+      > */}
+      <section id="about" className="pt-10">
+        <div className="mx-auto flex max-w-7xl flex-col gap-20">
+          {/* isi konten about di sini */}
+          <div className="grid grid-cols-3 overflow-hidden md:rounded-lg">
+            <div className="relative h-80">
+              <Image
+                src="/assets/innovation.jpg"
+                alt=""
+                width={150}
+                height={150}
+                className="size-full object-cover brightness-50"
+              />
+              <Image
+                src="/assets/sdg-3.png"
+                alt="SDG 3"
+                width={150}
+                height={150}
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+              />
+            </div>
+            <div className="relative h-80">
+              <Image
+                src="/assets/water.jpeg"
+                alt=""
+                width={150}
+                height={150}
+                className="size-full object-cover brightness-50"
+              />
+              <Image
+                src="/assets/sdg-6.png"
+                alt="SDG 6"
+                width={150}
+                height={150}
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+              />
+            </div>
+            <div className="relative h-80">
+              <Image
+                src="/assets/jabat.jpg"
+                alt=""
+                width={150}
+                height={150}
+                className="size-full object-cover brightness-50"
+              />
+              <Image
+                src="/assets/sdg-17.jpg"
+                alt="SDG 9"
+                width={150}
+                height={150}
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+              />
+            </div>
           </div>
-          <div className="relative h-80">
-            <Image
-              src="/assets/water.jpeg"
-              alt=""
-              width={150}
-              height={150}
-              className="size-full object-cover brightness-50"
-            />
-            <Image
-              src="/assets/sdg-6.png"
-              alt="SDG 6"
-              width={150}
-              height={150}
-              className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
-            />
-          </div>
-          <div className="relative h-80">
-            <Image
-              src="/assets/jabat.jpg"
-              alt=""
-              width={150}
-              height={150}
-              className="size-full object-cover brightness-50"
-            />
-            <Image
-              src="/assets/sdg-17.jpg"
-              alt="SDG 9"
-              width={150}
-              height={150}
-              className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
-            />
-          </div>
-        </div>
-        {/* Main Content */}
-        <div className="bg-gray-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
-          <div className="max-w-4xl space-y-6">
-            <p className="text-xl leading-relaxed text-gray-800 md:text-3xl">
-              The{" "}
-              <strong className="font-semibold text-black">
-                International Conference on Artificial Intelligence and
-                Technological Solutions (ICAITech)
-              </strong>
-              , organized by the Faculty of Computer Science at Universitas
-              Sriwijaya, Indonesia, aims to advance{" "}
-              <strong className="font-semibold text-black">
-                Sustainable Development Goals (SDGs) 3, 6 and 17
-              </strong>
-              , focusing on Good Health, Well-Being, Clean Water and Sanitation,
-              Partnerships For The Goals.
-            </p>
-            <p className="text-base leading-relaxed text-gray-800 md:text-lg">
-              The conference will take place on{" "}
-              <strong className="font-semibold text-black">
-                November, 2026
-              </strong>
-              , at the{" "}
-              <strong className="font-semibold text-black">
-                The Excelton Hotel Palembang, Indonesia
-              </strong>
-              , and will be held in a{" "}
-              <strong className="font-semibold text-black">
-                hybrid format
-              </strong>
-              , offering both in-person and virtual participation.
-            </p>
-          </div>
-        </div>
-
-        {/* Conjunction Section */}
-        <div className="grid gap-6 md:grid-cols-2">
-          {/* Box Kiri */}
-          <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
-            <div className="space-y-6">
-              <p className="text-base leading-relaxed text-gray-700">
-                The event will be held in{" "}
+          {/* Main Content */}
+          <div className="bg-gray-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
+            <div className="max-w-full space-y-6">
+              <p className="text-xl leading-relaxed text-gray-800 md:text-3xl">
+                The{" "}
                 <strong className="font-semibold text-black">
-                  conjunction
-                </strong>{" "}
-                with the{" "}
-                <strong className="font-semibold text-black">
-                  National Annual Research Seminar (ARS) 2026
+                  International Conference on Artificial Intelligence and
+                  Technological Solutions (ICAITech)
                 </strong>
-                , further enriching the academic exchange.
-              </p>
-
-              <Button
-                asChild
-                size="lg"
-                variant="link"
-                className="px-0 text-base font-semibold text-sky-500"
-              >
-                <Link href="https://seminar.ilkom.unsri.ac.id">
-                  Submit to ARS 2026 <ArrowRightIcon />
-                </Link>
-              </Button>
-            </div>
-          </div>
-
-          {/* Box Kanan */}
-          <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
-            <div className="space-y-6">
-              <p className="text-base leading-relaxed text-gray-700">
-                The event will be held in{" "}
+                , organized by the Faculty of Computer Science at Universitas
+                Sriwijaya, Indonesia, aims to advance{" "}
                 <strong className="font-semibold text-black">
-                  conjunction
-                </strong>{" "}
-                with the{" "}
-                <strong className="font-semibold text-black">
-                  14th Asean Workshop on Information Science and Technology
-                  (AWIST) 2026
+                  Sustainable Development Goals (SDGs) 3, 6 and 17
                 </strong>
-                , further enriching the academic exchange.
+                , focusing on Good Health, Well-Being, Clean Water and
+                Sanitation, Partnerships For The Goals.
               </p>
-
-              <Button
-                asChild
-                size="lg"
-                variant="link"
-                className="px-0 text-base font-semibold text-sky-500"
-              >
-                <Link href="https://seminar.ilkom.unsri.ac.id">
-                  Submit to AWIST 2026 <ArrowRightIcon />
-                </Link>
-              </Button>
+              <p className="text-base leading-relaxed text-gray-800 md:text-lg">
+                The conference will take place on{" "}
+                <strong className="font-semibold text-black">
+                  November, 2026
+                </strong>
+                , at the{" "}
+                <strong className="font-semibold text-black">
+                  The Excelton Hotel Palembang, Indonesia
+                </strong>
+                , and will be held in a{" "}
+                <strong className="font-semibold text-black">
+                  hybrid format
+                </strong>
+                , offering both in-person and virtual participation.
+              </p>
             </div>
           </div>
-        </div>
 
-        {/* Feature Sections */}
-        <div className="grid divide-x overflow-hidden border md:grid-cols-2 md:rounded-lg">
-          {/* Global Platform */}
-          <div className="space-y-4 bg-white p-8 md:p-10">
-            <div className="space-y-2">
-              <div className="h-1 w-16 bg-sky-500"></div>
-              <h3 className="text-xl font-semibold text-black">
-                Global Platform
-              </h3>
+          {/* Conjunction Section */}
+          <div className="grid gap-6 md:grid-cols-2">
+            {/* Box Kiri */}
+            <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
+              <div className="space-y-6">
+                <p className="text-base leading-relaxed text-gray-700">
+                  The event will be held in{" "}
+                  <strong className="font-semibold text-black">
+                    conjunction
+                  </strong>{" "}
+                  with the{" "}
+                  <strong className="font-semibold text-black">
+                    National Annual Research Seminar (ARS) 2026
+                  </strong>
+                  , further enriching the academic exchange.
+                </p>
+
+                <Button
+                  asChild
+                  size="lg"
+                  variant="link"
+                  className="px-0 text-base font-semibold text-sky-500"
+                >
+                  <Link href="https://seminar.ilkom.unsri.ac.id">
+                    Submit to ARS 2026 <ArrowRightIcon />
+                  </Link>
+                </Button>
+              </div>
             </div>
-            <p className="leading-relaxed text-gray-700">
-              The event will serve as a global platform for researchers,
-              practitioners, and policymakers to discuss the role of artificial
-              intelligence and related technologies in improving health outcomes
-              and water management practices. Participants will explore how AI
-              can contribute to achieving the UN&apos;s SDG 3 (Good Health and
-              Well-Being) SDG 6 (Clean Water and Sanitation) and SDG 17
-              (Partnerships For The Goals).
-            </p>
+
+            {/* Box Kanan */}
+            <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
+              <div className="space-y-6">
+                <p className="text-base leading-relaxed text-gray-700">
+                  The event will be held in{" "}
+                  <strong className="font-semibold text-black">
+                    conjunction
+                  </strong>{" "}
+                  with the{" "}
+                  <strong className="font-semibold text-black">
+                    14th Asean Workshop on Information Science and Technology
+                    (AWIST) 2026
+                  </strong>
+                  , further enriching the academic exchange.
+                </p>
+
+                <Button
+                  asChild
+                  size="lg"
+                  variant="link"
+                  className="px-0 text-base font-semibold text-sky-500"
+                >
+                  <Link href="https://seminar.ilkom.unsri.ac.id">
+                    Submit to AWIST 2026 <ArrowRightIcon />
+                  </Link>
+                </Button>
+              </div>
+            </div>
           </div>
 
-          {/* Key Topics */}
-          <div className="space-y-4 bg-white p-8 md:p-10">
-            <div className="space-y-2">
-              <div className="h-1 w-16 bg-sky-500"></div>
-              <h3 className="text-xl font-semibold text-black">Key Topics</h3>
+          {/* Feature Sections */}
+          <div className="grid divide-x overflow-hidden border md:grid-cols-2 md:rounded-lg">
+            {/* Global Platform */}
+            <div className="space-y-4 bg-white p-8 md:p-10">
+              <div className="space-y-2">
+                <div className="h-1 w-16 bg-sky-500"></div>
+                <h3 className="text-xl font-semibold text-black">
+                  Global Platform
+                </h3>
+              </div>
+              <p className="leading-relaxed text-gray-700">
+                The event will serve as a global platform for researchers,
+                practitioners, and policymakers to discuss the role of
+                artificial intelligence and related technologies in improving
+                health outcomes and water management practices. Participants
+                will explore how AI can contribute to achieving the UN&apos;s
+                SDG 3 (Good Health and Well-Being) SDG 6 (Clean Water and
+                Sanitation) and SDG 17 (Partnerships For The Goals).
+              </p>
             </div>
-            <p className="leading-relaxed text-gray-700">
-              Key topics include{" "}
-              <strong className="font-semibold text-black">
-                AI in healthcare, predictive analytics for disease prevention,
-                AI-driven solutions for water purification and distribution, and
-                sustainable technological innovations
-              </strong>
-              . The conference will feature keynote speeches, panel discussions,
-              and presentations of cutting-edge research, offering valuable
-              networking opportunities for professionals committed to leveraging
-              AI for societal benefit.
-            </p>
+
+            {/* Key Topics */}
+            <div className="space-y-4 bg-white p-8 md:p-10">
+              <div className="space-y-2">
+                <div className="h-1 w-16 bg-sky-500"></div>
+                <h3 className="text-xl font-semibold text-black">Key Topics</h3>
+              </div>
+              <p className="leading-relaxed text-gray-700">
+                Key topics include{" "}
+                <strong className="font-semibold text-black">
+                  AI in healthcare, predictive analytics for disease prevention,
+                  AI-driven solutions for water purification and distribution,
+                  and sustainable technological innovations
+                </strong>
+                . The conference will feature keynote speeches, panel
+                discussions, and presentations of cutting-edge research,
+                offering valuable networking opportunities for professionals
+                committed to leveraging AI for societal benefit.
+              </p>
+            </div>
           </div>
         </div>
       </section>
+      {/* </section> */}
 
       {/* Previous ICAITech */}
       <section className="container mx-auto px-4 py-12">
@@ -433,7 +438,7 @@ export default function Page() {
               title: "To be Confirmed",
               description: "Computer Science dari JAIST Japan",
               image: {
-                src: "/assets/huynh.jpg",
+                src: "/assets/huynh1-01.jpg",
                 alt: "",
               },
               linkedIn:
@@ -449,7 +454,7 @@ export default function Page() {
               description:
                 "Duke-NUS Medical School and an Adjunct Clinical Associate Professor and an Innovation Mentor at Stanford University.",
               image: {
-                src: "/assets/DT.png",
+                src: "/assets/DT1-01.jpg",
                 alt: "",
               },
               linkedIn: "",
@@ -576,33 +581,41 @@ export default function Page() {
         <PieChartInfo />
       </section> */}
 
-      <section className="pt-20 md:container">
-        <div className="flex justify-end overflow-hidden bg-black bg-[url('/assets/ap.png')] bg-cover md:rounded-lg">
-          <div className="w-full bg-black/80 px-10 py-10 md:mt-0 md:px-14 md:py-20">
-            <h2 className="text-2xl font-semibold text-white md:text-4xl">
-              Publication Ethics
-            </h2>
-            <article className="prose prose-invert prose-sm md:prose-base mt-6 text-white/80">
-              <p>
-                The ICAITech follows the highest standards of publication ethics
-                and takes all possible procedures against any publication
-                misconduct. This Conference does not accept any type of
-                plagiarism, which means that any author replicating a
-                significant part of another’s work without acknowledging him/her
-                or passing another’s work off as his/her own are not tolerated
-                and not published. ICAITech reserves the right to use plagiarism
-                detecting software to screen submitted papers at all times.
-              </p>
-              <p>
-                All authors submitting their works to the ICAITech Conference
-                for publication as original works confirm that the submitted
-                papers are their own contributions and have not been copied in
-                whole or in part from other works. Each submission is
-                anonymously reviewed by an average of three independent
-                reviewers, to ensure the final high standard and quality of each
-                accepted submission.
-              </p>
-            </article>
+      <section className="pt-20">
+        <div className="relative right-1/2 left-1/2 -mr-[50vw] -ml-[50vw] w-screen overflow-hidden bg-black bg-[url('/assets/ap.png')] bg-cover bg-center">
+          <div className="bg-black/85">
+            <div className="mx-auto max-w-7xl px-10 py-14 md:px-20 md:py-24">
+              {/* container teks diperlebar */}
+              <div className="max-w-4xl md:max-w-5xl">
+                <h2 className="text-2xl font-semibold text-white md:text-4xl">
+                  Publication Ethics
+                </h2>
+
+                <div className="mt-6 text-sm leading-relaxed text-white/85 md:text-base">
+                  <p className="mb-4">
+                    The ICAITech follows the highest standards of publication
+                    ethics and takes all possible procedures against any
+                    publication misconduct. This Conference does not accept any
+                    type of plagiarism, which means that any author replicating
+                    a significant part of another’s work without acknowledging
+                    him/her or passing another’s work off as his/her own are not
+                    tolerated and not published. ICAITech reserves the right to
+                    use plagiarism detecting software to screen submitted papers
+                    at all times.
+                  </p>
+
+                  <p>
+                    All authors submitting their works to the ICAITech
+                    Conference for publication as original works confirm that
+                    the submitted papers are their own contributions and have
+                    not been copied in whole or in part from other works. Each
+                    submission is anonymously reviewed by an average of three
+                    independent reviewers, to ensure the final high standard and
+                    quality of each accepted submission.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -648,92 +661,106 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="pt-20 md:container">
-        <h2 className="text-center text-2xl font-bold md:text-3xl">
-          Organized By
-        </h2>
-        <div className="mt-6 grid grid-cols-1 items-center justify-items-center overflow-hidden border-y md:grid-cols-7 md:rounded-lg md:border">
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logo-unsri.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
+      <section className="pt-20">
+        {/* Title tetap container */}
+        <div className="mx-auto md:container">
+          <h2 className="text-center text-2xl font-bold md:text-5xl">
+            Organized By
+          </h2>
+        </div>
 
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/IEEEIS.jpg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
+        {/* Grid logo full width */}
+        <div className="relative right-1/2 left-1/2 mt-6 -mr-[50vw] -ml-[50vw] w-screen">
+          <div className="grid grid-cols-2 overflow-hidden border-y md:grid-cols-7 md:rounded-lg md:border">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/logo-unsri.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
 
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logo-aimed-01.jpg"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/IEEEIS.jpg"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
 
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/Logo isysrg-01.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logo_comnets-black-01.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/logo-logo-icaitech-10.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
-          </div>
-          <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
-            <Image
-              src="/assets/EQUITY.png"
-              alt=""
-              width="200"
-              height="200"
-              className="h-full object-contain"
-            />
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/logo-aimed-01.jpg"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/Logo isysrg-01.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/logo_comnets-black-01.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/logo-logo-icaitech-10.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+              <Image
+                src="/assets/EQUITY.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="pt-20 md:container">
-        <h2 className="text-center text-2xl font-bold md:text-3xl">Location</h2>
-        <iframe
-          // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127500.96976936757!2d104.6004016!3d-2.9849001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75ed9f44e9c5%3A0x30db735107f3611d!2sFasilkom%20Unsri%20Bukit%20Besar!5e0!3m2!1sen!2sid!4v1741258655078!5m2!1sen!2sid"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4568081792786!2d104.72817007614384!3d-2.970662839789475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75bf5ff64fdd%3A0x8f753aff329a68c8!2sThe%20Excelton%20Hotel%20Palembang!5e0!3m2!1sen!2sid!4v1770294238226!5m2!1sen!2sid"
-          height="400"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="mt-6 w-full"
-        ></iframe>
+      <section className="pt-20">
+        <div className="mx-auto md:container">
+          <h2 className="text-center text-2xl font-bold md:text-5xl">
+            Location
+          </h2>
+        </div>
+
+        <div className="relative right-1/2 left-1/2 mt-6 -mr-[50vw] -ml-[50vw] w-screen">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4568081792786!2d104.72817007614384!3d-2.970662839789475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75bf5ff64fdd%3A0x8f753aff329a68c8!2sThe%20Excelton%20Hotel%20Palembang!5e0!3m2!1sen!2sid!4v1770294238226!5m2!1sen!2sid"
+            className="h-[450px] w-full border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
     </>
   )
