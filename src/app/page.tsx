@@ -15,72 +15,94 @@ export default function Page() {
   return (
     <>
       <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center overflow-hidden bg-black">
-        {/* VIDEO BACKGROUND */}
-        <video
-          className="absolute inset-0 h-full w-full object-cover"
-          src="/assets/header-mp4.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
+        {/* IMAGE BACKGROUND */}
+        <Image
+          src="/assets/amp.jpg"
+          alt="Header Background"
+          fill
+          priority
+          className="scale-105 object-cover"
         />
-        {/* OVERLAY */}
-        <div className="absolute inset-0 bg-white/10" />
+
+        {/* DARK CINEMATIC OVERLAY */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
+
         {/* HEADER NAV */}
         <div className="absolute top-0 z-20 w-full">
           <Header />
         </div>
 
-        <div className="z-10 container mt-[5rem] flex flex-col items-center">
-          <h1 className="text-center text-6xl font-bold text-white md:text-8xl">
-            ICAITech
+        <div className="relative z-10 container mt-[10rem] flex flex-col items-center text-center">
+          {/* TITLE */}
+          <h1 className="text-6xl font-bold tracking-tight text-white drop-shadow-lg md:text-8xl">
+            ICAITech 2026
           </h1>
-          <div className="animate-float mt-3 rounded-md bg-white/20 px-4 py-1 text-lg font-semibold text-white uppercase backdrop-blur-sm md:py-2 md:text-4xl">
-            <p>November 17-18, 2026</p>
-          </div>
 
-          <p className="mt-4 max-w-prose text-center text-white md:text-2xl">
+          {/* DESCRIPTION */}
+          <p className="mt-5 w-full text-base leading-relaxed text-white/90 md:text-xl">
             The 2nd International Conference on Artificial Intelligence and
-            Technological Solutions For Good Health, Well-Being, Clean Water and
-            Sanitation, Partnerships For The Goals.
+            Technological Solutions for Good Health, Well-Being, Clean Water and
+            Sanitation, Partnerships for the Goals.
           </p>
-          <div className="animate-float mt-6">
-            <div className="relative mx-auto max-w-fit overflow-hidden rounded-xl border border-white/20 bg-gradient-to-r from-sky-500/20 via-teal-400/10 to-emerald-500/20 px-6 py-3 text-center shadow-lg backdrop-blur-md">
-              <p className="text-sm font-semibold whitespace-nowrap text-white md:text-xl">
-                <span className="opacity-70">Theme:</span>{" "}
-                <span className="bg-gradient-to-r from-sky-300 via-teal-200 to-emerald-300 bg-clip-text font-bold text-transparent">
-                  Artificial Intelligence-Driven Innovations and Partnerships
-                  for Health, Clean Water, and Sustainable Development
-                </span>
-              </p>
-            </div>
+
+          {/* IN CONJUNCTION */}
+          <div className="mt-5 rounded-md bg-white/10 px-4 py-1 text-lg font-semibold text-white backdrop-blur">
+            In conjunction with
           </div>
 
-          <div className="animate-float mt-3 rounded bg-white/20 px-3 py-1 text-lg font-semibold text-white capitalize backdrop-blur-sm md:py-2 md:text-2xl">
-            <p>In conjunction with</p>
-          </div>
-          <p className="mt-1 text-center text-lg font-medium text-white md:text-2xl">
-            The 14th (AWIST) Asean Workshop on Information Science and
-            Technology 2026
+          <h2 className="mt-2 text-6xl font-bold text-white drop-shadow-lg md:text-8xl">
+            AWIST 2026
+          </h2>
+
+          <p className="mt-2 text-lg text-white/80 md:text-xl">
+            The 14th ASEAN Workshop on Information Science and Technology 2026
           </p>
+
+          {/* DATE BADGE */}
+          <div className="mt-4 rounded-full border border-white/20 bg-white/10 px-6 py-2 text-lg font-semibold text-white backdrop-blur-md md:text-2xl">
+            NOVEMBER 17–18, 2026
+          </div>
+
+          {/* THEME BOX */}
+          <div className="mt-6 rounded-xl border border-emerald-400/30 bg-emerald-500/10 px-6 py-4 shadow-xl backdrop-blur-md">
+            <p className="text-sm font-semibold text-white md:text-base">
+              <span className="text-white">Theme:</span>{" "}
+              <span className="font-bold text-white">
+                Artificial Intelligence-Driven Innovations and Partnerships for
+                Health, Clean Water, and Sustainable Development
+              </span>
+            </p>
+          </div>
+
           <div className="mt-10">
             <Countdown />
           </div>
 
           <div className="mt-10 flex gap-4">
-            <Button asChild size="lg" variant="secondary">
+            <Button
+              asChild
+              size="lg"
+              className="bg-white text-black hover:bg-white/90"
+            >
               <Link href="https://edas.info/N34962">Register</Link>
             </Button>
-            <Button asChild size="lg" variant="outline">
+
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white text-white"
+            >
               <Link href="/ImportantDate">View Schedule</Link>
             </Button>
           </div>
 
-          <Link href="#about" className="mt-20 animate-pulse">
-            <CircleChevronDown size={42} className="text-white" />
+          <Link href="#about" className="mt-16 animate-bounce">
+            <CircleChevronDown size={42} className="text-white/80" />
           </Link>
         </div>
       </header>
+
       <section
         id="about"
         className="flex flex-col gap-0 md:container md:gap-10 md:pt-20"
