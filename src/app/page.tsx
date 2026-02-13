@@ -113,13 +113,13 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
-              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-green-600/80 to-transparent to-70%" />
+              <div className="absolute inset-x-0 bottom-0 h-40 w-full bg-linear-to-tr from-[#4C9F38] to-transparent to-70%" />
               <Image
-                src="/assets/sdg-3.png"
+                src="/assets/sdgs/03c.png"
                 alt="SDG 3"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full bg-white object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
             <div className="relative h-80">
@@ -130,14 +130,14 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
-              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-sky-600/80 to-transparent to-70%" />
+              <div className="absolute inset-x-0 bottom-0 h-40 w-full bg-linear-to-tr from-[#26BDE2] to-transparent to-70%" />
 
               <Image
-                src="/assets/sdg-6.png"
+                src="/assets/sdgs/06c.png"
                 alt="SDG 6"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full bg-white object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
             <div className="relative h-80">
@@ -148,21 +148,21 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
-              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-blue-600/80 to-transparent to-70%" />
+              <div className="absolute inset-x-0 bottom-0 h-40 w-full bg-linear-to-tr from-[#19486A] to-transparent to-70%" />
 
               <Image
-                src="/assets/sdg-17.jpg"
-                alt="SDG 9"
+                src="/assets/sdgs/17c.png"
+                alt="SDG 17"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full bg-white object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
           </div>
           {/* Main Content */}
           <div className="bg-slate-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
-            <div className="max-w-full space-y-6">
-              <p className="text-xl leading-relaxed text-slate-800 md:text-3xl">
+            <div className="prose prose-lg max-w-full space-y-6">
+              <p className="text-slate-800">
                 The{" "}
                 <strong className="font-semibold text-black">
                   International Conference on Artificial Intelligence and
@@ -176,7 +176,7 @@ export default function Page() {
                 , focusing on Good Health, Well-Being, Clean Water and
                 Sanitation, Partnerships For The Goals.
               </p>
-              <p className="text-base leading-relaxed text-slate-800 md:text-lg">
+              <p className="text-slate-800">
                 The conference will take place on{" "}
                 <strong className="font-semibold text-black">
                   November, 2026
@@ -198,8 +198,8 @@ export default function Page() {
           <div className="grid gap-6 md:grid-cols-2">
             {/* Box Kiri */}
             <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
-              <div className="space-y-6">
-                <p className="text-base leading-relaxed text-slate-700">
+              <div className="prose prose-lg space-y-6">
+                <p className="text-slate-700">
                   The event will be held in{" "}
                   <strong className="font-semibold text-black">
                     conjunction
@@ -226,8 +226,8 @@ export default function Page() {
 
             {/* Box Kanan */}
             <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
-              <div className="space-y-6">
-                <p className="text-base leading-relaxed text-slate-700">
+              <div className="prose prose-lg space-y-6">
+                <p className="text-slate-700">
                   The event will be held in{" "}
                   <strong className="font-semibold text-black">
                     conjunction
@@ -264,7 +264,7 @@ export default function Page() {
                   Global Platform
                 </h3>
               </div>
-              <p className="leading-relaxed text-slate-700">
+              <p className="prose prose-lg text-slate-700">
                 The event will serve as a global platform for researchers,
                 practitioners, and policymakers to discuss the role of
                 artificial intelligence and related technologies in improving
@@ -281,7 +281,7 @@ export default function Page() {
                 <div className="h-1 w-16 bg-sky-500"></div>
                 <h3 className="text-xl font-semibold text-black">Key Topics</h3>
               </div>
-              <p className="leading-relaxed text-slate-700">
+              <p className="prose prose-lg leading-relaxed text-slate-700">
                 Key topics include{" "}
                 <strong className="font-semibold text-black">
                   AI in healthcare, predictive analytics for disease prevention,
@@ -422,7 +422,7 @@ export default function Page() {
           </h2>
           <div className="mx-auto h-1 w-24 bg-sky-500"></div>
         </div>
-        <div className="prose mt-4 text-center">
+        <div className="prose prose-lg mt-4 text-center">
           <Markdown>
             Our passionate and dedicated team brings together a diverse range of
             skills and expertise to deliver exceptional results. From creative
