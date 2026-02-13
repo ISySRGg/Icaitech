@@ -87,7 +87,7 @@ export default function Page() {
               variant="outline"
               className="border-white text-white"
             >
-              <Link href="/ImportantDate">View Schedule</Link>
+              <Link href="/important-date">View Schedule</Link>
             </Button>
           </div>
 
