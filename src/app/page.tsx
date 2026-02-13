@@ -434,7 +434,7 @@ export default function Page() {
           <CastFigure
             cast={{
               name: "Van-Nam, Huynh",
-              title: "To be Confirmed",
+              title: "Confirmed",
               description: "Computer Science dari JAIST Japan",
               image: {
                 src: "/assets/huynh1-01.jpg",
