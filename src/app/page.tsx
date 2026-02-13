@@ -46,7 +46,7 @@ export default function Page() {
           </div>
 
           <div className="text-md rounded-full border-white bg-white/20 px-6 font-semibold text-white/70 italic 2xl:text-lg">
-            In conjunction with
+            in conjunction with
           </div>
 
           <div>
