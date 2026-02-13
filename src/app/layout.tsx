@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
       <body
         className={cn(
           geistSans.className,
-          "flex min-h-dvh flex-col text-gray-800 antialiased"
+          "flex min-h-dvh flex-col text-slate-800 antialiased"
         )}
       >
         <Providers>

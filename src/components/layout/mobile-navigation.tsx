@@ -61,7 +61,7 @@ export default function MobileNavigation() {
             {navigation.children ? (
               <Collapsible>
                 <CollapsibleTrigger asChild>
-                  <button className="flex w-full flex-row items-center justify-between text-gray-100 [&[data-state=open]>svg]:-rotate-180">
+                  <button className="flex w-full flex-row items-center justify-between text-slate-100 [&[data-state=open]>svg]:-rotate-180">
                     <span>{navigation.label}</span>
                     <ChevronDown
                       size="1em"
@@ -70,7 +70,7 @@ export default function MobileNavigation() {
                   </button>
                 </CollapsibleTrigger>
                 <CollapsibleContent>
-                  <div className="mt-6 ml-1 flex flex-col gap-y-6 border-l-2 border-gray-100/40 pl-4">
+                  <div className="mt-6 ml-1 flex flex-col gap-y-6 border-l-2 border-slate-100/40 pl-4">
                     {navigation.children.map(
                       (subnavigation, subkey: number) => (
                         <div key={subkey}>

@@ -11,7 +11,7 @@ export default function GallerySlideshow() {
   const [isFadingIn, setIsFadingIn] = useState(true)
 
   // Generate all 83 image filenames
-  const allImages = Array.from({ length: 83 }, (_, i) => `IMG (${i + 1}).webp`)
+  const allImages = Array.from({ length: 62 }, (_, i) => `IMG (${i + 1}).webp`)
 
   // Split images into chunks of 8
   const imagesPerSlide = 8
@@ -79,7 +79,7 @@ export default function GallerySlideshow() {
               "h-2 rounded-full transition-all",
               index === currentSlide
                 ? "w-8 bg-sky-500"
-                : "w-2 bg-gray-300 hover:bg-gray-400"
+                : "w-2 bg-slate-300 hover:bg-slate-400"
             )}
             aria-label={`Go to slide ${index + 1}`}
           />

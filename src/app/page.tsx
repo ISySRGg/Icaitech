@@ -160,9 +160,9 @@ export default function Page() {
             </div>
           </div>
           {/* Main Content */}
-          <div className="bg-gray-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
+          <div className="bg-slate-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
             <div className="max-w-full space-y-6">
-              <p className="text-xl leading-relaxed text-gray-800 md:text-3xl">
+              <p className="text-xl leading-relaxed text-slate-800 md:text-3xl">
                 The{" "}
                 <strong className="font-semibold text-black">
                   International Conference on Artificial Intelligence and
@@ -176,7 +176,7 @@ export default function Page() {
                 , focusing on Good Health, Well-Being, Clean Water and
                 Sanitation, Partnerships For The Goals.
               </p>
-              <p className="text-base leading-relaxed text-gray-800 md:text-lg">
+              <p className="text-base leading-relaxed text-slate-800 md:text-lg">
                 The conference will take place on{" "}
                 <strong className="font-semibold text-black">
                   November, 2026
@@ -199,7 +199,7 @@ export default function Page() {
             {/* Box Kiri */}
             <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
               <div className="space-y-6">
-                <p className="text-base leading-relaxed text-gray-700">
+                <p className="text-base leading-relaxed text-slate-700">
                   The event will be held in{" "}
                   <strong className="font-semibold text-black">
                     conjunction
@@ -227,7 +227,7 @@ export default function Page() {
             {/* Box Kanan */}
             <div className="border border-sky-500 bg-sky-50 p-8 md:rounded-lg md:p-10">
               <div className="space-y-6">
-                <p className="text-base leading-relaxed text-gray-700">
+                <p className="text-base leading-relaxed text-slate-700">
                   The event will be held in{" "}
                   <strong className="font-semibold text-black">
                     conjunction
@@ -264,7 +264,7 @@ export default function Page() {
                   Global Platform
                 </h3>
               </div>
-              <p className="leading-relaxed text-gray-700">
+              <p className="leading-relaxed text-slate-700">
                 The event will serve as a global platform for researchers,
                 practitioners, and policymakers to discuss the role of
                 artificial intelligence and related technologies in improving
@@ -281,7 +281,7 @@ export default function Page() {
                 <div className="h-1 w-16 bg-sky-500"></div>
                 <h3 className="text-xl font-semibold text-black">Key Topics</h3>
               </div>
-              <p className="leading-relaxed text-gray-700">
+              <p className="leading-relaxed text-slate-700">
                 Key topics include{" "}
                 <strong className="font-semibold text-black">
                   AI in healthcare, predictive analytics for disease prevention,
@@ -319,12 +319,12 @@ export default function Page() {
             >
               ICAITech 2025
             </Link>
-            <p className="mt-2 text-sm text-gray-500">Official Website</p>
+            <p className="mt-2 text-sm text-slate-500">Official Website</p>
           </div>
 
           {/* Kolom 2 */}
           <div className="flex flex-col items-center gap-2 rounded-xl bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-            <p className="text-lg font-medium text-gray-700">
+            <p className="text-lg font-medium text-slate-700">
               November 20-21, 2025
             </p>
             <span className="mt-2 rounded-full bg-sky-100 px-3 py-1 text-sm font-medium text-sky-600">
@@ -341,7 +341,7 @@ export default function Page() {
             >
               ICAITech2025 IEEE Explore
             </Link>
-            <p className="mt-2 text-sm text-gray-500">Research Papers</p>
+            <p className="mt-2 text-sm text-slate-500">Research Papers</p>
           </div>
         </div>
       </section>
@@ -375,7 +375,7 @@ export default function Page() {
                       "text-sm font-semibold md:text-lg",
                       item.name === "Conference"
                         ? "text-white"
-                        : "text-gray-900"
+                        : "text-slate-900"
                     )}
                   >
                     {item.name}
@@ -394,7 +394,7 @@ export default function Page() {
                 <div
                   className={cn(
                     "hidden h-px w-full md:block",
-                    item.name === "Conference" ? "bg-gray-700" : "bg-gray-300"
+                    item.name === "Conference" ? "bg-slate-700" : "bg-slate-300"
                   )}
                 ></div>
                 <p
@@ -483,18 +483,18 @@ export default function Page() {
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:col-span-2 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+              <h3 className="text-sm font-semibold text-slate-600 md:text-lg">
                 Total Paper Accepted
               </h3>
               <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
                 <CheckCircle2 className="size-6 text-sky-600" />
               </div>
             </div>
-            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+            <div className="hidden h-px w-full bg-slate-300 md:block"></div>
             <div className="flex items-end justify-between">
               <div>
                 <p className="text-6xl font-bold text-black md:text-7xl">67</p>
-                <p className="text-sm text-gray-500">papers approved</p>
+                <p className="text-sm text-slate-500">papers approved</p>
               </div>
               <div>
                 <Button
@@ -514,19 +514,19 @@ export default function Page() {
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+              <h3 className="text-sm font-semibold text-slate-600 md:text-lg">
                 Total Submit
               </h3>
               <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
                 <FileText className="size-6 text-sky-600" />
               </div>
             </div>
-            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+            <div className="hidden h-px w-full bg-slate-300 md:block"></div>
 
             <div className="flex items-end justify-between">
               <div>
                 <p className="text-6xl font-bold text-black md:text-7xl">129</p>
-                <p className="text-sm text-gray-500">papers received</p>
+                <p className="text-sm text-slate-500">papers received</p>
               </div>
               <div>
                 <Button
@@ -547,19 +547,19 @@ export default function Page() {
         <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 md:rounded-lg md:border md:p-8">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+              <h3 className="text-sm font-semibold text-slate-600 md:text-lg">
                 Total reviewers
               </h3>
               <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
                 <User className="size-6 text-sky-600" />
               </div>
             </div>
-            <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+            <div className="hidden h-px w-full bg-slate-300 md:block"></div>
 
             <div className="flex items-end justify-between">
               <div>
                 <p className="text-6xl font-bold text-black md:text-7xl">118</p>
-                <p className="text-sm text-gray-500">reviewers</p>
+                <p className="text-sm text-slate-500">reviewers</p>
               </div>
               <div>
                 <Button

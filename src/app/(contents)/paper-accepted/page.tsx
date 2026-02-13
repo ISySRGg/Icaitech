@@ -36,12 +36,12 @@ export default function Page() {
       <section className="container mt-8 md:mt-16">
         {loading ? (
           <div className="flex items-center justify-center py-12">
-            <p className="text-gray-600">Loading papers...</p>
+            <p className="text-slate-600">Loading papers...</p>
           </div>
         ) : (
           <>
             <div className="mb-6">
-              <p className="text-gray-600">
+              <p className="text-slate-600">
                 Total Papers Accepted:{" "}
                 <span className="font-semibold text-black">
                   {papers.length}
@@ -49,43 +49,43 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="overflow-x-auto rounded-lg border border-gray-300">
+            <div className="overflow-x-auto rounded-lg border border-slate-300">
               <table className="w-full border-collapse bg-white text-left text-sm">
-                <thead className="bg-gray-50">
+                <thead className="bg-slate-50">
                   <tr>
-                    <th className="border-b border-gray-300 px-6 py-4 font-semibold text-gray-900">
+                    <th className="border-b border-slate-300 px-6 py-4 font-semibold text-slate-900">
                       No.
                     </th>
-                    <th className="border-b border-gray-300 px-6 py-4 font-semibold text-gray-900">
+                    <th className="border-b border-slate-300 px-6 py-4 font-semibold text-slate-900">
                       Title
                     </th>
-                    {/* <th className="border-b border-gray-300 px-6 py-4 font-semibold text-gray-900">
+                    {/* <th className="border-b border-slate-300 px-6 py-4 font-semibold text-slate-900">
                       SDG
                     </th> */}
-                    <th className="border-b border-gray-300 px-6 py-4 font-semibold text-gray-900">
+                    <th className="border-b border-slate-300 px-6 py-4 font-semibold text-slate-900">
                       Status
                     </th>
-                    <th className="border-b border-gray-300 px-6 py-4 font-semibold text-gray-900">
+                    <th className="border-b border-slate-300 px-6 py-4 font-semibold text-slate-900">
                       Authors with Affiliation and Country
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-gray-200">
+                <tbody className="divide-y divide-slate-200">
                   {papers.map((paper, index) => (
-                    <tr key={index} className="hover:bg-gray-50">
-                      <td className="border-b border-gray-200 px-6 py-4 text-gray-600">
+                    <tr key={index} className="hover:bg-slate-50">
+                      <td className="border-b border-slate-200 px-6 py-4 text-slate-600">
                         {index + 1}
                       </td>
-                      <td className="border-b border-gray-200 px-6 py-4 font-medium text-gray-900">
+                      <td className="border-b border-slate-200 px-6 py-4 font-medium text-slate-900">
                         {paper.Title}
                       </td>
-                      {/* <td className="border-b border-gray-200 px-6 py-4"></td> */}
-                      <td className="border-b border-gray-200 px-6 py-4">
+                      {/* <td className="border-b border-slate-200 px-6 py-4"></td> */}
+                      <td className="border-b border-slate-200 px-6 py-4">
                         <span className="inline-flex rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-800 capitalize">
                           {paper.Status}
                         </span>
                       </td>
-                      <td className="border-b border-gray-200 px-6 py-4 text-gray-600">
+                      <td className="border-b border-slate-200 px-6 py-4 text-slate-600">
                         {paper["Authors with affiliation and country"]}
                       </td>
                     </tr>

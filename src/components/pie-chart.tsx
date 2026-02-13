@@ -75,14 +75,14 @@ export default function PieChartInfo() {
     <div className="group relative overflow-hidden border-sky-500 bg-sky-50 p-6 transition-all md:row-span-2 md:rounded-lg md:border md:p-8">
       <div className="space-y-4">
         <div className="flex items-center justify-between gap-4">
-          <h3 className="text-sm font-semibold text-gray-600 md:text-lg">
+          <h3 className="text-sm font-semibold text-slate-600 md:text-lg">
             Distribution of Papers by Trackname
           </h3>
           <div className="flex size-12 items-center justify-center rounded-full bg-sky-100">
             <ChartPie className="size-6 text-sky-600" />
           </div>
         </div>
-        <div className="hidden h-px w-full bg-gray-300 md:block"></div>
+        <div className="hidden h-px w-full bg-slate-300 md:block"></div>
         <ChartContainer
           config={chartConfig}
           className="[&_.recharts-pie-label-text]:fill-foreground mx-auto aspect-square max-h-[500px] pb-0"

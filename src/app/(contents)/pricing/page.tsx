@@ -29,10 +29,10 @@ export default function Page() {
                     </p>
                     {pricingItem.prices.map((price, k) => (
                       <div key={k} className="flex flex-col">
-                        <p className="text-xl font-medium text-gray-700 md:text-2xl">
+                        <p className="text-xl font-medium text-slate-700 md:text-2xl">
                           {price.price.toLocaleString()}
                         </p>
-                        <p className="text-xs italic text-gray-400 md:text-sm">
+                        <p className="text-xs text-slate-400 italic md:text-sm">
                           {price.subCategory}
                         </p>
                       </div>
@@ -45,39 +45,47 @@ export default function Page() {
         </div>
       </section>
       <section className="container mt-8 md:mt-16">
-        <div className="rounded-lg bg-gray-200/70 p-10 md:px-14 md:py-20">
+        <div className="rounded-lg bg-slate-200/70 p-10 md:px-14 md:py-20">
           <h2 className="text-xl font-semibold">
             Payment by Wire Transfer/Bank Draft
           </h2>
-          <div className="prose prose-li:marker:text-gray-500">
+          <div className="prose prose-li:marker:text-slate-500">
             <ul>
               {/* tempat masukin no rekening */}
               {/* <li>
                 Bank Account name: BRI 0342-01-002861-56-7 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
               </li> */}
               <li>Bank Name: BRI PALEMBANG SRIWIJAYA</li>
-              <li>Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan Ilir</li>
+              <li>
+                Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan
+                Ilir
+              </li>
               <li>City: Palembang</li>
               <li>State: Sumatera Selatan</li>
               <li>Country: Indonesia</li>
               <li>SWIFT/BIC: BRINIDJAXXX</li>
               <li>Bank Account #: No_REK – IDR</li>
               <li>
-                Message for Beneficiary: Registration fee for ICAITech  from
+                Message for Beneficiary: Registration fee for ICAITech from
                 [Paper ID /Author’s Name]
               </li>
             </ul>
-            <p className="italic">
-              Note:
-            </p>
+            <p className="italic">Note:</p>
             <div className="italic">
-                <p>
-                  1. This <a href="/assets/Surat Permohonan Free APC.docx">document</a> is intended especially for lecturers and active undergraduate and postgraduate students of the Faculty of Computer Science, Universitas Sriwijaya. Please take a moment to fill it out.
-                </p>
-                <p>
-                  2. Please ensure we receive the full amount. The ICAITECH secretariat should receive the exact amount of registration fees. If not, the participant has to pay the balance due at the registration desk.
-                </p>
-              </div>
+              <p>
+                1. This{" "}
+                <a href="/assets/Surat Permohonan Free APC.docx">document</a> is
+                intended especially for lecturers and active undergraduate and
+                postgraduate students of the Faculty of Computer Science,
+                Universitas Sriwijaya. Please take a moment to fill it out.
+              </p>
+              <p>
+                2. Please ensure we receive the full amount. The ICAITECH
+                secretariat should receive the exact amount of registration
+                fees. If not, the participant has to pay the balance due at the
+                registration desk.
+              </p>
+            </div>
           </div>
         </div>
       </section>

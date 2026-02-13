@@ -16,7 +16,7 @@ export default function Page() {
               className="flex flex-col-reverse justify-between py-4 md:flex-row"
             >
               <p className="md:text-lg">{agenda.name}</p>
-              <p className="text-xl font-medium text-gray-500 md:text-2xl">
+              <p className="text-xl font-medium text-slate-500 md:text-2xl">
                 {agenda.date}
               </p>
             </li>
