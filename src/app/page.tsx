@@ -6,7 +6,7 @@ import Markdown from "markdown-to-jsx"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
-import Countdown from "@/components/countdown"
+import Countdown2 from "@/components/countdown2"
 import GallerySlideshow from "@/components/gallery-slideshow"
 import Header from "@/components/layout/header"
 
@@ -33,7 +33,7 @@ export default function Page() {
           <Header />
         </div>
 
-        <div className="relative z-10 container flex flex-col items-center gap-4 py-20 text-center xl:gap-5 2xl:gap-6 2xl:py-32">
+        <div className="relative z-10 container flex flex-col items-center gap-4 py-20 text-center xl:gap-5 2xl:gap-6 2xl:py-24">
           <div>
             <h1 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-7xl">
               ICAITech
@@ -45,7 +45,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="text-md rounded-full border-white bg-white/20 px-6 font-semibold text-white/70 italic 2xl:text-lg">
+          <div className="text-md rounded-full border-white bg-white/20 px-6 font-semibold text-sky-200/90 italic 2xl:text-lg">
             in conjunction with
           </div>
 
@@ -59,24 +59,31 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="h-0.5 w-full max-w-2xl rounded-full bg-white/40" />
-
-          <div className="rounded-full border border-white/20 bg-white/10 px-6 py-2 text-lg font-semibold text-white backdrop-blur-md md:text-lg 2xl:text-xl">
-            NOVEMBER 17–18, 2026
-          </div>
+          <div className="h-0.5 w-full max-w-2xl rounded-full bg-white/50" />
 
           <p className="max-w-2xl text-sm font-semibold text-white italic md:text-base xl:text-lg 2xl:text-xl">
             Artificial Intelligence-Driven Innovations and Partnerships for
             Health, Clean Water, and Sustainable Development
           </p>
 
-          <Countdown />
+          <div className="mt-8 flex flex-col items-center gap-4 border-2 border-white/50 p-6 text-white md:flex-row">
+            <p className="flex flex-col font-mono">
+              <span className="text-3xl/5 font-semibold md:text-4xl/6">
+                17—18
+              </span>
+              <span className="text-base font-light tracking-widest md:text-lg">
+                NOV 2026
+              </span>
+            </p>
+            <div className="h-0.5 w-full rounded-full bg-white/50 md:h-14 md:w-0.5" />
+            <Countdown2 />
+          </div>
 
-          <div className="mt-10 flex gap-4">
+          <div className="mt-10 flex w-full flex-col items-center gap-4 md:w-fit md:flex-row">
             <Button
               asChild
               size="lg"
-              className="bg-white text-black hover:bg-white/90"
+              className="w-full bg-white text-black hover:bg-white/90 md:w-fit"
             >
               <Link href="https://edas.info/N34962">Register</Link>
             </Button>
@@ -85,7 +92,7 @@ export default function Page() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white"
+              className="w-full border-white text-white md:w-fit"
             >
               <Link href="/important-date">View Schedule</Link>
             </Button>
@@ -647,9 +654,9 @@ export default function Page() {
         </div>
 
         {/* Grid logo full width */}
-        <div className="relative mt-6">
+        <div className="relative container mt-6">
           <div className="flex flex-wrap justify-center">
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/ieeeis.jpg"
                 alt=""
@@ -659,7 +666,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/unsri.png"
                 alt=""
@@ -669,7 +676,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/jaist.jpeg"
                 alt=""
@@ -679,7 +686,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/ukm.webp"
                 alt=""
@@ -689,7 +696,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/unikom.png"
                 alt=""
@@ -699,7 +706,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/umt.png"
                 alt=""
@@ -709,7 +716,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/fasilkom.png"
                 alt=""
@@ -719,7 +726,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/aimed.png"
                 alt=""
@@ -729,7 +736,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/comnets.png"
                 alt=""
@@ -739,7 +746,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/ris.png"
                 alt=""
