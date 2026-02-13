@@ -35,8 +35,8 @@ export default function Page() {
 
         <div className="relative z-10 container flex flex-col items-center gap-4 py-20 text-center xl:gap-5 2xl:gap-6 2xl:py-32">
           <div>
-            <h1 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-6xl">
-              ICAITech 2026
+            <h1 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-7xl">
+              ICAITech
             </h1>
 
             <p className="w-full max-w-xl text-base leading-relaxed font-light text-white/90 2xl:text-2xl">
@@ -50,8 +50,8 @@ export default function Page() {
           </div>
 
           <div>
-            <h2 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-6xl">
-              AWIST 2026
+            <h2 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-7xl">
+              AWIST
             </h2>
 
             <p className="w-full max-w-xl text-base leading-relaxed font-light text-white/90 2xl:text-2xl">
@@ -161,6 +161,9 @@ export default function Page() {
           </div>
           {/* Main Content */}
           <div className="bg-slate-50 p-8 md:rounded-r-lg md:border-l-2 md:border-sky-500 md:p-12">
+            <h2 className="pb-8 text-3xl font-medium tracking-tight text-black md:text-4xl">
+              Call for Papers
+            </h2>
             <div className="prose prose-lg max-w-full space-y-6">
               <p className="text-slate-800">
                 The{" "}
@@ -699,6 +702,16 @@ export default function Page() {
             <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
                 src="/assets/organizers/umt.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+              <Image
+                src="/assets/organizers/fasilkom.png"
                 alt=""
                 width={200}
                 height={200}
