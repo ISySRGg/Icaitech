@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, X } from "lucide-react"
 import { useRecoilState } from "recoil"
 
 import { siteConfig } from "@/config/site"
@@ -45,10 +45,17 @@ export default function MobileNavigation() {
   return (
     <div
       className={cn(
-        "no-doc-scroll fixed bottom-0 z-50 flex h-[calc(100dvh-5rem)] w-full flex-col bg-green-950/80 backdrop-blur-sm md:hidden"
+        "no-doc-scroll fixed inset-0 z-50 flex h-dvh w-full flex-col bg-sky-950/80 backdrop-blur-sm md:hidden"
       )}
     >
       <div className="container flex flex-col gap-y-8 pt-6 text-xl text-white">
+        <button
+          onClick={handleCloseMobileNavigation}
+          className="ml-auto flex h-10 w-10 items-center justify-center rounded-full text-white hover:bg-white/10 focus:ring-2 focus:ring-white/50 focus:outline-none"
+          aria-label="Close navigation"
+        >
+          <X size={24} />
+        </button>
         {siteConfig.mainNav.map((navigation, key) => (
           <div key={key} className="w-full">
             {navigation.children ? (
@@ -63,7 +70,7 @@ export default function MobileNavigation() {
                   </button>
                 </CollapsibleTrigger>
                 <CollapsibleContent>
-                  <div className="ml-1 mt-6 flex flex-col gap-y-6 border-l-2 border-gray-100/40 pl-4">
+                  <div className="mt-6 ml-1 flex flex-col gap-y-6 border-l-2 border-gray-100/40 pl-4">
                     {navigation.children.map(
                       (subnavigation, subkey: number) => (
                         <div key={subkey}>

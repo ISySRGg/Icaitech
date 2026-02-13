@@ -19,16 +19,12 @@ export default function CastFigure({ cast }: Props) {
           className="w-full object-cover"
         />
 
-        <figcaption className="absolute -bottom-[70%] flex h-full w-full flex-col items-start bg-linear-to-t from-gray-950/85 from-80% to-transparent p-5 text-left text-white transition-all duration-300 group-hover:bottom-0 group-hover:bg-linear-to-t group-hover:from-sky-950/85 group-hover:from-0% group-hover:to-green-950/85 group-hover:py-10 group-hover:backdrop-blur-sm">
-
+        <figcaption className="absolute -bottom-[70%] flex h-full w-full flex-col items-start bg-linear-to-t from-gray-950/85 from-80% to-transparent p-5 text-left text-white transition-all duration-300 group-hover:bottom-0 group-hover:bg-linear-to-t group-hover:from-sky-800/85 group-hover:from-0% group-hover:to-slate-950/85 group-hover:py-10 group-hover:backdrop-blur-sm">
           {/* Nama */}
           <h3 className="text-xl font-semibold">{cast.name}</h3>
 
-          {/* ✅ TITLE (INI YANG HILANG SEBELUMNYA) */}
           {cast.title && (
-            <p className="text-sm font-medium text-sky-300">
-              {cast.title}
-            </p>
+            <p className="text-sm font-medium text-sky-300">{cast.title}</p>
           )}
 
           {/* Link */}
@@ -62,7 +58,6 @@ export default function CastFigure({ cast }: Props) {
               <p className="text-white/90">{cast.description}</p>
             )}
           </div>
-
         </figcaption>
       </div>
     </figure>

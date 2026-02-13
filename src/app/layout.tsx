@@ -4,6 +4,7 @@ import "@/styles/globals.css"
 
 import { geistSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
+import DevBreakpointIndicator from "@/components/breakpoint-indicator"
 import Footer from "@/components/layout/footer"
 
 import Providers from "./providers"
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
           <main className="grow">{children}</main>
           <Footer />
         </Providers>
+        <DevBreakpointIndicator />
       </body>
     </html>
   )

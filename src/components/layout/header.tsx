@@ -1,61 +1,34 @@
-import Image from "next/image"
 import Link from "next/link"
-import "@/styles/header.css"
 
+import { siteConfig } from "@/config/site"
+
+import { Button } from "../ui/button"
 import DesktopNavigation from "./desktop-navigation"
 import MobileNavigation from "./mobile-navigation"
 import MobileNavigationToggle from "./mobile-navigation-toggle"
 
-const logos = [
-  "/assets/dikbud.png",
-  "/assets/wcu-putih-01.png",
-  "/assets/berdampak.png",
-  "/assets/rmh.png",
-  "/assets/thesir.jpg",
-  "/assets/logo fasilkom.png",
-  "/assets/ieee_white.png",
-  "/assets/EQUITY.png",
-]
-
 export default function Header() {
   return (
     <>
-      {/* ================= HEADER ================= */}
-      <header className="header">
-        <div className="header-inner">
-          {/* BRAND */}
-          <Link href="/" className="brand">
-            ICAITech 2026
+      <header className="flex w-full flex-col items-center">
+        <div className="flex h-12 w-full items-center justify-between border-b border-slate-500/50 bg-slate-950/30 px-2 backdrop-blur-md md:px-6">
+          <Link href="/" className="font-medium text-white">
+            <span>ICAITech</span> <span className="text-xs">2026</span>
           </Link>
 
-          {/* DESKTOP NAV */}
+          <Button variant="secondary" size="sm" asChild>
+            <Link href={siteConfig.submitlink}>Submit</Link>
+          </Button>
+        </div>
+
+        <div className="flex h-12 w-full items-center justify-end border-b border-white/50 bg-slate-500/10 px-4 md:justify-center">
           <DesktopNavigation />
 
-          {/* MOBILE TOGGLE */}
           <MobileNavigationToggle />
         </div>
 
-        {/* MOBILE NAV (di luar inner biar full width) */}
         <MobileNavigation />
       </header>
-
-      {/* ================= LOGO MARQUEE ================= */}
-      <div className="logo-bar">
-        <div className="marquee">
-          <div className="marquee-track">
-            {[...logos, ...logos].map((src, i) => (
-              <Image
-                key={i}
-                src={src}
-                alt="logo"
-                width={140}
-                height={60}
-                className="logo"
-              />
-            ))}
-          </div>
-        </div>
-      </div>
     </>
   )
 }

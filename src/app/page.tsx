@@ -1,12 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRightIcon, CircleChevronDown } from "lucide-react"
+import { ArrowRightIcon } from "lucide-react"
 import Markdown from "markdown-to-jsx"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import CastFigure from "@/components/cast-figure"
 import Countdown from "@/components/countdown"
+import GallerySlideshow from "@/components/gallery-slideshow"
 import Header from "@/components/layout/header"
 
 import { importantDate } from "../../contents/important-date"
@@ -14,7 +15,7 @@ import { importantDate } from "../../contents/important-date"
 export default function Page() {
   return (
     <>
-      <header className="relative flex h-[max(60rem,100dvh)] items-center justify-center overflow-hidden bg-black">
+      <header className="relative flex flex-col items-center justify-center overflow-hidden bg-black">
         {/* IMAGE BACKGROUND */}
         <Image
           src="/assets/amp.jpg"
@@ -25,58 +26,51 @@ export default function Page() {
         />
 
         {/* DARK CINEMATIC OVERLAY */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-sky-800/60 to-sky-600/80" />
 
         {/* HEADER NAV */}
-        <div className="absolute top-0 z-20 w-full">
+        <div className="relative z-50 w-full">
           <Header />
         </div>
 
-        <div className="relative z-10 container mt-[10rem] flex flex-col items-center text-center">
-          {/* TITLE */}
-          <h1 className="text-6xl font-bold tracking-tight text-white drop-shadow-lg md:text-8xl">
-            ICAITech 2026
-          </h1>
+        <div className="relative z-10 container flex flex-col items-center gap-4 py-20 text-center xl:gap-5 2xl:gap-6 2xl:py-32">
+          <div>
+            <h1 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-6xl">
+              ICAITech 2026
+            </h1>
 
-          {/* DESCRIPTION */}
-          <p className="mt-5 w-full text-base leading-relaxed text-white/90 md:text-xl">
-            The 2nd International Conference on Artificial Intelligence and
-            Technological Solutions for Good Health, Well-Being, Clean Water and
-            Sanitation, Partnerships for the Goals.
-          </p>
-
-          {/* IN CONJUNCTION */}
-          <div className="mt-5 rounded-md bg-white/10 px-4 py-1 text-lg font-semibold text-white backdrop-blur">
-            In conjunction with
-          </div>
-
-          <h2 className="mt-2 text-6xl font-bold text-white drop-shadow-lg md:text-8xl">
-            AWIST 2026
-          </h2>
-
-          <p className="mt-2 text-lg text-white/80 md:text-xl">
-            The 14th ASEAN Workshop on Information Science and Technology 2026
-          </p>
-
-          {/* DATE BADGE */}
-          <div className="mt-4 rounded-full border border-white/20 bg-white/10 px-6 py-2 text-lg font-semibold text-white backdrop-blur-md md:text-2xl">
-            NOVEMBER 17–18, 2026
-          </div>
-
-          {/* THEME BOX */}
-          <div className="mt-6 rounded-xl border border-emerald-400/30 bg-emerald-500/10 px-6 py-4 shadow-xl backdrop-blur-md">
-            <p className="text-sm font-semibold text-white md:text-base">
-              <span className="text-white">Theme:</span>{" "}
-              <span className="font-bold text-white">
-                Artificial Intelligence-Driven Innovations and Partnerships for
-                Health, Clean Water, and Sustainable Development
-              </span>
+            <p className="w-full max-w-xl text-base leading-relaxed font-light text-white/90 2xl:text-2xl">
+              The 2nd International Conference on Artificial Intelligence and
+              Technological Solutions
             </p>
           </div>
 
-          <div className="mt-10">
-            <Countdown />
+          <div className="text-md rounded-full border-white bg-white/20 px-6 font-semibold text-white/70 italic 2xl:text-lg">
+            In conjunction with
           </div>
+
+          <div>
+            <h2 className="text-5xl font-medium tracking-tight text-white drop-shadow-lg 2xl:text-6xl">
+              AWIST 2026
+            </h2>
+
+            <p className="w-full max-w-xl text-base leading-relaxed font-light text-white/90 2xl:text-2xl">
+              The 14th ASEAN Workshop on Information Science and Technology 2026
+            </p>
+          </div>
+
+          <div className="h-0.5 w-full max-w-2xl rounded-full bg-white/40" />
+
+          <div className="rounded-full border border-white/20 bg-white/10 px-6 py-2 text-lg font-semibold text-white backdrop-blur-md md:text-lg 2xl:text-xl">
+            NOVEMBER 17–18, 2026
+          </div>
+
+          <p className="max-w-2xl text-sm font-semibold text-white italic md:text-base xl:text-lg 2xl:text-xl">
+            Artificial Intelligence-Driven Innovations and Partnerships for
+            Health, Clean Water, and Sustainable Development
+          </p>
+
+          <Countdown />
 
           <div className="mt-10 flex gap-4">
             <Button
@@ -110,7 +104,7 @@ export default function Page() {
       <section id="about" className="pt-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-20">
           {/* isi konten about di sini */}
-          <div className="grid grid-cols-3 overflow-hidden md:rounded-lg">
+          <div className="grid grid-cols-3 overflow-hidden xl:rounded-lg">
             <div className="relative h-80">
               <Image
                 src="/assets/innovation.jpg"
@@ -119,12 +113,13 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
+              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-green-600/80 to-transparent to-70%" />
               <Image
                 src="/assets/sdg-3.png"
                 alt="SDG 3"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
             <div className="relative h-80">
@@ -135,12 +130,14 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
+              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-sky-600/80 to-transparent to-70%" />
+
               <Image
                 src="/assets/sdg-6.png"
                 alt="SDG 6"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
             <div className="relative h-80">
@@ -151,12 +148,14 @@ export default function Page() {
                 height={150}
                 className="size-full object-cover brightness-50"
               />
+              <div className="absolute inset-0 h-full w-full bg-linear-to-tr from-blue-600/80 to-transparent to-70%" />
+
               <Image
                 src="/assets/sdg-17.jpg"
                 alt="SDG 9"
                 width={150}
                 height={150}
-                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain md:inset-x-auto md:bottom-6 md:left-6 md:size-40"
+                className="absolute inset-x-0 bottom-0 mx-auto w-full object-contain mix-blend-hard-light md:inset-x-auto md:bottom-6 md:left-6 md:size-28"
               />
             </div>
           </div>
@@ -304,7 +303,7 @@ export default function Page() {
       <section className="container mx-auto px-4 py-12">
         {/* Header */}
         <div className="mb-12 space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-black md:text-6xl">
+          <h2 className="text-3xl font-medium tracking-tight text-black md:text-5xl">
             Previous ICAITech
           </h2>
           <div className="mx-auto h-1 w-24 rounded-full bg-sky-500"></div>
@@ -352,7 +351,7 @@ export default function Page() {
         className="flex flex-col items-center gap-12 pt-20 md:container md:gap-16"
       >
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-black md:text-6xl">
+          <h2 className="text-3xl font-medium tracking-tight text-black md:text-5xl">
             Important Dates
           </h2>
           <div className="mx-auto h-1 w-24 bg-sky-500"></div>
@@ -418,7 +417,7 @@ export default function Page() {
         className="container flex flex-col items-center pt-20"
       >
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-black md:text-6xl">
+          <h2 className="text-3xl font-medium tracking-tight text-black md:text-5xl">
             Keynote Speakers
           </h2>
           <div className="mx-auto h-1 w-24 bg-sky-500"></div>
@@ -454,7 +453,7 @@ export default function Page() {
               description:
                 "Duke-NUS Medical School and an Adjunct Clinical Associate Professor and an Innovation Mentor at Stanford University.",
               image: {
-                src: "/assets/DT1-01.jpg",
+                src: "/assets/DT.png",
                 alt: "",
               },
               linkedIn: "",
@@ -581,11 +580,10 @@ export default function Page() {
         <PieChartInfo />
       </section> */}
 
-      <section className="pt-20">
+      {/* <section className="pt-20">
         <div className="relative right-1/2 left-1/2 -mr-[50vw] -ml-[50vw] w-screen overflow-hidden bg-black bg-[url('/assets/ap.png')] bg-cover bg-center">
           <div className="bg-black/85">
             <div className="mx-auto max-w-7xl px-10 py-14 md:px-20 md:py-24">
-              {/* container teks diperlebar */}
               <div className="max-w-4xl md:max-w-5xl">
                 <h2 className="text-2xl font-semibold text-white md:text-4xl">
                   Publication Ethics
@@ -618,40 +616,16 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="pt-20 md:container">
+      <section className="px-2 pt-20 md:container">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-black md:text-6xl">
+          <h2 className="text-3xl font-medium tracking-tight text-black md:text-5xl">
             Gallery
           </h2>
           <div className="mx-auto h-1 w-24 bg-sky-500"></div>
         </div>
-        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-          {[
-            "DSC02885.webp",
-            "DSC02900.webp",
-            "DSC02913.webp",
-            "DSC03047.webp",
-            "DSC03065.webp",
-            "IMG_4612.webp",
-            "DSC03076.webp",
-            "IMG_4690.webp",
-          ].map((image, index) => (
-            <div
-              key={index}
-              className="bg-muted relative aspect-square overflow-hidden rounded-lg"
-            >
-              <Image
-                src={`/assets/gallery/${image}`}
-                alt={`Gallery image ${index + 1}`}
-                fill
-                className="object-cover transition-transform hover:scale-105"
-                sizes="(max-width: 768px) 50vw, 25vw"
-              />
-            </div>
-          ))}
-        </div>
+        <GallerySlideshow />
         <div className="mt-8 text-center">
           <Button asChild size="lg" variant="default">
             <Link href="/gallery">
@@ -661,20 +635,20 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="pt-20">
+      <section className="pt-20 md:px-4">
         {/* Title tetap container */}
         <div className="mx-auto md:container">
-          <h2 className="text-center text-2xl font-bold md:text-5xl">
+          <h2 className="text-center text-2xl font-medium md:text-3xl">
             Organized By
           </h2>
         </div>
 
         {/* Grid logo full width */}
-        <div className="relative right-1/2 left-1/2 mt-6 -mr-[50vw] -ml-[50vw] w-screen">
-          <div className="grid grid-cols-2 overflow-hidden border-y md:grid-cols-7 md:rounded-lg md:border">
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+        <div className="relative mt-6">
+          <div className="flex flex-wrap justify-center">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/logo-unsri.png"
+                src="/assets/organizers/ieeeis.jpg"
                 alt=""
                 width={200}
                 height={200}
@@ -682,9 +656,9 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/IEEEIS.jpg"
+                src="/assets/organizers/unsri.png"
                 alt=""
                 width={200}
                 height={200}
@@ -692,9 +666,9 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/logo-aimed-01.jpg"
+                src="/assets/organizers/jaist.jpeg"
                 alt=""
                 width={200}
                 height={200}
@@ -702,9 +676,9 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/Logo isysrg-01.png"
+                src="/assets/organizers/ukm.webp"
                 alt=""
                 width={200}
                 height={200}
@@ -712,9 +686,9 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/logo_comnets-black-01.png"
+                src="/assets/organizers/unikom.png"
                 alt=""
                 width={200}
                 height={200}
@@ -722,9 +696,9 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/logo-logo-icaitech-10.png"
+                src="/assets/organizers/umt.png"
                 alt=""
                 width={200}
                 height={200}
@@ -732,9 +706,29 @@ export default function Page() {
               />
             </div>
 
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
               <Image
-                src="/assets/EQUITY.png"
+                src="/assets/organizers/aimed.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+              <Image
+                src="/assets/organizers/comnets.png"
+                alt=""
+                width={200}
+                height={200}
+                className="h-full object-contain"
+              />
+            </div>
+
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+              <Image
+                src="/assets/organizers/ris.png"
                 alt=""
                 width={200}
                 height={200}
@@ -745,9 +739,33 @@ export default function Page() {
         </div>
       </section>
 
+      <section className="pt-20 md:px-4">
+        {/* Title tetap container */}
+        <div className="mx-auto md:container">
+          <h2 className="text-center text-2xl font-medium md:text-3xl">
+            Sponsored By
+          </h2>
+        </div>
+
+        {/* Grid logo full width */}
+        <div className="relative mt-6">
+          <div className="flex flex-wrap justify-center">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+              <Image
+                src="/assets/sponsors/equity.png"
+                alt=""
+                width={300}
+                height={300}
+                className="h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="pt-20">
         <div className="mx-auto md:container">
-          <h2 className="text-center text-2xl font-bold md:text-5xl">
+          <h2 className="text-center text-2xl font-medium md:text-4xl">
             Location
           </h2>
         </div>
