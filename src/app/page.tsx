@@ -256,7 +256,7 @@ export default function Page() {
                   variant="link"
                   className="px-0 text-base font-semibold text-sky-500"
                 >
-                  <Link href="https://seminar.ilkom.unsri.ac.id">
+                  <Link href="">
                     Submit to AWIST 2026 <ArrowRightIcon />
                   </Link>
                 </Button>
