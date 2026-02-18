@@ -349,7 +349,7 @@ export default function Page() {
               href="https://ieeexplore.ieee.org/xpl/conhome/11387033/proceeding"
               className="text-lg font-semibold text-sky-600 hover:text-sky-800 hover:underline"
             >
-              ICAITech2025 IEEE Explore
+              ICAITech2025 IEEE Xplore
             </Link>
             <p className="mt-2 text-sm text-slate-500">Research Papers</p>
           </div>
