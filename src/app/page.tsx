@@ -346,7 +346,7 @@ export default function Page() {
           <div className="flex flex-col items-center gap-2 rounded-xl bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
             <Link
               // https://ieeexplore.ieee.org/Xplore/home.jsp
-              href=""
+              href="https://ieeexplore.ieee.org/xpl/conhome/11387033/proceeding"
               className="text-lg font-semibold text-sky-600 hover:text-sky-800 hover:underline"
             >
               ICAITech2025 IEEE Explore
