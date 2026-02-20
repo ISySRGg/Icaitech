@@ -16,9 +16,16 @@ export default function Header() {
             <span>ICAITech</span> <span className="text-xs">2026</span>
           </Link>
 
-          <Button variant="secondary" size="sm" asChild>
-            <Link href={siteConfig.submitlink}>Submit</Link>
-          </Button>
+          <div className="flex gap-2">
+            <Button size="lg" variant="secondary" asChild>
+              <Link href={siteConfig.callForReviewerLink}>
+                Call for Reviewers
+              </Link>
+            </Button>
+            <Button size="lg" variant="secondary" asChild>
+              <Link href={siteConfig.submitlink}>Submit</Link>
+            </Button>
+          </div>
         </div>
 
         <div className="flex h-12 w-full items-center justify-end border-b border-white/50 bg-slate-500/10 px-4 md:justify-center">
