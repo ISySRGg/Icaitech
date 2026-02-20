@@ -36,6 +36,5 @@ export const siteConfig = {
     { label: "Contact", href: "/contact" },
   ],
   submitlink: "https://edas.info/N34962", //ini untuk button submit
-  callForReviewerLink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeuU6ue76n9xIQDamsXH09AKt6_iXQ-gbB5Sw1TFVNnDTpzQQ/viewform",
+  callForReviewerLink:"https://forms.gle/qsBVbsNXgwAJBQXH9",
 }
