@@ -649,6 +649,30 @@ export default function Page() {
         {/* Title tetap container */}
         <div className="mx-auto md:container">
           <h2 className="text-center text-2xl font-medium md:text-3xl">
+            Technical Co-Spponsorship
+          </h2>
+        </div>
+
+        {/* Grid logo full width */}
+        <div className="relative mt-6">
+          <div className="flex flex-wrap justify-center">
+            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/6">
+              <Image
+                src="/assets/IEEEIS.jpg"
+                alt=""
+                width={300}
+                height={300}
+                className="h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pt-20 md:px-4">
+        {/* Title tetap container */}
+        <div className="mx-auto md:container">
+          <h2 className="text-center text-2xl font-medium md:text-3xl">
             Organized By
           </h2>
         </div>
@@ -656,7 +680,7 @@ export default function Page() {
         {/* Grid logo full width */}
         <div className="relative container mt-6">
           <div className="flex flex-wrap justify-center">
-            <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
+            {/* <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
                 src="/assets/organizers/ieeeis.jpg"
                 alt=""
@@ -664,7 +688,7 @@ export default function Page() {
                 height={200}
                 className="h-full object-contain"
               />
-            </div>
+            </div> */}
 
             <div className="hover:bg-muted flex h-32 w-full items-center justify-center border p-6 transition md:basis-1/5">
               <Image
