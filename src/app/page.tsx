@@ -649,7 +649,7 @@ export default function Page() {
         {/* Title tetap container */}
         <div className="mx-auto md:container">
           <h2 className="text-center text-2xl font-medium md:text-3xl">
-            Technical Co-Spponsorship
+            Technical Co-Sponsorship
           </h2>
         </div>
 
