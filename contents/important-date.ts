@@ -9,16 +9,16 @@ export const importantDate: Agenda[] = [
     // icon: "📝",
   },
   {
-    name: "Acceptance Notification",
-    date: "15 September 2026",
-    icon: Bell,
-    // icon: "✅",
-  },
-  {
     name: "Submission Due",
     date: "12 August 2026",
     icon: FileText,
     // icon: "📄",
+  },
+  {
+    name: "Acceptance Notification",
+    date: "15 September 2026",
+    icon: Bell,
+    // icon: "✅",
   },
   {
     name: "Early Bird Registration Due",
