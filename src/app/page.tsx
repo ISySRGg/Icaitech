@@ -458,17 +458,17 @@ export default function Page() {
           />
           <CastFigure
             cast={{
-              name: "Daniel Ting Shu Wei",
-              title: "To be Confirmed",
+              name: "Shi-Jinn Horng",
+              title: "Confirmed",
               description:
-                "Duke-NUS Medical School and an Adjunct Clinical Associate Professor and an Innovation Mentor at Stanford University.",
+                "National Taiwan University of Science and Technology, Department of Computer Science and Information Engineering",
               image: {
-                src: "/assets/DT.png",
+                src: "/assets/profshi-jin.jpg",
                 alt: "",
               },
               linkedIn: "",
               scopus:
-                "https://www.scopus.com/authid/detail.uri?authorId=37010354600",
+                "https://www.scopus.com/authid/detail.uri?authorId=35585485600",
             }}
           />
           <CastFigure
