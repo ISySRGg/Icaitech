@@ -463,7 +463,7 @@ export default function Page() {
               description:
                 "National Taiwan University of Science and Technology, Department of Computer Science and Information Engineering",
               image: {
-                src: "/assets/profshi-jin.jpg",
+                src: "/assets/Shi-Jinn HORNG.png",
                 alt: "",
               },
               linkedIn: "",
@@ -477,7 +477,7 @@ export default function Page() {
               title: "Confirmed",
               description: "University of Maryland Baltimore County, USA",
               image: {
-                src: "/assets/bat.jpeg",
+                src: "/assets/Dr. Bayu Adhi Tama.png",
                 alt: "",
               },
               linkedIn: "",
