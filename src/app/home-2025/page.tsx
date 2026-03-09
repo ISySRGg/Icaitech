@@ -476,46 +476,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="pt-20 md:container">
-        <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-black md:text-6xl">
-            Gallery
-          </h2>
-          <div className="mx-auto h-1 w-24 bg-sky-500"></div>
-        </div>
-        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-          {[
-            "DSC02885.webp",
-            "DSC02900.webp",
-            "DSC02913.webp",
-            "DSC03047.webp",
-            "DSC03065.webp",
-            "IMG_4612.webp",
-            "DSC03076.webp",
-            "IMG_4690.webp",
-          ].map((image, index) => (
-            <div
-              key={index}
-              className="bg-muted relative aspect-square overflow-hidden rounded-lg"
-            >
-              <Image
-                src={`/assets/gallery/${image}`}
-                alt={`Gallery image ${index + 1}`}
-                fill
-                className="object-cover transition-transform hover:scale-105"
-                sizes="(max-width: 768px) 50vw, 25vw"
-              />
-            </div>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <Button asChild size="lg" variant="default">
-            <Link href="/gallery">
-              View Full Photos <ArrowRightIcon />
-            </Link>
-          </Button>
-        </div>
-      </section>
+      
 
       <section className="pt-20 md:container">
         <h2 className="text-center text-2xl font-bold md:text-3xl">
