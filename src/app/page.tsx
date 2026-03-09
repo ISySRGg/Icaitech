@@ -256,7 +256,7 @@ export default function Page() {
                   variant="link"
                   className="px-0 text-base font-semibold text-sky-500"
                 >
-                  <Link href="">
+                  <Link href="https://edas.info/N34962">
                     Submit to AWIST 2026 <ArrowRightIcon />
                   </Link>
                 </Button>
