@@ -461,9 +461,9 @@ export default function Page() {
               name: "Shi-Jinn Horng",
               title: "Confirmed",
               description:
-                "National Taiwan University of Science and Technology, Department of Computer Science and Information Engineering",
+                "Asia University, Taiwan",
               image: {
-                src: "/assets/Shi-Jinn HORNG.png",
+                src: "/assets/profshi-jin1.jpg",
                 alt: "",
               },
               linkedIn: "",
