@@ -8,6 +8,7 @@ import {
   publicationChair,
   reviewers,
   technicalChair,
+  Advisoryboard,
 } from "../../../../contents/committee"
 
 export default function Page() {
@@ -38,6 +39,19 @@ export default function Page() {
               {technicalChair}
             </p>
           </li>
+        </ul>
+      </section>
+       <section className="container mt-8 md:mt-16">
+        <h2 className="text-xl font-bold md:text-2xl">Advisory Board</h2>
+        <ul className="mt-2 grid grid-cols-2 gap-x-4 gap-y-4 md:mt-6 md:gap-x-10">
+          {Advisoryboard.map((member, i) => (
+            <li key={i}>
+              <p className="font-medium md:text-lg">{member.name}</p>
+              <p className="text-xs text-slate-400 md:text-sm">
+                {member.affiliation}
+              </p>
+            </li>
+          ))}
         </ul>
       </section>
       <section className="container mt-8 md:mt-16">

@@ -2,14 +2,18 @@ import { Committee } from "@/types"
 
 export const conferenceChair = "Siti Nurmaini"
 
-export const publicationChair =
-  "Annisa Darmawahyuni\nNaufal Rachmatullah";
-
+export const publicationChair = "Annisa Darmawahyuni\nNaufal Rachmatullah"
 
 export const financeChair = "Rossi Passarella"
 
-export const technicalChair = 
-  "Firdaus\nSarifah Putri Raflesia";
+export const technicalChair = "Firdaus\nSarifah Putri Raflesia"
+
+export const Advisoryboard: Committee[] = [
+  {
+    name: "Hiroyuki Iida",
+    affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
+  },
+]
 
 export const editorialBoardMembers: Committee[] = [
   {
@@ -19,6 +23,34 @@ export const editorialBoardMembers: Committee[] = [
   {
     name: "Hiroyuki Iida",
     affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
+  },
+  {
+    name: "Mohd Nor Akmal Khalid",
+    affiliation: "Universiti Kebangsaan Malaysia",
+  },
+  {
+    name: "Sharifah Mashita ",
+    affiliation: "Universiti Malaysia Terengganu",
+  },
+  {
+    name: "Wiwied Virgiyanti",
+    affiliation: "Universiti Malaysia Terengganu",
+  },
+  {
+    name: "Senny Luckyardi",
+    affiliation: "Universitas Komputer Indonesia",
+  },
+  {
+    name: "Yuexian Gao",
+    affiliation: "Hebei University of Engineering",
+  },
+    {
+    name: "Shi-Jim Yen",
+    affiliation: "National Dong Hwa University Taiwan",
+  },
+    {
+    name: "Konlakorn Wongpatikaseree",
+    affiliation: "Mahidol University",
   },
   {
     name: "Ramesh Pingili",
@@ -142,7 +174,7 @@ export const organizingComittee: Committee[] = [
   {
     name: "Muhammad Fachrurozzi",
   },
-  
+
   {
     name: "Sutarno",
   },
@@ -258,7 +290,8 @@ export const reviewers: Committee[] = [
   },
   {
     name: "Adhe Lingga Dewi",
-    affiliation: "Computer Science, School of Computer Science, Binus University, Jakarta, Indonesia",
+    affiliation:
+      "Computer Science, School of Computer Science, Binus University, Jakarta, Indonesia",
   },
   {
     name: "Adri Senen",
@@ -294,7 +327,8 @@ export const reviewers: Committee[] = [
   },
   {
     name: "Artika Arista",
-    affiliation: "Universitas Pembangunan Nasional Veteran Jakarta/Universiti Malaya",
+    affiliation:
+      "Universitas Pembangunan Nasional Veteran Jakarta/Universiti Malaya",
   },
   {
     name: "Daniel Yeri Kristiyanto",
