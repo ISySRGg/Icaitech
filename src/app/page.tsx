@@ -505,7 +505,6 @@ export default function Page() {
           </Markdown>
         </div>
 
-        {/* Perbaikan agar tulisan bawah tidak terlalu mepet */}
         <div className="mt-8 flex w-full flex-wrap justify-center gap-20">
           <div className="pb-6">
             <CastFigure
@@ -519,6 +518,7 @@ export default function Page() {
                 },
                 scopus:
                   "https://www.scopus.com/authid/detail.uri?authorId=57200581367",
+                  linkedIn: "", // tambahkan ini
               }}
             />
           </div>
@@ -535,6 +535,7 @@ export default function Page() {
                 },
                 scopus:
                   "https://scholar.google.com/citations?user=YrtzSqkAAAAJ&hl=en",
+                   linkedIn: "", // tambahkan ini
               }}
             />
           </div>
