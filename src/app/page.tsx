@@ -460,8 +460,7 @@ export default function Page() {
             cast={{
               name: "Shi-Jinn Horng",
               title: "Confirmed",
-              description:
-                "Asia University, Taiwan",
+              description: "Asia University, Taiwan",
               image: {
                 src: "/assets/profshi-jin1.jpg",
                 alt: "",
@@ -485,6 +484,60 @@ export default function Page() {
                 "https://www.scopus.com/authid/detail.uri?authorId=55847313400",
             }}
           />
+        </div>
+      </section>
+
+      {/* Invited-speakers */}
+      <section
+        id="invited-speakers"
+        className="container flex flex-col items-center pt-20"
+      >
+        <div className="space-y-4 text-center">
+          <h2 className="text-3xl font-medium tracking-tight text-black md:text-5xl">
+            Invited Speakers
+          </h2>
+          <div className="mx-auto h-1 w-24 bg-sky-500"></div>
+        </div>
+
+        <div className="prose prose-lg mt-4 text-center">
+          <Markdown>
+            {`Our distinguished invited speakers bring a wealth of knowledge, experience, and innovation from diverse academic and professional backgrounds. Their valuable insights and expertise contribute significantly to enriching discussions, fostering collaboration, and inspiring new perspectives throughout the conference.`}
+          </Markdown>
+        </div>
+
+        {/* Perbaikan agar tulisan bawah tidak terlalu mepet */}
+        <div className="mt-8 flex w-full flex-wrap justify-center gap-20">
+          <div className="pb-6">
+            <CastFigure
+              cast={{
+                name: "Ts. Dr. Ahmad Shukri Mohd. Noor",
+                title: "Confirmed",
+                description: "Universiti Malaysia Terengganu",
+                image: {
+                  src: "/assets/dr-ahmad-shukri-3x4.jpg",
+                  alt: "",
+                },
+                scopus:
+                  "https://www.scopus.com/authid/detail.uri?authorId=57200581367",
+              }}
+            />
+          </div>
+
+          <div className="pb-6">
+            <CastFigure
+              cast={{
+                name: "Dr. dr. Alexander Edo Tondas, Sp.JP(K)-FIHA",
+                title: "Confirmed",
+                description: "Mohammad Hoesin General Hospital, Indonesia",
+                image: {
+                  src: "/assets/dr-edo-new3x4.jpg",
+                  alt: "",
+                },
+                scopus:
+                  "https://scholar.google.com/citations?user=YrtzSqkAAAAJ&hl=en",
+              }}
+            />
+          </div>
         </div>
       </section>
 

@@ -6,6 +6,7 @@ export const siteConfig = {
     { label: "Gallery", href: "/gallery" },
     { label: "About", href: "/#about" },
     { label: "Keynote Speakers", href: "/#keynote-speakers" },
+    { label: "Invited Speakers", href: "/#Invited-speakers" },
     { label: "Scopes", href: "/scopes" },
     {
       label: "For Author",
