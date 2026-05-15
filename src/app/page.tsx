@@ -534,7 +534,7 @@ export default function Page() {
                   alt: "",
                 },
                 scopus:
-                  "https://scholar.google.com/citations?user=YrtzSqkAAAAJ&hl=en",
+                  "https://www.scopus.com/authid/detail.uri?authorId=57211111907",
                    linkedIn: "", // tambahkan ini
               }}
             />

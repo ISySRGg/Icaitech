@@ -49,19 +49,36 @@ export default function Page() {
           </p>
         </div>
         <div className="prose mt-10">
-          <p>Creating your PDF eXpress Account</p>
+          <h3>PDF Instructions for your Authors</h3>
+
+          <p>
+            2026 International Conference on Artificial Intelligence and
+            Technological Solutions (ICAITech)
+          </p>
+
+          <h4>Before Creating a PDF</h4>
+          <p>
+            Proofread your source document thoroughly to confirm that it will
+            require no revision.
+          </p>
+
+          <h4>Creating your PDF eXpress Account</h4>
 
           <ol>
             <li>
-              <p>
-                Log in to the IEEE PDF eXpress TM site. First-time users should
-                do the following:
-              </p>
-              <p>Select the New Users. Click Here link. Enter the following:</p>
+              <p>Log in to the IEEE PDF eXpress&reg; site.</p>
+            </li>
+
+            <li>
+              <p>First-time users should do the following:</p>
               <ul>
-                <li>66481X for the Conference ID</li>
-                <li>your email address</li>
-                <li>a password</li>
+                <li>Create Account</li>
+                <li>Enter the following:</li>
+                <ul>
+                  <li>72000X for the Conference ID</li>
+                  <li>your email address</li>
+                  <li>a password</li>
+                </ul>
               </ul>
             </li>
 
@@ -76,9 +93,10 @@ export default function Page() {
               </p>
             </li>
           </ol>
+
           <p>
-            Note: Previous users of PDF eXpress need to follow the above steps,
-            but should enter the same password that was used for previous
+            Previous users of PDF eXpress need to follow the above steps but
+            should enter the same password that was used for previous
             conferences. Verify that your contact information is valid.
           </p>
         </div>
