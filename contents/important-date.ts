@@ -10,7 +10,7 @@ export const importantDate: Agenda[] = [
   },
   {
     name: "Submission Due",
-    date: "12 August 2026",
+    date: "30 August 2026",
     icon: FileText,
     // icon: "📄",
   },
