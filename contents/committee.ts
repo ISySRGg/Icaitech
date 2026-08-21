@@ -90,7 +90,7 @@ export const editorialBoardMembers: Committee[] = [
   },
   {
     name: "Muhammad Nazhif Rizani",
-    affiliation: "Japan Advanced Institute of Science and Technology (JAIST)",
+    affiliation: "Institut Teknologi Bandung (ITB)",
   },
   {
     name: "Bambang Tutuko",
