@@ -53,7 +53,7 @@ export default function Page() {
             <ul>
               {/* tempat masukin no rekening */}
               <li>
-                Bank Account name: BNI-2104389119 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
+                Bank Account name: BNI-2104389119 a.n ICAITECH
               </li>
               <li>Bank Name: BNI</li>
               <li>
