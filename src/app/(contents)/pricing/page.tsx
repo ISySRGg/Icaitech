@@ -52,10 +52,10 @@ export default function Page() {
           <div className="prose prose-li:marker:text-slate-500">
             <ul>
               {/* tempat masukin no rekening */}
-              {/* <li>
-                Bank Account name: BRI 0342-01-002861-56-7 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
-              </li> */}
-              <li>Bank Name: BRI PALEMBANG SRIWIJAYA</li>
+              <li>
+                Bank Account name: BNI-2104389119 a.n Panitia ICAITECH dan ARS Fasilkom UNSRI
+              </li>
+              <li>Bank Name: BNI</li>
               <li>
                 Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan
                 Ilir
@@ -63,7 +63,7 @@ export default function Page() {
               <li>City: Palembang</li>
               <li>State: Sumatera Selatan</li>
               <li>Country: Indonesia</li>
-              <li>SWIFT/BIC: BRINIDJAXXX</li>
+              <li>SWIFT/BIC: BNINIDJAXXX</li>
               <li>Bank Account #: No_REK – IDR</li>
               <li>
                 Message for Beneficiary: Registration fee for ICAITech from
