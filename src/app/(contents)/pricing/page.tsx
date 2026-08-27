@@ -53,12 +53,11 @@ export default function Page() {
             <ul>
               {/* tempat masukin no rekening */}
               <li>
-                Bank Account name: BNI-2104389119 a.n ICAITECH
+                Bank Account name: BNI-2104389119 a.n ICAITECH ORGANISASI
               </li>
               <li>Bank Name: BNI</li>
               <li>
-                Bank Address: Jalan Palembang Prabumulih KM 32 Indralaya Ogan
-                Ilir
+                Bank Address: MUSI PALEMBANG          
               </li>
               <li>City: Palembang</li>
               <li>State: Sumatera Selatan</li>
