@@ -506,4 +506,8 @@ export const reviewers: Committee[] = [
     name: "Sameeksha Gupta",
     affiliation: "Meta Platforms",
   },
+   {
+    name: "Hadi Fadlallah",
+    affiliation: "University of Sciences and Arts in Lebanon (USAL)",
+  },
 ]
