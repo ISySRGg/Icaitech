@@ -6,7 +6,7 @@ export const publicationChair = "Annisa Darmawahyuni\nNaufal Rachmatullah"
 
 export const financeChair = "Rossi Passarella"
 
-export const technicalChair = "Firdaus\nSarifah Putri Raflesia"
+export const technicalChair = "Firdaus\nSarifah Putri Raflesia\nDinda Lestarini"
 
 export const Advisoryboard: Committee[] = [
   {
