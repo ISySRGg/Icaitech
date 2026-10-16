@@ -7,7 +7,7 @@ export const address =
 
 export const contacts: Contact[] = [
   {
-    name: "Akhiar Wista Arumm",
+    name: "Akhiar Wista Arum",
     contact: {
       email: "akhiarwistaarum@unsri.ac.id",
       whatsapp: "+6282223233033",
