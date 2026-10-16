@@ -7,24 +7,10 @@ export const address =
 
 export const contacts: Contact[] = [
   {
-    name: "Kemahyanto Exaudi",
-    contact: {
-      email: "kemahyanto@ilkom.unsri.ac.id",
-      whatsapp: "+6282141612673",
-    },
-  },
-  {
     name: "Akhiar Wista Arum",
     contact: {
       email: "akhiarwistaarum@unsri.ac.id",
       whatsapp: "+6282223233033",
-    },
-  },
-  {
-    name: "Ghita Athalina",
-    contact: {
-      email: "ghitaathalina@unsri.ac.id",
-      whatsapp: "+6281291511203",
     },
   },
   {
