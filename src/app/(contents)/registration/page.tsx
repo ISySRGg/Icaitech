@@ -26,7 +26,7 @@ export default function Page() {
               Normal) or an IEEE Member (Early Bird or Normal). Your
               participation is highly valued, and completing the{" "}
               <a
-                href="https://bit.ly/NonPresenterParticipantICAITech"
+                href="https://forms.gle/xZ3yzA5EtjRcaxP56"
                 target="_blank"
               >
                 Form
