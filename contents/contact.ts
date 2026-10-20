@@ -20,11 +20,5 @@ export const contacts: Contact[] = [
       whatsapp: "+6281271022952",
     },
   },
-  {
-    name: "xxxxxxx",
-    contact: {
-      email: "akhiarwistaarum@unsri.ac.id",
-      whatsapp: "+6282223233033",
-    },
-  },
+  
 ]
