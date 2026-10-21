@@ -119,19 +119,19 @@ export const RegistrationPricing: Pricing[] = [
         prices: [
           {
             subCategory: "Non Member (Early Bird)",
-            price: 100000,
+            price: 180000,
           },
           {
             subCategory: "Non Member (Normal)",
-            price: 100000,
+            price: 180000,
           },
           {
             subCategory: "IEEE Member (Early Bird)",
-            price: 100000,
+            price: 180000,
           },
           {
             subCategory: "IEEE Member (Normal)",
-            price: 100000,
+            price: 180000,
           },
         ],
       },
