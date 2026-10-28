@@ -62,7 +62,7 @@ export default function Page() {
               <li>State: Sumatera Selatan</li>
               <li>Country: Indonesia</li>
               <li>SWIFT/BIC: BNINIDJAXXX</li>
-              <li>Bank Account #: No_REK – IDR</li>
+              <li>Bank Account #: 2104389119 – IDR</li>
               <li>
                 Message for Beneficiary: Registration fee for ICAITech from
                 [Paper ID /Author’s Name]
