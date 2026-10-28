@@ -65,7 +65,7 @@ export default function Page() {
               <li>Bank Account #: 2104389119 – IDR</li>
               <li>
                 Message for Beneficiary: Registration fee for ICAITech from
-                [Paper ID /Author’s Name]
+                [Paper ID /Author's Name]
               </li>
             </ul>
 
